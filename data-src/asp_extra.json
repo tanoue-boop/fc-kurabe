@@ -1,0 +1,157 @@
+[
+ {
+  "slug": "t-elan",
+  "brand": "T-ÉLAN（加盟店）",
+  "company": "株式会社mjo",
+  "major": "fitness-beauty",
+  "minor": "pilates",
+  "minor_name": "ピラティス",
+  "contract_type": "フランチャイズ",
+  "tags": [],
+  "franchise_fee_text": "150万円（Aプラン）／50万円（Bプラン）",
+  "initial_investment_text": "340万円（加盟金150万円＋マシン100万円＋内装・備品30万円＋物件取得60万円。開業準備費を含む必要資金は422万円）",
+  "royalty_text": "Aプラン：売上の8%・上限月10万円／Bプラン：売上の12%・最低月10万円",
+  "contract_term_text": "2年（以後2年ごとの自動更新）",
+  "store_count_text": "直営4店舗",
+  "recruit_area": null,
+  "target": null,
+  "official_fc_url": "https://t3salon.jp/",
+  "source_type": "自社資料（面談資料 v4_0・加盟店募集資料）",
+  "checked_date": "2026-10-20",
+  "notes": "運営会社が当サイトと同じ（株式会社mjo）",
+  "is_own": true,
+  "exits": [
+   {
+    "type": "own",
+    "label": "加盟の問い合わせ",
+    "url": "https://mjo-style.com/contact/"
+   }
+  ]
+ },
+ {
+  "slug": "t-elan-partner",
+  "brand": "T-ÉLAN（導入パートナー）",
+  "company": "株式会社mjo",
+  "major": "fitness-beauty",
+  "minor": "pilates",
+  "minor_name": "ピラティス",
+  "contract_type": "業務提携（フランチャイズではない）",
+  "tags": [
+   "menu-add",
+   "houjin"
+  ],
+  "franchise_fee_text": "申込金 通常45万円→期間限定10万円",
+  "initial_investment_text": "約40万円（申込金10万円＋マシン約30万円、税別・搬入設置費別）",
+  "royalty_text": "ロイヤリティ0円（月額サポート費3万円／6万円／10万円の3プラン）",
+  "contract_term_text": "1年（以後1年ごとの自動更新）",
+  "store_count_text": null,
+  "recruit_area": null,
+  "target": "パーソナルジム・フィットネスジム・ヨガスタジオ・鍼灸院・整体院",
+  "official_fc_url": "https://t3salon.jp/partner/",
+  "source_type": "自社公開ページ（t3salon.jp/partner/）",
+  "checked_date": "2026-10-20",
+  "notes": "運営会社が当サイトと同じ（株式会社mjo）",
+  "is_own": true,
+  "exits": [
+   {
+    "type": "own",
+    "label": "LINEで問い合わせ",
+    "url": "https://lin.ee/RaG7vzc"
+   }
+  ]
+ },
+ {
+  "slug": "osoujikakumei",
+  "asp_programs": [
+   {
+    "asp": "A8",
+    "name": "おそうじ革命【フランチャイズ加盟店募集】",
+    "reward": "資料請求1,000円／説明会参加5,000円／加盟確定300,000円",
+    "status": "未提携"
+   }
+  ]
+ },
+ {
+  "slug": "fireworks",
+  "asp_programs": [
+   {
+    "asp": "A8",
+    "name": "【加盟金&ロイヤリティ0円】ハウスクリーニング独立開業プラン",
+    "reward": "説明会参加20,000円",
+    "status": "未提携"
+   }
+  ]
+ },
+ {
+  "slug": "ibj",
+  "brand": "IBJ（結婚相談所の加盟開業）",
+  "company": "株式会社IBJ",
+  "major": "business",
+  "minor": "marriage",
+  "minor_name": "結婚相談所",
+  "contract_type": "加盟",
+  "tags": [
+   "fukugyo",
+   "hitori"
+  ],
+  "source_type": "A8案件情報のみ（数値未確認）",
+  "checked_date": "2026-10-20",
+  "notes": "数値は公式で要確認",
+  "exits": [],
+  "asp_programs": [
+   {
+    "asp": "A8",
+    "name": "【IBJ】結婚相談所ビジネスの加盟開業",
+    "reward": "新規加盟75,500円",
+    "status": "未提携"
+   }
+  ]
+ },
+ {
+  "slug": "short-douga-ya",
+  "brand": "ショート動画屋さんFC",
+  "company": "株式会社美手紙",
+  "major": "business",
+  "minor": "it",
+  "minor_name": "IT・ネットビジネス",
+  "contract_type": "フランチャイズ",
+  "tags": [
+   "fukugyo"
+  ],
+  "source_type": "A8案件情報のみ（数値未確認）",
+  "checked_date": "2026-10-20",
+  "notes": "数値は公式で要確認",
+  "exits": [],
+  "asp_programs": [
+   {
+    "asp": "A8",
+    "name": "【ショート動画屋さんFC】",
+    "reward": "FC加盟成立200,000円",
+    "status": "未提携"
+   }
+  ]
+ },
+ {
+  "slug": "aron-furogama",
+  "brand": "キレイユ 風呂釜洗浄代理店",
+  "company": "株式会社アロン",
+  "major": "life-service",
+  "minor": "house-cleaning",
+  "minor_name": "ハウスクリーニング",
+  "contract_type": "代理店",
+  "tags": [],
+  "initial_investment_text": "20万円（A8案件名「20万でスタートできる」より）",
+  "source_type": "A8案件情報のみ（数値未確認）",
+  "checked_date": "2026-10-20",
+  "notes": "数値は公式で要確認",
+  "exits": [],
+  "asp_programs": [
+   {
+    "asp": "A8",
+    "name": "代理店の決定版！20万でスタートできる風呂釜洗浄代理店",
+    "reward": "新規加盟契約10,000円",
+    "status": "未提携"
+   }
+  ]
+ }
+]

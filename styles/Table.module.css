@@ -1,0 +1,16 @@
+.sortBar{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 0}
+.sorts{display:flex;gap:6px;flex-wrap:wrap}
+.sortBtn,.sortOn{border:1px solid var(--line);background:#fff;border-radius:6px;padding:4px 10px;font-size:13px;cursor:pointer}
+.sortOn{background:var(--ink);color:#fff;border-color:var(--ink)}
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+.table{width:100%;border-collapse:collapse;font-size:14px;min-width:720px}
+.table th{background:var(--beige);text-align:left;font-weight:600;padding:10px;white-space:nowrap}
+.table td{border-top:1px solid var(--line);padding:10px;vertical-align:top}
+.name a{font-weight:600}
+.num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.own{display:block;font-size:11px;color:var(--sub)}
+.note{font-size:12px;color:var(--sub)}
+.remove{margin-left:6px;font-size:11px;border:1px solid var(--line);background:#fff;border-radius:4px;cursor:pointer}
+.rank{padding-left:24px}
+.rank li{padding:6px 0;border-bottom:1px solid var(--line)}
+.rankMeta{margin-left:10px;color:var(--sub);font-size:13px}

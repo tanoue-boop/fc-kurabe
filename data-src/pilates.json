@@ -1,0 +1,528 @@
+[
+ {
+  "brand": "ラピラティス（La pilates）",
+  "company": null,
+  "format": "「整体 × マシンピラティス」の女性専用パーソナルレッスンスタジオ",
+  "franchise_fee": "¥3,000,000（税区分記載なし）",
+  "deposit": "¥1,000,000",
+  "training_fee": "¥500,000（1名¥250,000）",
+  "initial_investment": "¥16,450,000（都内で出店する場合の費用）。内訳：器具関連費用¥1,650,000／物件取得・内装費用¥8,000,000／広告宣伝費¥1,050,000／販売促進費¥250,000／加盟金¥3,000,000／研修費¥500,000／備品¥1,000,000／保証金¥1,000,000",
+  "royalty": "入金売上の12％",
+  "other_monthly": null,
+  "contract_term": null,
+  "store_size": "20〜25坪（直営店収支モデルの記載）",
+  "store_count": "直営店13店舗、FC店101店舗突破（時点の記載なし）",
+  "recruiting_area": "明記なし（全国展開・200店舗以上を目指すとの記載）",
+  "official_fc_url": "https://la-pilates.jp/franchise/",
+  "source_type": "公式",
+  "media_values": null,
+  "checked_date": "2026-10-20",
+  "notes": "運営会社名の記載なし（代表取締役名のみ）。税込・税別の記載なし。媒体では加盟金「300～350万円」、初期投資「1,000〜1,500万円」などの掲載もあり、公式値と差がある"
+ },
+ {
+  "brand": "BEAT PILATES",
+  "company": "合同会社フォルツァ",
+  "format": "暗闇系マシンピラティス専門スタジオ",
+  "franchise_fee": "200万円（募集要項）／初期費用表では¥2,200,000",
+  "deposit": null,
+  "training_fee": null,
+  "initial_investment": "¥9,000,000（※全て税込）。内訳：加盟金¥2,200,000／物件取得費¥2,300,000／内外装工事費¥2,000,000／器具備品購入費¥2,200,000／採用費¥150,000／広告宣伝費¥150,000",
+  "royalty": "月売上の10％",
+  "other_monthly": "収益モデル（売上¥2,000,000想定）内にシステム使用料¥38,000、クレジット負担料¥68,000など",
+  "contract_term": null,
+  "store_size": null,
+  "store_count": "10店舗（2024年1月末時点）",
+  "recruiting_area": "記載なし（東京を中心に展開との記載）",
+  "official_fc_url": "https://beat-pilates.com/fc/",
+  "source_type": "公式",
+  "media_values": null,
+  "checked_date": "2026-10-20",
+  "notes": "加盟金が「200万円」と「¥2,200,000（税込）」で併記されている。税抜200万円・税込220万円の関係と思われるが、明記はない。店舗数の時点が古い"
+ },
+ {
+  "brand": "Pilates KASANE",
+  "company": null,
+  "format": "マシンピラティススタジオ（少人数制）",
+  "franchise_fee": null,
+  "deposit": null,
+  "training_fee": null,
+  "initial_investment": null,
+  "royalty": null,
+  "other_monthly": null,
+  "contract_term": null,
+  "store_size": null,
+  "store_count": null,
+  "recruiting_area": "出店エリアに制限はありません（既存店と商圏が重なる場合は不可）",
+  "official_fc_url": "https://pilates-kasane.jp/kasane-fc01/",
+  "source_type": "媒体",
+  "media_values": {
+   "company": {
+    "値": "株式会社ワールドフィット",
+    "出典URL": "https://web-repo.jp/articles/1688"
+   },
+   "deposit": {
+    "値": "保証金・物件紹介料も不要",
+    "出典URL": "https://web-repo.jp/articles/1688"
+   },
+   "initial_investment": {
+    "値": "2,200万円（税込）〜",
+    "出典URL": "https://web-repo.jp/articles/1688"
+   },
+   "royalty": {
+    "値": "月額固定11万円＋売上の15%",
+    "出典URL": "https://web-repo.jp/articles/1688"
+   },
+   "franchise_fee_別媒体": {
+    "値": "500万円（税別）／初期投資2,500万円〜／固定10万円（税別）+売上の0〜15%",
+    "出典URL": "https://wellness-career.com/franchise-pilates2/"
+   },
+   "initial_investment_別媒体": {
+    "値": "約800万〜1,500万円",
+    "出典URL": "https://fitness-fc.com/franchise/kasane"
+   }
+  },
+  "checked_date": "2026-10-20",
+  "notes": "公式は費用を「資料にてご覧ください」として非公開。媒体間で数字が大きく食い違う。公式には「2025年上半期10社限定募集」の表示が残っている。BEYONDグループ関連"
+ },
+ {
+  "brand": "Habit Pilates studio",
+  "company": null,
+  "format": "少人数制マシンピラティス",
+  "franchise_fee": null,
+  "deposit": null,
+  "training_fee": null,
+  "initial_investment": "1,000万円~（出店までの初期費用）／リース活用の場合は800万円〜の自己資金で開業可能。内訳項目：加盟金、内装費、出店準備金、リフォーマー費用、デザイン企画費、その他費用、研修費（金額記載なし）",
+  "royalty": null,
+  "other_monthly": null,
+  "contract_term": null,
+  "store_size": "1店舗20坪",
+  "store_count": "30店舗以上（パーソナルジム・ゴルフレッスンを含むHabitグループ全体、時点の記載なし）",
+  "recruiting_area": null,
+  "official_fc_url": "https://www.habit-pilates.com/franchise",
+  "source_type": "公式・一部媒体",
+  "media_values": {
+   "company": {
+    "値": "株式会社Habit Pilates",
+    "出典URL": "https://web-repo.jp/articles/1688"
+   },
+   "royalty": {
+    "値": "月額固定16.5万円（1次募集限定価格）／通常22万円",
+    "出典URL": "https://web-repo.jp/articles/1688"
+   }
+  },
+  "checked_date": "2026-10-20",
+  "notes": "公式で取れた数字は初期投資と坪数のみ。店舗数はピラティス単独の数ではない"
+ },
+ {
+  "brand": "COCOLANCE",
+  "company": "株式会社EMILUS",
+  "format": "女性専門パーソナルピラティス・マシンピラティス",
+  "franchise_fee": null,
+  "deposit": null,
+  "training_fee": "インストラクター研修費 1,000,000円",
+  "initial_investment": "FAQ：「最低500万円〜最大1100万円ほど」。内訳表示：物件取得費2,500,000円／インストラクター研修費1,000,000円／内装費11,500,000円（機材費など他項目は金額なし）",
+  "royalty": "13%（「FC契約Aロイヤリティ13%」の試算条件内の記載）",
+  "other_monthly": "金額記載なし（システム利用費、広告全般などの項目のみ）",
+  "contract_term": null,
+  "store_size": null,
+  "store_count": null,
+  "recruiting_area": null,
+  "official_fc_url": "https://cocolance.jp/fc/",
+  "source_type": "公式・一部媒体",
+  "media_values": {
+   "franchise_fee": {
+    "値": "110〜165万円",
+    "出典URL": "https://wellness-career.com/franchise-pilates2/"
+   },
+   "royalty_プラン別": {
+    "値": "自主運営10〜16%／運営委託16%＋委託料7%",
+    "出典URL": "https://web-repo.jp/articles/1688"
+   }
+  },
+  "checked_date": "2026-10-20",
+  "notes": "加盟金は「資料請求後ご説明」として非公開。FAQの「最大1100万円」と、内訳金額の合計1,500万円が一致しない"
+ },
+ {
+  "brand": "ELEMENT（マシンピラティス）",
+  "company": null,
+  "format": "マシンピラティス（パーソナル型）",
+  "franchise_fee": "220万円（通常加盟・プロダクトFCとも）",
+  "deposit": null,
+  "training_fee": "通常加盟：金額記載なし（別途発生）／プロダクトFC：16.5万円〜",
+  "initial_investment": "総額の明記なし。FAQに「一般的に1,000万円〜2,500万円程度が目安」。通常加盟のマシン機材費180万円〜",
+  "royalty": "通常加盟：売上の10%／プロダクトFC：月額12万円（固定）",
+  "other_monthly": null,
+  "contract_term": null,
+  "store_size": "固有の記載なし（パーソナル型一般論として10〜20坪程度）",
+  "store_count": "70店舗（「2019年の開業後5年で70店舗」、時点の記載なし）",
+  "recruiting_area": null,
+  "official_fc_url": "https://element-gym.com/element-top/gym/pilates-fc/",
+  "source_type": "公式",
+  "media_values": null,
+  "checked_date": "2026-10-20",
+  "notes": "同じページ内で、ロイヤリティ「売上の10%」とFAQの「月額固定のロイヤリティ」が矛盾。初期投資の目安はELEMENT固有の数字か不明。フッター表記はMIGRIDS INC."
+ },
+ {
+  "brand": "Club Pilates（日本）",
+  "company": "株式会社Club Pilates Japan（clubpilates.co.jp）／clubpilates.jp側は© Wellness X Asia Co., Ltd.",
+  "format": "リフォーマーベースのグループピラティススタジオ",
+  "franchise_fee": "加盟契約金 660万円（※全て税込・1店舗あたり）［clubpilates.jp］／600万円（税抜き）（1店舗あたり）［clubpilates.co.jp］",
+  "deposit": null,
+  "training_fee": null,
+  "initial_investment": "概算初期費用 4,968万円〜（※全て税込、不動産取得時の敷金は除く）。内訳：加盟契約金660万円／ピラティス機材・家具2,000万円程度／設計建築費2,000万円程度〜／輸入費用110万円程度〜／国内配送費用88万円程度〜／物販在庫55万円程度〜／開業前備品55万円程度〜［clubpilates.jp］。旧ページは合計3,500万円（建築費1,000万円、不動産取得料1,400万円、開業前資金300万円、開業前販促費200万円、機材リース料含まず、別途消費税）",
+  "royalty": "売上の12%（月額）［clubpilates.co.jp］",
+  "other_monthly": null,
+  "contract_term": "10年［clubpilates.co.jp］",
+  "store_size": "45坪以上を推奨",
+  "store_count": null,
+  "recruiting_area": null,
+  "official_fc_url": "https://clubpilates.jp/franchise_21/",
+  "source_type": "公式",
+  "media_values": null,
+  "checked_date": "2026-10-20",
+  "notes": "公式ページが2つあり、数字が異なる。clubpilates.jp/franchise_21/（©2025、新しい方と思われる）を主とし、ロイヤリティと契約期間はclubpilates.co.jp/franchise/の画像から取得。新ページでのロイヤリティ・契約期間は画像化されておらず未確認。数字はすべて画像内の記載"
+ },
+ {
+  "brand": "Pilates isM",
+  "company": "株式会社MAJOLI",
+  "format": "韓国式マシンピラティススタジオ（パーソナル）＋インストラクター養成スクール",
+  "franchise_fee": null,
+  "deposit": null,
+  "training_fee": null,
+  "initial_investment": "500万円前後（内訳項目：加盟金、物件契約費用、内装費用、設備導入費用、配送費用、採用費、広告宣伝費、初期研修費用。各金額記載なし）",
+  "royalty": null,
+  "other_monthly": "金額記載なし（システム料・広告宣伝費などの項目のみ）",
+  "contract_term": null,
+  "store_size": null,
+  "store_count": "2025年10月現在、直営5店舗（銀座3、秋葉原1、沖縄那覇1）",
+  "recruiting_area": "記載なし（「5社限定」募集）",
+  "official_fc_url": "https://pilates-ism.com/fc/",
+  "source_type": "公式・一部媒体",
+  "media_values": {
+   "franchise_fee": {
+    "値": "300〜500万円（250万円を含む）",
+    "出典URL": "https://wellness-career.com/franchise-pilates2/"
+   },
+   "royalty": {
+    "値": "売上の10%",
+    "出典URL": "https://wellness-career.com/franchise-pilates2/"
+   }
+  },
+  "checked_date": "2026-10-20",
+  "notes": "公式は「料金の内訳は資料請求後、オンライン面談にて」。媒体の加盟金表記は意味が不明瞭"
+ },
+ {
+  "brand": "zen place",
+  "company": "株式会社ZEN PLACE",
+  "format": null,
+  "franchise_fee": null,
+  "deposit": null,
+  "training_fee": null,
+  "initial_investment": null,
+  "royalty": null,
+  "other_monthly": null,
+  "contract_term": null,
+  "store_size": null,
+  "store_count": "全国140店舗以上（ピラティス・ヨガ、コーポレートサイト、時点の記載なし）",
+  "recruiting_area": null,
+  "official_fc_url": null,
+  "source_type": "媒体",
+  "media_values": {
+   "initial_investment": {
+    "値": "3,800〜5,600万円",
+    "出典URL": "https://wellness-career.com/franchise-pilates2/"
+   },
+   "募集状況": {
+    "値": "2025年時点で新規フランチャイズ募集を一時停止中",
+    "出典URL": "https://wellness-career.com/franchise-pilates2/"
+   }
+  },
+  "checked_date": "2026-10-20",
+  "notes": "媒体掲載のURL（zenplace.co.jp/fc）は法人サービスのページで、FC募集の記載なし。コーポレートサイトにもFC募集はない。現在も募集しているかは確認できない"
+ },
+ {
+  "brand": "LULUTO（ルルトピラティス）",
+  "company": "株式会社理学ボディ",
+  "format": "理学療法士監修・パーソナル専門のマシンピラティススタジオ",
+  "franchise_fee": null,
+  "deposit": null,
+  "training_fee": null,
+  "initial_investment": null,
+  "royalty": null,
+  "other_monthly": null,
+  "contract_term": null,
+  "store_size": null,
+  "store_count": "100店舗以上の直営店（整体・ピラティス事業の合計、時点の記載なし）",
+  "recruiting_area": null,
+  "official_fc_url": "https://luluto.kabushikigaisya-rigakubody.co.jp/luluto_fc/",
+  "source_type": "媒体",
+  "media_values": {
+   "franchise_fee": {
+    "値": "300万円",
+    "出典URL": "https://gymcloud.jp/media/archives/4547"
+   },
+   "initial_investment": {
+    "値": "660万円～930万円",
+    "出典URL": "https://gymcloud.jp/media/archives/4547"
+   },
+   "royalty": {
+    "値": "15％",
+    "出典URL": "https://gymcloud.jp/media/archives/4547"
+   }
+  },
+  "checked_date": "2026-10-20",
+  "notes": "公式に金額の記載なし（「低コストでの出店が可能」とのみ）。fitness-fc.comは初期投資・ロイヤリティを「公式FCページ非掲載」としている"
+ },
+ {
+  "brand": "PILATES AXE",
+  "company": "株式会社ヴェルディーク",
+  "format": "マシンピラティススタジオ",
+  "franchise_fee": "200万円（加盟契約金）",
+  "deposit": null,
+  "training_fee": "90万円",
+  "initial_investment": "4,450万円（初期費用 計）。内訳：加盟契約金200万円、設計費250万円、建築費2,000万円、警備設備費400万円、ピラティスマシン1,200万円、マシン搬送・設置費100万円、開業前人件費60万円、研修費90万円、開業前販促費200万円、不動産取得費300万円、開業前物販在庫/販促備品50万円、開業前家賃50万円",
+  "royalty": null,
+  "other_monthly": null,
+  "contract_term": null,
+  "store_size": "40坪（収支イメージ）／FAQでは「60坪前後を推奨」",
+  "store_count": "掲載店舗6店舗（浅草蔵前、八千代緑が丘、大阪玉造、江坂、那覇新都心、北谷、時点の記載なし）",
+  "recruiting_area": "全国どこでも対応（地方郊外地域を推奨）",
+  "official_fc_url": "https://veridique-c.jp/service/fc/axe",
+  "source_type": "公式",
+  "media_values": null,
+  "checked_date": "2026-10-20",
+  "notes": "「※費用は一例です。各種条件によって変動します」と注記あり。比較表の「開業経費合計」4,710万円と食い違う。税区分の記載なし"
+ },
+ {
+  "brand": "STUDIO IVY",
+  "company": null,
+  "format": "パーソナルマシンピラティス専門スタジオ（マンション1室で開業可能）",
+  "franchise_fee": "通常価格200万円（期間限定で100万円）",
+  "deposit": null,
+  "training_fee": null,
+  "initial_investment": "総額記載なし（「自己資金100万円から開業可能」）",
+  "royalty": null,
+  "other_monthly": null,
+  "contract_term": null,
+  "store_size": null,
+  "store_count": "80店舗以上の出店実績（時点の記載なし）",
+  "recruiting_area": null,
+  "official_fc_url": "https://personal.pilates-ivy.jp/franchise/",
+  "source_type": "公式・一部媒体",
+  "media_values": {
+   "royalty": {
+    "値": "売上の15%（事務手数料含む）",
+    "出典URL": "https://wellness-career.com/franchise-pilates2/"
+   }
+  },
+  "checked_date": "2026-10-20",
+  "notes": "キャンペーン期限「2026年7月31日まで」の表記が調査日時点でも残っており、100万円が現在も有効かは要確認。フッター表記は©2023 KRM Co,.Ltd."
+ },
+ {
+  "brand": "TSUTAYA Conditioning PILATES",
+  "company": "Culture Experience Co.,Ltd.（フッター表記）",
+  "format": "女性専用・少人数制マシンピラティススタジオ",
+  "franchise_fee": null,
+  "deposit": null,
+  "training_fee": null,
+  "initial_investment": "2,000万円台〜（内訳は項目名のみ）",
+  "royalty": null,
+  "other_monthly": null,
+  "contract_term": null,
+  "store_size": null,
+  "store_count": null,
+  "recruiting_area": "記載なし（全国拡大中、エリアを順次拡大）",
+  "official_fc_url": "https://tc.tsite.jp/fc/pilates",
+  "source_type": "公式",
+  "media_values": null,
+  "checked_date": "2026-10-20",
+  "notes": "公式で取れた数字は初期投資のみ（投資回収期間は「2年台〜」）"
+ },
+ {
+  "brand": "Pilates Studio DEP",
+  "company": null,
+  "format": "療法士のみがピラティスを提供するスタジオ",
+  "franchise_fee": "50万円※既に出店がある県は店舗数×10万を加算",
+  "deposit": "なし（「保証金・研修指導費用」欄）",
+  "training_fee": "なし（保証金と同じ欄）",
+  "initial_investment": "記載なし（「自己資金100万円からスタート」）",
+  "royalty": "総売上の10〜20％※取扱料率による減額制度あり",
+  "other_monthly": "広告費 月0〜5万円程度",
+  "contract_term": null,
+  "store_size": null,
+  "store_count": "記載なし（「全国150店舗出店47都道府県制覇」は目標）",
+  "recruiting_area": "全国すべての都道府県",
+  "official_fc_url": "https://dep-recruit.com",
+  "source_type": "公式",
+  "media_values": null,
+  "checked_date": "2026-10-20",
+  "notes": "媒体掲載のURL（dep-pilates.com/franchise/）にFC情報はなく、フッターのリンク先であるdep-recruit.comに掲載されていた"
+ },
+ {
+  "brand": "Repilates",
+  "company": null,
+  "format": "商業施設特化型の女性専用マシンピラティススタジオ",
+  "franchise_fee": "300万円",
+  "deposit": "記載なし（別項目として敷金200万円〜500万円）",
+  "training_fee": null,
+  "initial_investment": "2,500万円〜4,500万円。内訳：加盟金300万円／ピラティスマシン機材一式1,000万〜1,500万円／店舗施工工事1,000万〜1,500万円／敷金200万〜500万円／広告宣伝費300万円／運転資金200万円／求人費50万円／その他店舗備品など100万円",
+  "royalty": "料率の記載なし（収支シミュレーションでは月額300,000円［会員300人］／400,000円［会員400人］）",
+  "other_monthly": "シミュレーション上の決済手数料・広告宣伝費のみ",
+  "contract_term": null,
+  "store_size": null,
+  "store_count": null,
+  "recruiting_area": "記載なし（日本全国で展開）",
+  "official_fc_url": "https://fc.repilates.jp/lp/1dahb/",
+  "source_type": "公式",
+  "media_values": null,
+  "checked_date": "2026-10-20",
+  "notes": "repilates.jp/fc/から誘導されるLPに記載。内訳の合計と総額の下限2,500万円が一致せず、合計欄は空欄。運営会社名の記載なし"
+ },
+ {
+  "brand": "WECLE",
+  "company": "株式会社nobitel",
+  "format": "マシンピラティス専門店",
+  "franchise_fee": "300万円",
+  "deposit": "記載なし（物件取得費の内訳に家賃保証金360万円の想定あり）",
+  "training_fee": "記載なし（研修期間2週間）",
+  "initial_investment": "2825万円。内訳：加盟金300万円／内装費1225万円／物件取得費480万円／設計費120万円／機材費700万円",
+  "royalty": null,
+  "other_monthly": null,
+  "contract_term": null,
+  "store_size": "最低30坪",
+  "store_count": null,
+  "recruiting_area": "記載なし（出店条件：商圏人口15万～30万人程度のエリア）",
+  "official_fc_url": "https://wecle.jp/ad/franchise/",
+  "source_type": "公式",
+  "media_values": null,
+  "checked_date": "2026-10-20",
+  "notes": "税区分の記載なし。ロイヤリティは非公開"
+ },
+ {
+  "brand": "5pilates",
+  "company": "fis株式会社",
+  "format": "女性専用・5人制マシンピラティススタジオ（運営委託方式）",
+  "franchise_fee": "50万円",
+  "deposit": "なし",
+  "training_fee": "経験者はほぼかからない。未経験者は講師料の実費のみ",
+  "initial_investment": "270万円～400万円（物件取得費から全設備を含む、オープンまでの初期費用全額）",
+  "royalty": "月売上の5%（広告運用手数料込み）",
+  "other_monthly": "広告費20万円（広告実費のみ、0円も可）。物件賃料は月20万円前後",
+  "contract_term": "加盟期間5年、自動更新",
+  "store_size": "18坪（60平米）前後",
+  "store_count": "「現在、直営1店舗（大阪上本町店）」。FC1号店は2026年9月2日オープン",
+  "recruiting_area": "地方を中心に募集（基本的な制限なし、既存店と商圏が重複する場合は不可）",
+  "official_fc_url": "https://5pilates.studio/fc/",
+  "source_type": "公式",
+  "media_values": null,
+  "checked_date": "2026-10-20",
+  "notes": "FAQの「直営23店舗」と本文の「直営1店舗」が食い違う（23店舗はfisグループ全体の可能性）"
+ },
+ {
+  "brand": "fis.pilates",
+  "company": null,
+  "format": "マシンピラティスパーソナルスタジオ（1ブースor2ブース）",
+  "franchise_fee": "10万円",
+  "deposit": "保証金なし",
+  "training_fee": null,
+  "initial_investment": "100万円～（内訳記載なし）",
+  "royalty": "月売上100万円未満：月固定5万円／月売上100万円以上：月固定10万円",
+  "other_monthly": "広告費 月0～15万円（広告実費のみ）／広告運用手数料0円（ロイヤリティ込み）",
+  "contract_term": "加盟期間5年＊自動更新",
+  "store_size": null,
+  "store_count": "「大阪府下23店舗直営」と「創業10年24店舗全店直営店」が併記（時点の記載なし）",
+  "recruiting_area": "全国を対象",
+  "official_fc_url": "https://fis-pilates.studio/fc/",
+  "source_type": "公式",
+  "media_values": null,
+  "checked_date": "2026-10-20",
+  "notes": "法人名は記載なし（「fisグループ」と表記）。5pilatesと同じグループと思われる。店舗数が23と24で食い違う"
+ },
+ {
+  "brand": "SAKURA（ピラティス）",
+  "company": "株式会社H6",
+  "format": "パーソナル専門のピラティススタジオ（女性専用）",
+  "franchise_fee": null,
+  "deposit": null,
+  "training_fee": null,
+  "initial_investment": "記載なし（「自己資金100万円での開業も可能」）",
+  "royalty": null,
+  "other_monthly": null,
+  "contract_term": null,
+  "store_size": null,
+  "store_count": "40店舗（2026年4月現在、準備中の店舗を含む）",
+  "recruiting_area": null,
+  "official_fc_url": "https://sakura-pilates.jp/fc/",
+  "source_type": "媒体",
+  "media_values": {
+   "franchise_fee": {
+    "値": "85万円",
+    "出典URL": "https://wellness-career.com/franchise-pilates2/"
+   },
+   "initial_investment": {
+    "値": "300万円〜",
+    "出典URL": "https://wellness-career.com/franchise-pilates2/"
+   },
+   "royalty": {
+    "値": "売上の10%",
+    "出典URL": "https://wellness-career.com/franchise-pilates2/"
+   }
+  },
+  "checked_date": "2026-10-20",
+  "notes": "投資回収期間の記載が「13ヶ月程度」「平均6ヶ月」「最短3ヶ月」と複数あり、統一されていない"
+ },
+ {
+  "brand": "YUZU（ピラティス）",
+  "company": null,
+  "format": "パーソナルマシンピラティス",
+  "franchise_fee": null,
+  "deposit": null,
+  "training_fee": null,
+  "initial_investment": "記載なし（「自己資金200万円から開業可能」）",
+  "royalty": null,
+  "other_monthly": null,
+  "contract_term": null,
+  "store_size": null,
+  "store_count": "直営22店舗／FC53店舗（時点の記載なし）",
+  "recruiting_area": "関東を中心に展開。エリアの制限はございません",
+  "official_fc_url": "https://yuzu-pilates.com/fc/",
+  "source_type": "媒体",
+  "media_values": {
+   "franchise_fee": {
+    "値": "40万円",
+    "出典URL": "https://wellness-career.com/franchise-pilates2/"
+   },
+   "initial_investment": {
+    "値": "340〜550万円",
+    "出典URL": "https://wellness-career.com/franchise-pilates2/"
+   }
+  },
+  "checked_date": "2026-10-20",
+  "notes": "運営会社名の記載なし（代表取締役 坪井里奈）"
+ },
+ {
+  "brand": "Two Three（ツースリー）ピラティス",
+  "company": "ツースリー株式会社",
+  "format": "マシンピラティス専門（グループレッスン＋プライベートレッスン）",
+  "franchise_fee": null,
+  "deposit": null,
+  "training_fee": null,
+  "initial_investment": null,
+  "royalty": null,
+  "other_monthly": null,
+  "contract_term": null,
+  "store_size": null,
+  "store_count": "全国20店舗（時点の記載なし）",
+  "recruiting_area": null,
+  "official_fc_url": "https://twothree-pilates.co.jp/franchise/",
+  "source_type": "媒体",
+  "media_values": {
+   "initial_investment": {
+    "値": "800万円〜",
+    "出典URL": "https://wellness-career.com/franchise-pilates2/"
+   }
+  },
+  "checked_date": "2026-10-20",
+  "notes": "公式の収益モデル画像には売上基準190万円〜のモデル（売上合計2,070,000、投資回収期間20〜48カ月）のみ表示。上位モデルは「個別面談にて」としてぼかされている。費用項目は非公開"
+ }
+]

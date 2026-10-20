@@ -1,0 +1,5 @@
+:root{--ink:#2b2b2b;--sub:#6b665e;--line:#e2dccf;--bg:#ffffff;--beige:#f3efe7;--accent:#4f6b5e;--accent-weak:#e6ede9}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Sans","Noto Sans JP",system-ui,sans-serif;line-height:1.75;font-size:16px}
+a{color:var(--accent)}
+button,input,select{font:inherit}
