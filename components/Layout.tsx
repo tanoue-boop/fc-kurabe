@@ -6,7 +6,8 @@ import { ReactNode } from 'react';
 import { SITE_NAME } from '../lib/data';
 import s from '../styles/Layout.module.css';
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID || '';
+// GA4 測定ID（公開値）。環境変数があればそちらを優先
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-X6WFH5TMFX';
 const SITE_URL = 'https://fc-kurabe.com';
 
 type Props = { title: string; description: string; children: ReactNode; crumbs?: { href: string; label: string }[] };
@@ -24,10 +25,8 @@ export default function Layout({ title, description, children, crumbs }: Props) 
         <link rel="canonical" href={canonical} />
       </Head>
       {GA_ID && (
-        <>
-          <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
-          <Script id="ga" strategy="afterInteractive">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${GA_ID}');`}</Script>
-        </>
+        // 本番ドメインだけで計測する（vercel.app・localhostは送らない）
+        <Script id="ga" strategy="afterInteractive">{`if(location.hostname==='fc-kurabe.com'){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=${GA_ID}';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','${GA_ID}');}`}</Script>
       )}
       <header className={s.header}>
         <div className={s.inner}>
