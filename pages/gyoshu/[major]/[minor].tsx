@@ -1,3 +1,6 @@
+import GuideLinks from '../../../components/GuideLinks';
+import { guidesFor } from '../../../lib/guide';
+import type { GuideMeta } from '../../../lib/guide';
 import Link from 'next/link';
 import BrandList from '../../../components/BrandList';
 import Layout, { PageHead } from '../../../components/Layout';
@@ -7,9 +10,9 @@ import { minorPhoto } from '../../../lib/format';
 import s from '../../../styles/List.module.css';
 
 type Sib = { slug: string; name: string; count: number };
-type Props = { major: string; majorName: string; minor: string; name: string; rows: Row[]; siblings: Sib[] };
+type Props = { major: string; majorName: string; minor: string; name: string; rows: Row[]; siblings: Sib[]; guides: GuideMeta[] };
 
-export default function MinorPage({ major, majorName, minor, name, rows, siblings }: Props) {
+export default function MinorPage({ major, majorName, minor, name, rows, siblings, guides }: Props) {
   return (
     <Layout
       title={`${name}のフランチャイズ一覧・比較（${rows.length}件）`}
@@ -35,6 +38,7 @@ export default function MinorPage({ major, majorName, minor, name, rows, sibling
           </ul>
         </nav>
       )}
+      <GuideLinks guides={guides} />
       <BrandList rows={rows} />
     </Layout>
   );
@@ -58,6 +62,7 @@ export async function getStaticProps({ params }: { params: { major: string; mino
       name: list[0].minor_name,
       rows: list.map(toRow),
       siblings: minorsOf(params.major).filter((m) => m.count >= MINOR_MIN),
+      guides: guidesFor(params.minor, params.major),
     },
   };
 }

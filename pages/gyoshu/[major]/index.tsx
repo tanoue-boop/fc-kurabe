@@ -1,3 +1,6 @@
+import GuideLinks from '../../../components/GuideLinks';
+import { allGuides } from '../../../lib/guide';
+import type { GuideMeta } from '../../../lib/guide';
 import Link from 'next/link';
 import BrandList from '../../../components/BrandList';
 import Layout, { PageHead } from '../../../components/Layout';
@@ -6,9 +9,9 @@ import type { Row } from '../../../lib/data';
 import { majorPhoto } from '../../../lib/format';
 import s from '../../../styles/List.module.css';
 
-type Props = { major: string; name: string; rows: Row[]; minors: { slug: string; name: string; count: number }[] };
+type Props = { major: string; name: string; rows: Row[]; minors: { slug: string; name: string; count: number }[]; guides: GuideMeta[] };
 
-export default function MajorPage({ major, name, rows, minors }: Props) {
+export default function MajorPage({ major, name, rows, minors, guides }: Props) {
   return (
     <Layout
       title={`${name}のフランチャイズ一覧・比較`}
@@ -30,6 +33,7 @@ export default function MajorPage({ major, name, rows, minors }: Props) {
           </ul>
         </nav>
       )}
+      <GuideLinks guides={guides} />
       <BrandList rows={rows} />
     </Layout>
   );
@@ -42,5 +46,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }: { params: { major: string } }) {
   const rows = BRANDS.filter((b) => b.major === params.major).map(toRow);
-  return { props: { major: params.major, name: META.majors[params.major], rows, minors: minorsOf(params.major) } };
+  const minors = minorsOf(params.major);
+  const guides = allGuides().filter((g) => g.major === params.major || minors.some((m) => g.minor?.split(',').includes(m.slug)));
+  return { props: { major: params.major, name: META.majors[params.major], rows, minors, guides } };
 }

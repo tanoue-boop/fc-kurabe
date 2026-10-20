@@ -17,6 +17,7 @@ const NAV = [
   { href: '/shikin/', label: '開業資金から探す' },
   { href: '/tag/', label: '条件から探す' },
   { href: '/ranking/', label: 'ランキング' },
+  { href: '/guide/', label: '開業ガイド' },
 ];
 
 type Props = {
