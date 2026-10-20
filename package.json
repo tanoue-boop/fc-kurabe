@@ -3,6 +3,8 @@
   "private": true,
   "scripts": {
     "data": "python3 data-src/normalize.py",
+    "sitemap": "node scripts/sitemap.mjs",
+    "prebuild": "node scripts/sitemap.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"

@@ -1,15 +1,19 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Script from 'next/script';
 import { ReactNode } from 'react';
 import { SITE_NAME } from '../lib/data';
 import s from '../styles/Layout.module.css';
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID || '';
+const SITE_URL = 'https://fc-kurabe.com';
 
 type Props = { title: string; description: string; children: ReactNode; crumbs?: { href: string; label: string }[] };
 
 export default function Layout({ title, description, children, crumbs }: Props) {
+  const { asPath } = useRouter();
+  const canonical = SITE_URL + asPath.split(/[?#]/)[0];
   const full = title === SITE_NAME ? title : `${title}｜${SITE_NAME}`;
   return (
     <>
@@ -17,6 +21,7 @@ export default function Layout({ title, description, children, crumbs }: Props) 
         <title>{full}</title>
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href={canonical} />
       </Head>
       {GA_ID && (
         <>
