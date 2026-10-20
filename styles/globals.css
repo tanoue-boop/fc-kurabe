@@ -7,6 +7,10 @@
   --accent: #1e6b5c;
   --accent-ink: #154d42;
   --accent-soft: #dcebe6;
+  --bg-soft: #f4f7f6;
+  --warm: #e9a23b;
+  --warm-soft: #fdf0d9;
+  --warm-ink: #8a5300;
   /* 資金メーターの5段階（資金が大きいほど濃い） */
   --m1: #b9dbd1;
   --m2: #8cc3b4;
@@ -23,7 +27,7 @@ html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
-  background: var(--paper);
+  background: var(--bg-soft);
   color: var(--ink);
   font-family: 'BIZ UDPGothic', 'Hiragino Sans', 'Noto Sans JP', system-ui, sans-serif;
   font-size: 16px;

@@ -101,6 +101,8 @@ export function toRow(b: Brand) {
     term: b.contract_term_text,
     fund: b.fund_band,
     own: !!b.is_own,
+    // 資料請求・問い合わせの窓口がある（公式サイトへのリンクだけではない）
+    req: b.exits.some((e) => e.type !== 'official'),
   };
 }
 export type Row = ReturnType<typeof toRow>;

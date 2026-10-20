@@ -28,3 +28,45 @@ export function yen(v: number | null | undefined) {
   }
   return `${v.toLocaleString()}円`;
 }
+
+// こだわり条件の表示名（data/brands.json の meta.tags と同じ）
+export const TAG_NAMES: Record<string, string> = {
+  fukugyo: '副業から始められる',
+  mikeiken: '未経験から始められる',
+  hitori: '1人で開業できる',
+  josei: '女性が活躍',
+  mutenpo: '無店舗・自宅で開業',
+  houjin: '法人の新規事業向け',
+  zaikonashi: '在庫なし',
+  senior: '40代・定年後から',
+  fuufu: '夫婦で開業',
+  teishikin: '低資金で開業',
+  'menu-add': '既存店舗にメニュー追加',
+};
+
+// 業種の写真。小分類ごとに1枚、大分類は代表の小分類の写真を使う
+export const MAJOR_PHOTO: Record<string, string> = {
+  food: 'restaurant',
+  education: 'juku',
+  'fitness-beauty': 'pilates',
+  'life-service': 'house-cleaning',
+  retail: 'kaitori',
+  care: 'care',
+  repair: 'reform',
+  business: 'other',
+};
+// 本部が多い業種は写真を複数用意し、本部ごとに振り分ける（同じ写真が続かないように）
+export const PHOTO_VARIANTS: Record<string, number> = {
+  pilates: 3, other: 3, restaurant: 3, juku: 2, 'house-cleaning': 2, benriya: 2, kaitori: 2,
+};
+function hash(s: string) {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  return h;
+}
+export const minorPhoto = (minor: string, slug?: string) => {
+  const n = PHOTO_VARIANTS[minor] ?? 1;
+  const v = slug && n > 1 ? hash(slug) % n : 0;
+  return v === 0 ? `/img/gyoshu/${minor}.jpg` : `/img/gyoshu/${minor}-${v + 1}.jpg`;
+};
+export const majorPhoto = (major: string) => minorPhoto(MAJOR_PHOTO[major] ?? 'other');

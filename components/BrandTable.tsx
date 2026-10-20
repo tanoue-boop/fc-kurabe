@@ -22,7 +22,7 @@ function cmp(a: number | null, b: number | null) {
   return a - b;
 }
 
-export default function BrandTable({ rows, initialSort = 'default', current }: { rows: Row[]; initialSort?: SortKey; current?: string }) {
+export default function BrandTable({ rows, initialSort = 'default', current, hideSort }: { rows: Row[]; initialSort?: SortKey; current?: string; hideSort?: boolean }) {
   const [sort, setSort] = useState<SortKey>(initialSort);
   const { has, toggle, full } = useCompare();
   const sorted = useMemo(() => {
@@ -35,6 +35,7 @@ export default function BrandTable({ rows, initialSort = 'default', current }: {
 
   return (
     <div className={s.block}>
+      {!hideSort && (
       <div className={s.sortBar}>
         <p className={s.total}>
           <strong className="num">{rows.length}</strong>件
@@ -47,7 +48,8 @@ export default function BrandTable({ rows, initialSort = 'default', current }: {
           ))}
         </div>
       </div>
-      <table className={s.table}>
+      )}
+      <table className={hideSort ? `${s.table} ${s.boxed}` : s.table}>
         <thead>
           <tr>
             <th className={s.colCheck}><span className={s.vh}>比較</span></th>
@@ -90,10 +92,12 @@ export default function BrandTable({ rows, initialSort = 'default', current }: {
           })}
         </tbody>
       </table>
-      <p className={s.note}>
-        「—」は、公式ページや掲載媒体で金額を確認できなかった項目です。金額の内訳と出典は各本部のページに載せています。
-        {full && ' 比較リストは4社までです。'}
-      </p>
+      {!hideSort && (
+        <p className={s.note}>
+          「—」は、公式ページや掲載媒体で金額を確認できなかった項目です。金額の内訳と出典は各本部のページに載せています。
+          {full && ' 比較リストは4社までです。'}
+        </p>
+      )}
     </div>
   );
 }

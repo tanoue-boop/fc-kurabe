@@ -61,3 +61,6 @@
   .money::before { flex-basis: 100%; }
   .money :global(.num) { font-size: 17px; margin: 0; }
 }
+
+.boxed { background: var(--paper); border-radius: 10px; overflow: hidden; box-shadow: 0 0 0 1px rgba(29, 43, 42, 0.06); }
+@media (max-width: 720px) { .boxed { background: none; box-shadow: none; } .boxed tr { background: var(--paper); } }

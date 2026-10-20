@@ -36,7 +36,7 @@ export default function Ranking({ ini, roy, roy0 }: Props) {
       description="開業資金が低い順、ロイヤリティ率が低い順など、各本部が公表している数字だけで並べたフランチャイズのランキングです。"
       crumbs={[{ href: '/ranking/', label: 'ランキング' }]}
     >
-      <PageHead
+      <PageHead photo="/img/hero.jpg"
         title="フランチャイズ 条件別ランキング"
         lead="人気や当サイトの評価ではなく、各本部が公表している数字だけで並べています。金額を確認できなかった本部は対象外です。"
       >

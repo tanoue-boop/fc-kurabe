@@ -1,8 +1,9 @@
 import Link from 'next/link';
-import BrandTable from '../../../components/BrandTable';
+import BrandList from '../../../components/BrandList';
 import Layout, { PageHead } from '../../../components/Layout';
 import { BRANDS, META, MINOR_MIN, minorsOf, toRow } from '../../../lib/data';
 import type { Row } from '../../../lib/data';
+import { majorPhoto } from '../../../lib/format';
 import s from '../../../styles/List.module.css';
 
 type Props = { major: string; name: string; rows: Row[]; minors: { slug: string; name: string; count: number }[] };
@@ -14,7 +15,7 @@ export default function MajorPage({ major, name, rows, minors }: Props) {
       description={`${name}のフランチャイズ本部${rows.length}件を、開業資金・加盟金・ロイヤリティ・契約期間で比べられます。`}
       crumbs={[{ href: '/gyoshu/', label: '業種から探す' }, { href: `/gyoshu/${major}/`, label: name }]}
     >
-      <PageHead title={`${name}のフランチャイズ一覧・比較`} lead={`${name}のフランチャイズ本部${rows.length}件を、開業資金・加盟金・ロイヤリティで比べられます。`} />
+      <PageHead photo={majorPhoto(major)} title={`${name}のフランチャイズ一覧・比較`} lead={`${name}のフランチャイズ本部${rows.length}件を、開業資金・加盟金・ロイヤリティで比べられます。`} />
       {minors.length > 1 && (
         <nav className={s.subNav} aria-label="詳しい業種">
           <p className={s.subNavLabel}>詳しい業種で絞る</p>
@@ -29,7 +30,7 @@ export default function MajorPage({ major, name, rows, minors }: Props) {
           </ul>
         </nav>
       )}
-      <BrandTable rows={rows} />
+      <BrandList rows={rows} />
     </Layout>
   );
 }

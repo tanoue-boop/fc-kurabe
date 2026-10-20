@@ -10,7 +10,7 @@ export default function FundIndex({ counts, known, total }: { counts: Record<str
       description="開業資金100万円以下から1,000万円超まで、金額の帯ごとにフランチャイズ本部を探せます。"
       crumbs={[{ href: '/shikin/', label: '開業資金から探す' }]}
     >
-      <PageHead title="開業資金からフランチャイズを探す" lead="各本部が公表している開業資金（初期投資）の金額で、本部を5つの帯に分けています。" />
+      <PageHead photo="/img/hero.jpg" title="開業資金からフランチャイズを探す" lead="各本部が公表している開業資金（初期投資）の金額で、本部を5つの帯に分けています。" />
       <div className={s.fundIntro}>
         <FundRuler counts={counts} />
         <p className={s.fundNote}>

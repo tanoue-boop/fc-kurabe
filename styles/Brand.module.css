@@ -1,20 +1,27 @@
-.head { padding-bottom: 24px; margin-bottom: 28px; border-bottom: 1px solid var(--line); }
+.head {
+  position: relative; border-radius: 16px; overflow: hidden; margin-bottom: 28px; min-height: 280px;
+  background: var(--ink); display: flex; flex-direction: column; justify-content: flex-end;
+}
+.headImg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.headShade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(16, 32, 29, 0.88) 0%, rgba(16, 32, 29, 0.55) 50%, rgba(16, 32, 29, 0.15) 85%); }
+.headText { position: relative; padding: 40px 36px 30px; color: #fff; max-width: 760px; }
+.photoNote { position: absolute; right: 12px; bottom: 8px; margin: 0; font-size: 11px; color: rgba(255, 255, 255, 0.75); }
 .pr {
   display: inline-block; margin: 0 0 10px; padding: 0 6px; font-size: 11px; line-height: 18px;
-  color: var(--sub); border: 1px solid var(--line); border-radius: 3px;
+  color: #fff; border: 1px solid rgba(255, 255, 255, 0.6); border-radius: 3px;
 }
-.h1 { font-size: 32px; margin: 0; }
-.meta { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 10px 0 0; font-size: 14px; color: var(--sub); }
-.meta a { font-weight: 700; }
+.h1 { font-size: 34px; margin: 0; text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25); }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 10px 0 0; font-size: 14px; color: rgba(255, 255, 255, 0.88); }
+.meta a { font-weight: 700; color: #fff; }
 .tags { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
 .tags a {
   display: inline-block; font-size: 13px; padding: 3px 12px; border-radius: 999px;
-  background: var(--accent-soft); color: var(--accent-ink); text-decoration: none;
+  background: rgba(255, 255, 255, 0.92); color: var(--accent-ink); text-decoration: none; font-weight: 700;
 }
 .tags a:hover { text-decoration: underline; }
 
 .layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 48px; align-items: start; }
-.main { min-width: 0; }
+.main { min-width: 0; background: var(--paper); border-radius: 16px; padding: 28px 32px 36px; box-shadow: 0 0 0 1px rgba(29, 43, 42, 0.06); }
 
 /* 主要な3つの金額 */
 .figures { margin: 0; display: grid; grid-template-columns: 1.4fr 1fr 1fr; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); }
@@ -42,8 +49,8 @@
   text-decoration: none; font-weight: 700; border: 1px solid var(--ink); color: var(--ink); background: var(--paper);
 }
 .btn:hover { background: var(--surface); color: var(--ink); }
-.btnPrimary { background: var(--accent); border-color: var(--accent); color: #fff; font-size: 17px; padding: 15px 16px; }
-.btnPrimary:hover { background: var(--accent-ink); color: #fff; }
+.btnPrimary { background: var(--warm); border-color: var(--warm); color: #3b2500; font-size: 17px; padding: 15px 16px; }
+.btnPrimary:hover { background: #dc9126; color: #3b2500; }
 
 .section { margin-top: 48px; }
 .h2 { font-size: 22px; margin: 0 0 16px; }
@@ -71,7 +78,7 @@
 .simOut strong { font-size: 30px; color: var(--accent-ink); line-height: 1.3; }
 
 .aside { position: sticky; top: 88px; }
-.asideBox { border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: var(--radius); padding: 20px; }
+.asideBox { background: var(--paper); border-radius: 16px; padding: 22px; box-shadow: 0 8px 24px rgba(16, 32, 29, 0.1); border-top: 5px solid var(--warm); }
 .asideTitle { font-weight: 700; font-size: 17px; margin: 0 0 6px; }
 .asideText { font-size: 13px; color: var(--sub); margin: 0 0 16px; }
 .asideActions { display: flex; flex-direction: column; gap: 10px; }
@@ -83,6 +90,10 @@
 }
 @media (max-width: 720px) {
   .h1 { font-size: 24px; }
+  .head { min-height: 240px; border-radius: 12px; }
+  .headShade { background: linear-gradient(180deg, rgba(16, 32, 29, 0.15) 0%, rgba(16, 32, 29, 0.88) 75%); }
+  .headText { padding: 70px 18px 26px; }
+  .main { padding: 20px 16px 28px; border-radius: 12px; }
   .figures { grid-template-columns: 1fr 1fr; }
   .fig { padding: 14px 14px 14px 0; }
   .fig:first-child { grid-column: 1 / -1; border-bottom: 1px solid var(--line); }
