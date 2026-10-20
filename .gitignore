@@ -3,3 +3,4 @@ node_modules
 out
 /public/sitemap.xml
 /public/robots.txt
+tsconfig.tsbuildinfo

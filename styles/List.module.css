@@ -1,0 +1,37 @@
+/* 一覧系ページ（業種・資金・条件）の共通部品 */
+.subNav { margin: 0 0 28px; }
+.subNavLabel { font-size: 13px; font-weight: 700; color: var(--sub); margin: 0 0 8px; }
+.chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.chip, .chipOff {
+  display: inline-flex; align-items: baseline; gap: 6px; padding: 7px 14px; border-radius: 999px;
+  border: 1px solid var(--line); text-decoration: none; color: var(--ink); font-size: 14px; background: var(--paper);
+}
+.chip:hover { border-color: var(--accent); color: var(--accent); }
+.chip[aria-current='page'] { background: var(--ink); border-color: var(--ink); color: #fff; }
+.chipOff { color: var(--sub); background: var(--surface); border-color: transparent; }
+.chip :global(.num), .chipOff :global(.num) { font-size: 12px; color: var(--sub); }
+.chip[aria-current='page'] :global(.num) { color: #c9d6d2; }
+
+.majors { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 40px; }
+.major { padding: 22px 0; border-bottom: 1px solid var(--line); }
+.majorHead { display: flex; align-items: center; gap: 14px; text-decoration: none; color: var(--ink); margin-bottom: 12px; }
+.majorIcon { width: 52px; height: 52px; border-radius: 50%; background: var(--surface); color: var(--accent); display: grid; place-items: center; flex: none; }
+.majorName { font-size: 19px; font-weight: 700; }
+.majorCount { font-size: 13px; color: var(--sub); margin-left: auto; }
+.majorCount :global(.num) { font-size: 18px; color: var(--ink); font-weight: 700; margin-right: 1px; }
+.majorHead:hover .majorName { color: var(--accent); text-decoration: underline; }
+
+.fundIntro { margin: 0 0 32px; }
+.fundNote { font-size: 13px; color: var(--sub); margin: 14px 0 0; }
+
+.tagList { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 40px; }
+.tagList li { border-bottom: 1px solid var(--line); }
+.tagList a { display: flex; justify-content: space-between; align-items: baseline; padding: 16px 0; text-decoration: none; color: var(--ink); font-size: 17px; font-weight: 700; }
+.tagList a:hover { color: var(--accent); }
+.tagList .count { font-size: 13px; font-weight: 400; color: var(--sub); }
+.tagList .count :global(.num) { font-size: 18px; color: var(--ink); font-weight: 700; margin-right: 1px; }
+
+@media (max-width: 720px) {
+  .majors, .tagList { grid-template-columns: 1fr; }
+  .majorName { font-size: 17px; }
+}

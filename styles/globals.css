@@ -1,5 +1,51 @@
-:root{--ink:#2b2b2b;--sub:#6b665e;--line:#e2dccf;--bg:#ffffff;--beige:#f3efe7;--accent:#4f6b5e;--accent-weak:#e6ede9}
-*{box-sizing:border-box}
-html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Sans","Noto Sans JP",system-ui,sans-serif;line-height:1.75;font-size:16px}
-a{color:var(--accent)}
-button,input,select{font:inherit}
+:root {
+  --ink: #1d2b2a;
+  --sub: #5b6b67;
+  --line: #d5dfdb;
+  --paper: #ffffff;
+  --surface: #eef3f1;
+  --accent: #1e6b5c;
+  --accent-ink: #154d42;
+  --accent-soft: #dcebe6;
+  /* 資金メーターの5段階（資金が大きいほど濃い） */
+  --m1: #b9dbd1;
+  --m2: #8cc3b4;
+  --m3: #5ea795;
+  --m4: #398876;
+  --m5: #1e6b5c;
+  --radius: 6px;
+  --wrap: 1120px;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'BIZ UDPGothic', 'Hiragino Sans', 'Noto Sans JP', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-feature-settings: "palt" 1;
+  overflow-x: clip;
+}
+
+h1, h2, h3 { line-height: 1.45; font-weight: 700; }
+
+/* 日本語を文節で折り返す（対応ブラウザのみ） */
+h1, h2, h3, p, li, dt, dd, th, td, legend, label { word-break: auto-phrase; }
+
+a { color: var(--accent); text-underline-offset: 3px; }
+a:hover { color: var(--accent-ink); }
+
+button, input, select { font: inherit; color: inherit; }
+
+:focus-visible { outline: 3px solid #e3a33b; outline-offset: 2px; }
+
+.num { font-variant-numeric: tabular-nums; font-feature-settings: 'tnum' 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}

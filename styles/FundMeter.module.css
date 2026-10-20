@@ -1,0 +1,10 @@
+.sm, .md { display: inline-flex; gap: 2px; vertical-align: middle; }
+.sm > span { width: 9px; height: 12px; border-radius: 1px; }
+.md > span { width: 22px; height: 16px; border-radius: 2px; }
+.md { gap: 3px; }
+.off { background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); }
+.on1 { background: var(--m1); }
+.on2 { background: var(--m2); }
+.on3 { background: var(--m3); }
+.on4 { background: var(--m4); }
+.on5 { background: var(--m5); }

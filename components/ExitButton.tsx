@@ -1,4 +1,4 @@
-import { Exit } from '../lib/data';
+import type { Exit } from '../lib/data';
 import s from '../styles/Brand.module.css';
 
 declare global {

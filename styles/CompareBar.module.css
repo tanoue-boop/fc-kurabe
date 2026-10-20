@@ -1,0 +1,38 @@
+.bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+  background: var(--ink); color: #fff;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.08);
+}
+.inner {
+  max-width: var(--wrap); margin: 0 auto; padding: 10px 16px;
+  display: flex; align-items: center; gap: 16px;
+}
+.count { margin: 0; font-size: 14px; white-space: nowrap; }
+.count strong { font-size: 20px; margin-left: 4px; }
+.items { list-style: none; margin: 0; padding: 0; display: flex; gap: 6px; flex: 1; min-width: 0; overflow-x: auto; }
+.items li {
+  display: inline-flex; align-items: center; gap: 4px; white-space: nowrap;
+  background: rgba(255, 255, 255, 0.12); border-radius: 999px; padding: 2px 4px 2px 12px; font-size: 13px;
+}
+.items button {
+  border: 0; background: transparent; color: #fff; cursor: pointer;
+  width: 24px; height: 24px; border-radius: 50%; line-height: 1;
+}
+.items button:hover { background: rgba(255, 255, 255, 0.2); }
+.actions { display: flex; gap: 8px; align-items: center; }
+.clear { background: transparent; border: 0; color: #c9d6d2; font-size: 13px; cursor: pointer; text-decoration: underline; }
+.go {
+  background: #fff; color: var(--accent-ink); font-weight: 700; text-decoration: none;
+  padding: 10px 18px; border-radius: var(--radius); white-space: nowrap;
+}
+.go:hover { background: var(--accent-soft); color: var(--accent-ink); }
+.go[aria-disabled='true'] { background: rgba(255, 255, 255, 0.15); color: #fff; pointer-events: none; font-weight: 400; }
+
+@media (max-width: 720px) {
+  .inner { flex-wrap: wrap; gap: 8px; }
+  .items { order: 3; flex-basis: 100%; }
+  .actions { margin-left: auto; }
+  .clear { display: none; }
+}
+.spacer { height: 76px; }
+@media (max-width: 720px) { .spacer { height: 108px; } }

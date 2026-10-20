@@ -1,12 +1,56 @@
-.header{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:10}
-.inner{max-width:1080px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.logo{font-weight:700;color:var(--ink);text-decoration:none;font-size:18px}
-.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:14px}
-.nav a{color:var(--ink);text-decoration:none}
-.nav a:hover{color:var(--accent)}
-.main{max-width:1080px;margin:0 auto;padding:16px 16px 64px}
-.crumbs{list-style:none;padding:0;margin:0 0 12px;display:flex;flex-wrap:wrap;gap:6px;font-size:13px;color:var(--sub)}
-.crumbs li+li::before{content:"›";margin-right:6px}
-.crumbs a{color:var(--sub)}
-.footer{background:var(--ink);color:#ddd;font-size:13px}
-.footer p{margin:4px 0}
+.header { background: var(--paper); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 20; }
+.headInner {
+  max-width: var(--wrap); margin: 0 auto; padding: 0 16px; min-height: 64px;
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+}
+.logo { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 20px; color: var(--ink); text-decoration: none; letter-spacing: 0.02em; }
+.logo:hover { color: var(--ink); }
+/* ロゴの印：資金メーターと同じ3段の棒 */
+.mark { display: inline-flex; align-items: flex-end; gap: 2px; height: 20px; }
+.mark i { display: block; width: 6px; border-radius: 1px; }
+.mark i:nth-child(1) { height: 8px; background: var(--m2); }
+.mark i:nth-child(2) { height: 14px; background: var(--m3); }
+.mark i:nth-child(3) { height: 20px; background: var(--m5); }
+
+.nav { display: flex; align-items: center; gap: 4px; font-size: 14px; }
+.nav a { color: var(--ink); text-decoration: none; padding: 8px 10px; border-radius: var(--radius); white-space: nowrap; }
+.nav a:hover { background: var(--surface); color: var(--ink); }
+.nav a[aria-current='page'] { color: var(--accent); font-weight: 700; }
+.compareLink { border: 1px solid var(--line); margin-left: 6px; display: inline-flex; align-items: center; gap: 6px; }
+.badge { background: var(--accent); color: #fff; font-size: 12px; min-width: 20px; height: 20px; border-radius: 10px; display: inline-grid; place-items: center; padding: 0 6px; }
+
+.main { max-width: var(--wrap); margin: 0 auto; padding: 20px 16px 80px; }
+
+.crumbs { list-style: none; padding: 0; margin: 0 0 20px; display: flex; flex-wrap: wrap; gap: 4px; font-size: 13px; color: var(--sub); }
+.crumbs li + li::before { content: '/'; margin: 0 6px 0 2px; color: var(--line); }
+.crumbs a { color: var(--sub); }
+
+.pageHead { padding: 4px 0 24px; margin-bottom: 28px; border-bottom: 1px solid var(--line); }
+.pr {
+  display: inline-block; margin: 0 0 10px; padding: 0 6px;
+  font-size: 11px; line-height: 18px; color: var(--sub); border: 1px solid var(--line); border-radius: 3px;
+}
+.h1 { font-size: 30px; margin: 0; max-width: 32em; }
+.lead { margin: 12px 0 0; color: var(--sub); max-width: 46em; }
+
+.footer { background: var(--ink); color: #c9d6d2; font-size: 13px; }
+.footInner {
+  max-width: var(--wrap); margin: 0 auto; padding: 40px 16px 32px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 20px 48px;
+}
+.footBrand p { margin: 0; }
+.footLogo { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 6px !important; }
+.footNav { display: flex; flex-wrap: wrap; gap: 6px 20px; align-content: flex-start; }
+.footNav a { color: #fff; }
+.footNote { grid-column: 1 / -1; margin: 8px 0 0; padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, 0.15); max-width: 60em; }
+.footOwner { grid-column: 1 / -1; margin: 0; }
+
+@media (max-width: 900px) {
+  .headInner { flex-direction: column; align-items: stretch; gap: 0; padding-top: 10px; }
+  .nav { overflow-x: auto; margin: 0 -16px; padding: 4px 12px 8px; scrollbar-width: none; }
+  .nav::-webkit-scrollbar { display: none; }
+}
+@media (max-width: 720px) {
+  .h1 { font-size: 24px; }
+  .footInner { grid-template-columns: 1fr; }
+}

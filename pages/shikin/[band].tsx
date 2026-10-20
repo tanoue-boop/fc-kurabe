@@ -1,17 +1,23 @@
 import BrandTable from '../../components/BrandTable';
-import Layout from '../../components/Layout';
-import { BRANDS, META, Row, toRow } from '../../lib/data';
-import s from '../../styles/Home.module.css';
+import FundRuler from '../../components/FundRuler';
+import Layout, { PageHead } from '../../components/Layout';
+import { BRANDS, META, toRow } from '../../lib/data';
+import type { Row } from '../../lib/data';
+import s from '../../styles/List.module.css';
 
-export default function FundPage({ band, name, rows }: { band: string; name: string; rows: Row[] }) {
+type Props = { band: string; name: string; rows: Row[]; counts: Record<string, number> };
+
+export default function FundPage({ band, name, rows, counts }: Props) {
   return (
     <Layout
       title={`開業資金${name}のフランチャイズ一覧（${rows.length}件）`}
-      description={`開業資金${name}で始められるフランチャイズ本部${rows.length}件を、加盟金・ロイヤリティ・契約期間で比較。`}
-      crumbs={[{ href: '/shikin/', label: '資金から探す' }, { href: `/shikin/${band}/`, label: name }]}
+      description={`開業資金${name}のフランチャイズ本部${rows.length}件を、加盟金・ロイヤリティ・契約期間で比べられます。`}
+      crumbs={[{ href: '/shikin/', label: '開業資金から探す' }, { href: `/shikin/${band}/`, label: name }]}
     >
-      <p className={s.pr}>PR</p>
-      <h1 className={s.h1}>開業資金{name}のフランチャイズ</h1>
+      <PageHead title={`開業資金${name}のフランチャイズ`} lead={`公表されている開業資金が${name}の本部${rows.length}件です。開業資金が低い順に並べています。`} />
+      <div className={s.fundIntro}>
+        <FundRuler counts={counts} current={band} />
+      </div>
       <BrandTable rows={rows} initialSort="ini" />
     </Layout>
   );
@@ -23,5 +29,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }: { params: { band: string } }) {
   const f = META.funds.find((x) => x.slug === params.band)!;
-  return { props: { band: f.slug, name: f.name, rows: BRANDS.filter((b) => b.fund_band === f.slug).map(toRow) } };
+  const counts = Object.fromEntries(META.funds.map((x) => [x.slug, BRANDS.filter((b) => b.fund_band === x.slug).length]));
+  return { props: { band: f.slug, name: f.name, rows: BRANDS.filter((b) => b.fund_band === f.slug).map(toRow), counts } };
 }

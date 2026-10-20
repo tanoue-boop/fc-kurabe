@@ -39,9 +39,20 @@ type Meta = {
   funds: { slug: string; name: string }[];
 };
 
+import { yen } from './format';
+export { SITE_NAME, yen } from './format';
+
 const data = raw as unknown as { meta: Meta; brands: Brand[] };
 
-export const SITE_NAME = 'フランチャイズくらべ';
+// 調査時に付けた出典ドメインの注記（例：［example.co.jp］）は画面に出さない
+const SRC_NOTE = /\s*[［\[][^］\]]*\.(?:jp|com|net|co\.jp)[^］\]]*[］\]]/g;
+const TEXT_KEYS = ['franchise_fee_text', 'initial_investment_text', 'royalty_text', 'contract_term_text', 'deposit_text', 'training_fee_text', 'self_funds_text', 'store_count_text', 'recruit_area', 'target'] as const;
+for (const b of data.brands) {
+  for (const k of TEXT_KEYS) {
+    const v = b[k];
+    if (typeof v === 'string') (b as Record<string, unknown>)[k] = v.replace(SRC_NOTE, '');
+  }
+}
 export const META = data.meta;
 export const BRANDS: Brand[] = data.brands;
 
@@ -62,16 +73,6 @@ export function majorsWithCount() {
   return Object.entries(META.majors)
     .map(([slug, name]) => ({ slug, name, count: BRANDS.filter((b) => b.major === slug).length }))
     .filter((m) => m.count > 0);
-}
-
-export function yen(v: number | null) {
-  if (v === null || v === undefined) return null;
-  if (v === 0) return '0円';
-  if (v >= 10000) {
-    const man = v / 10000;
-    return `${Number.isInteger(man) ? man.toLocaleString() : man.toFixed(1)}万円`;
-  }
-  return `${v.toLocaleString()}円`;
 }
 
 export function royaltyShort(b: Brand) {
