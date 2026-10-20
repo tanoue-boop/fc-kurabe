@@ -1,0 +1,65 @@
+/* 開業ガイド記事 */
+.wrap { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 48px; align-items: start; }
+.article { background: var(--paper, #fff); border-radius: 16px; padding: 40px 48px 48px; box-shadow: 0 0 0 1px rgba(43, 43, 43, 0.06); min-width: 0; }
+.updated { margin: 0 0 20px; font-size: 13px; color: var(--sub); }
+
+.toc { background: var(--beige); border-radius: 12px; padding: 20px 24px; margin: 0 0 36px; }
+.tocTitle { margin: 0 0 8px; font-weight: 700; font-size: 15px; }
+.toc ol { margin: 0; padding-left: 1.4em; line-height: 2; font-size: 15px; }
+.toc a { color: var(--ink); text-decoration: none; }
+.toc a:hover { color: var(--cta); text-decoration: underline; }
+
+.body { font-size: 16.5px; line-height: 2; color: var(--ink); }
+.body h2 {
+  font-size: 26px; line-height: 1.5; margin: 56px 0 20px; padding: 0 0 12px;
+  border-bottom: 2px solid var(--ink); scroll-margin-top: 24px;
+}
+.body h3 { font-size: 20px; line-height: 1.5; margin: 36px 0 12px; padding-left: 14px; border-left: 4px solid var(--gold); }
+.body p { margin: 0 0 1.3em; }
+.body ul, .body ol { margin: 0 0 1.4em; padding-left: 1.4em; }
+.body li { margin: 0 0 0.3em; }
+.body strong { background: linear-gradient(transparent 62%, var(--gold-soft) 62%); font-weight: 700; }
+.body a { color: var(--cta); }
+.body blockquote {
+  margin: 0 0 1.6em; padding: 18px 22px; background: var(--base); border-left: 4px solid var(--bronze);
+  border-radius: 0 10px 10px 0; font-size: 15.5px;
+}
+.body blockquote p:last-child { margin: 0; }
+.body :global(.tableWrap) { overflow-x: auto; margin: 0 0 1.6em; }
+.body table { width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.7; }
+.body th, .body td { border: 1px solid var(--line); padding: 10px 14px; text-align: left; vertical-align: top; }
+.body th { background: var(--beige); font-weight: 700; white-space: nowrap; }
+.body small, .body :global(.source) { font-size: 12.5px; line-height: 1.8; color: var(--sub); margin-top: -0.6em; }
+.body :global(.source) a { color: var(--sub); }
+
+.tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 8px 0 36px; }
+.rows { display: grid; gap: 14px; margin: 8px 0 36px; }
+
+.others { position: sticky; top: 24px; }
+.othersTitle { font-size: 17px; margin: 0 0 12px; }
+.others ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.others a { display: grid; grid-template-columns: 88px 1fr; gap: 12px; align-items: center; text-decoration: none; color: var(--ink); font-size: 14px; font-weight: 700; line-height: 1.5; }
+.others img { width: 88px; height: 60px; object-fit: cover; border-radius: 8px; display: block; }
+.others a:hover span { color: var(--cta); text-decoration: underline; }
+
+.cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.cards a { display: block; background: var(--paper, #fff); border-radius: 14px; overflow: hidden; text-decoration: none; color: var(--ink); box-shadow: 0 0 0 1px rgba(43, 43, 43, 0.07); height: 100%; }
+.cards img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
+.cards strong { display: block; padding: 16px 18px 6px; font-size: 18px; line-height: 1.5; font-family: 'Noto Serif JP', serif; font-weight: 600; }
+.cards span { display: block; padding: 0 18px 18px; font-size: 14px; color: var(--sub); line-height: 1.7; }
+.cards a:hover strong { color: var(--cta); }
+
+@media (max-width: 1080px) {
+  .wrap { grid-template-columns: 1fr; }
+  .others { position: static; }
+  .tiles { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 720px) {
+  .article { padding: 24px 18px 32px; border-radius: 0; margin: 0 -16px; }
+  .body { font-size: 16px; line-height: 1.95; }
+  .body h2 { font-size: 21px; margin-top: 44px; }
+  .body h3 { font-size: 18px; }
+  .tiles, .cards { grid-template-columns: 1fr; }
+}
+.table { margin: 8px 0 36px; }
+.single { max-width: 860px; margin: 0 auto; }

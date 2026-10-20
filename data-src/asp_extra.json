@@ -101,9 +101,9 @@
    "fukugyo",
    "hitori"
   ],
-  "source_type": "A8案件情報のみ（数値未確認）",
+  "source_type": "公式",
   "checked_date": "2026-10-20",
-  "notes": "数値は公式で要確認",
+  "notes": null,
   "exits": [
    {
     "type": "a8",
@@ -118,7 +118,13 @@
     "reward": "新規加盟75,500円",
     "status": "未提携"
    }
-  ]
+  ],
+  "franchise_fee_text": "200万円（個人契約プラン・税抜）。法人契約プランは400万円（税抜）",
+  "initial_investment_text": "200万円（個人契約プランの加盟金。研修費は加盟金に含む・税抜）",
+  "royalty_text": "0円（別途、IBJネットワーク月会費1万5,000円＋カウンセラー1名につき3,800円、会員1名につき新規登録料2,000円・月利用料750円。いずれも税抜）",
+  "deposit_text": "なし",
+  "training_fee_text": "加盟金に含む",
+  "official_fc_url": "https://www.ibjapan.com/kaisetu/reason/capital/"
  },
  {
   "slug": "short-douga-ya",

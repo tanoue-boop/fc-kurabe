@@ -27,7 +27,7 @@ export type Brand = {
   is_own: boolean | null;
   franchise_fee_yen: number | null;
   initial_investment_yen: number | null;
-  royalty: { type: 'rate' | 'fixed' | 'mixed' | 'none' | null; rate: number | null; fixed_yen: number | null };
+  royalty: { type: 'rate' | 'fixed' | 'mixed' | 'none' | 'other' | null; rate: number | null; fixed_yen: number | null };
   fund_band: string | null;
   exits: Exit[];
   monetized: boolean;
@@ -79,6 +79,7 @@ export function royaltyShort(b: Brand) {
   const r = b.royalty;
   if (!r || r.type === null) return null;
   if (r.type === 'none') return 'なし';
+  if (r.type === 'other') return '条件により変動';
   if (r.type === 'rate') return `売上の${r.rate}%`;
   if (r.type === 'fixed') return `定額 ${yen(r.fixed_yen)}`;
   return `${r.rate}%＋${yen(r.fixed_yen)}`;

@@ -149,9 +149,9 @@
    "franchise_fee_yen": 300000,
    "initial_investment_yen": 3918000,
    "royalty": {
-    "type": "none",
+    "type": "fixed",
     "rate": null,
-    "fixed_yen": 0
+    "fixed_yen": 100000
    },
    "fund_band": "300-500",
    "monetized": true
@@ -212,9 +212,9 @@
    "franchise_fee_yen": 330000,
    "initial_investment_yen": 3873002,
    "royalty": {
-    "type": "none",
+    "type": "fixed",
     "rate": null,
-    "fixed_yen": 0
+    "fixed_yen": 66000
    },
    "fund_band": "300-500",
    "monetized": true
@@ -679,20 +679,20 @@
     "fukugyo",
     "hitori"
    ],
-   "franchise_fee_text": "個人開業の場合、加盟金は200万円（税抜）です。（法人：400万円～（税抜）、従業員30名未満の法人：250万円（税抜））",
-   "initial_investment_text": "200万円",
-   "royalty_text": "売上ロイヤリティ0円！",
+   "franchise_fee_text": "200万円（個人契約プラン・税抜）。法人契約プランは400万円（税抜）",
+   "initial_investment_text": "200万円（個人契約プランの加盟金。研修費は加盟金に含む・税抜）",
+   "royalty_text": "0円（別途、IBJネットワーク月会費1万5,000円＋カウンセラー1名につき3,800円、会員1名につき新規登録料2,000円・月利用料750円。いずれも税抜）",
    "contract_term_text": null,
-   "deposit_text": null,
-   "training_fee_text": null,
+   "deposit_text": "なし",
+   "training_fee_text": "加盟金に含む",
    "self_funds_text": "分割払いで自己資金11万円～開業可能。",
    "store_count_text": "4,869社",
    "recruit_area": "全国で募集しています",
    "target": "個人・法人",
-   "official_fc_url": "https://www.ibjapan.com/kaisetu/",
-   "source_type": "A8案件情報のみ（数値未確認）",
+   "official_fc_url": "https://www.ibjapan.com/kaisetu/reason/capital/",
+   "source_type": "公式",
    "checked_date": "2026-10-20",
-   "notes": "数値は公式で要確認",
+   "notes": "BMは開業資金200万円・加盟金null。公式は個人の加盟金200万円（税抜）、初期費用は加盟金のみと記載。加盟社数は公式ページ上で数値未掲載（BM:4,869社）。「無店舗・無在庫で運営」、定年退職後の起業、夫婦・家族で起業の記載あり。",
    "exits": [
     {
      "type": "a8",
@@ -707,7 +707,7 @@
     {
      "type": "official",
      "label": "公式サイト",
-     "url": "https://www.ibjapan.com/kaisetu/"
+     "url": "https://www.ibjapan.com/kaisetu/reason/capital/"
     }
    ],
    "asp_programs": [
@@ -2546,9 +2546,9 @@
    "franchise_fee_yen": null,
    "initial_investment_yen": 3350000,
    "royalty": {
-    "type": "none",
+    "type": "fixed",
     "rate": null,
-    "fixed_yen": 0
+    "fixed_yen": 38500
    },
    "fund_band": "300-500",
    "monetized": true
@@ -2784,9 +2784,9 @@
    "franchise_fee_yen": 1000000,
    "initial_investment_yen": 1000000,
    "royalty": {
-    "type": "none",
+    "type": "fixed",
     "rate": null,
-    "fixed_yen": 0
+    "fixed_yen": 15000
    },
    "fund_band": "under-100",
    "monetized": true
@@ -3086,9 +3086,9 @@
    "franchise_fee_yen": 2000000,
    "initial_investment_yen": 3600000,
    "royalty": {
-    "type": "none",
+    "type": "other",
     "rate": null,
-    "fixed_yen": 0
+    "fixed_yen": null
    },
    "fund_band": "300-500",
    "monetized": true
@@ -4173,9 +4173,9 @@
    "franchise_fee_yen": 2200000,
    "initial_investment_yen": 1500000,
    "royalty": {
-    "type": "none",
+    "type": "fixed",
     "rate": null,
-    "fixed_yen": 0
+    "fixed_yen": 50000
    },
    "fund_band": "100-300",
    "monetized": true
@@ -4903,9 +4903,9 @@
    "franchise_fee_yen": null,
    "initial_investment_yen": null,
    "royalty": {
-    "type": "none",
+    "type": "fixed",
     "rate": null,
-    "fixed_yen": 0
+    "fixed_yen": 55000
    },
    "fund_band": null,
    "monetized": true
@@ -5007,9 +5007,9 @@
    "franchise_fee_yen": null,
    "initial_investment_yen": 1000000,
    "royalty": {
-    "type": "none",
+    "type": "fixed",
     "rate": null,
-    "fixed_yen": 0
+    "fixed_yen": 11000
    },
    "fund_band": "under-100",
    "monetized": true
@@ -5663,9 +5663,9 @@
    "franchise_fee_yen": null,
    "initial_investment_yen": null,
    "royalty": {
-    "type": "none",
+    "type": "fixed",
     "rate": null,
-    "fixed_yen": 0
+    "fixed_yen": 16500
    },
    "fund_band": null,
    "monetized": true
@@ -6527,9 +6527,9 @@
    "franchise_fee_yen": 1200000,
    "initial_investment_yen": 1200000,
    "royalty": {
-    "type": "none",
+    "type": "fixed",
     "rate": null,
-    "fixed_yen": 0
+    "fixed_yen": 50000
    },
    "fund_band": "100-300",
    "monetized": true
@@ -6677,9 +6677,9 @@
    "franchise_fee_yen": 3000000,
    "initial_investment_yen": null,
    "royalty": {
-    "type": "none",
+    "type": "other",
     "rate": null,
-    "fixed_yen": 0
+    "fixed_yen": null
    },
    "fund_band": null,
    "monetized": true
@@ -7020,9 +7020,9 @@
    "franchise_fee_yen": null,
    "initial_investment_yen": 150000,
    "royalty": {
-    "type": "none",
+    "type": "fixed",
     "rate": null,
-    "fixed_yen": 0
+    "fixed_yen": 55000
    },
    "fund_band": "under-100",
    "monetized": true

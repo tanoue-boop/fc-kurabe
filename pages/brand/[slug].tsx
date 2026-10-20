@@ -1,3 +1,6 @@
+import GuideLinks from '../../components/GuideLinks';
+import { guidesFor } from '../../lib/guide';
+import type { GuideMeta } from '../../lib/guide';
 import Link from 'next/link';
 import { useState } from 'react';
 import BrandTable from '../../components/BrandTable';
@@ -9,7 +12,7 @@ import type { Brand, Row } from '../../lib/data';
 import { FUNDS, fundIndex, minorPhoto, yen } from '../../lib/format';
 import s from '../../styles/Brand.module.css';
 
-type Props = { b: Brand; majorName: string; minorPage: boolean; peers: Row[]; tagNames: Record<string, string> };
+type Props = { b: Brand; majorName: string; minorPage: boolean; peers: Row[]; tagNames: Record<string, string>; guides: GuideMeta[] };
 
 function royaltyBig(b: Brand) {
   const r = b.royalty;
@@ -47,7 +50,7 @@ function Simulator({ b }: { b: Brand }) {
   );
 }
 
-export default function BrandPage({ b, majorName, minorPage, peers, tagNames }: Props) {
+export default function BrandPage({ b, majorName, minorPage, peers, tagNames, guides }: Props) {
   const { has, toggle, full } = useCompare();
   const inList = has(b.slug);
   const fi = fundIndex(b.fund_band);
@@ -157,6 +160,7 @@ export default function BrandPage({ b, majorName, minorPage, peers, tagNames }: 
           </section>
 
           <Simulator b={b} />
+          <GuideLinks guides={guides} />
 
           {peers.length > 1 && (
             <section className={s.section} aria-labelledby="peer-h">
@@ -187,5 +191,5 @@ export async function getStaticProps({ params }: { params: { slug: string } }) {
   const minorPage = (minorsOf(b.major).find((m) => m.slug === b.minor)?.count || 0) >= MINOR_MIN;
   const peers = BRANDS.filter((x) => x.minor === b.minor).slice(0, 12).map(toRow);
   if (!peers.some((p) => p.slug === b.slug)) peers.unshift(toRow(b));
-  return { props: { b, majorName: META.majors[b.major], minorPage, peers, tagNames: META.tags } };
+  return { props: { b, majorName: META.majors[b.major], minorPage, peers, tagNames: META.tags, guides: guidesFor(b.minor, b.major) } };
 }
