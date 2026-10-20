@@ -50,7 +50,7 @@ export default function Layout({ title, description, children, crumbs }: Props) 
       <footer className={s.footer}>
         <div className={s.inner}>
           <p>掲載している金額は、各本部の公式ページまたは掲載媒体の表示を確認日時点で転記したものです。最新の条件は必ず各本部の資料・説明会でご確認ください。</p>
-          <p>運営：株式会社mjo-style</p>
+          <p>運営：株式会社mjo</p>
         </div>
       </footer>
     </>
