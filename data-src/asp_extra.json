@@ -69,6 +69,13 @@
     "reward": "資料請求1,000円／説明会参加5,000円／加盟確定300,000円",
     "status": "未提携"
    }
+  ],
+  "exits": [
+   {
+    "type": "a8",
+    "label": "加盟の資料請求・説明会",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4BEL1N+G2RNM+3UHU+BWVTE"
+   }
   ]
  },
  {
@@ -97,7 +104,13 @@
   "source_type": "A8案件情報のみ（数値未確認）",
   "checked_date": "2026-10-20",
   "notes": "数値は公式で要確認",
-  "exits": [],
+  "exits": [
+   {
+    "type": "a8",
+    "label": "加盟の案内を見る",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4BEL1N+M13PE+FOG+4MPSTE"
+   }
+  ],
   "asp_programs": [
    {
     "asp": "A8",
@@ -144,7 +157,13 @@
   "source_type": "A8案件情報のみ（数値未確認）",
   "checked_date": "2026-10-20",
   "notes": "数値は公式で要確認",
-  "exits": [],
+  "exits": [
+   {
+    "type": "a8",
+    "label": "代理店の案内を見る",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4BEL1N+OEU4I+4F7Y+ZQFQA"
+   }
+  ],
   "asp_programs": [
    {
     "asp": "A8",
