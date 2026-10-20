@@ -307,6 +307,17 @@ KEYS = ['company', 'franchise_fee_text', 'initial_investment_text', 'royalty_tex
         'source_type', 'checked_date', 'notes', 'media_values', 'asp_programs', 'is_own']
 
 
+# A8経由のリンク。BMは本部ごとの個別ページへ直接飛ばす（A8の規約でbmfc.b-mall.ne.jp内は自由に指定できる）
+A8_BM = '4BEL1N+2BM+37I2+BW0YB'
+# 提携申請中で、まだリンクがないA8案件（承認されたらasp_extra.jsonにa8の出口を足す）
+A8_PENDING = {'fireworks', 'short-douga-ya'}
+
+
+def a8_deep(mat, url):
+    from urllib.parse import quote
+    return f'https://px.a8.net/svt/ejp?a8mat={mat}&a8ejpredirect={quote(url, safe="")}'
+
+
 def finalize(rows):
     seen = set()
     for r in rows:
@@ -328,8 +339,12 @@ def finalize(rows):
             r['exits'].append({'type': 'official', 'label': '公式サイト', 'url': r['official_fc_url']})
         order = {'own': 0, 'a8': 1, 'bm': 2, 'official': 3}
         r['exits'].sort(key=lambda x: order.get(x['type'], 9))
+        for x in r['exits']:
+            if x['type'] == 'bm' and 'px.a8.net' not in x['url']:
+                x['url'] = a8_deep(A8_BM, x['url'])
         r['monetized'] = any(x['type'] in ('own', 'a8', 'bm') for x in r['exits'])
-    return rows
+    # 収益の出口がない本部は載せない
+    return [r for r in rows if r['monetized'] or r['slug'] in A8_PENDING]
 
 
 def main():
