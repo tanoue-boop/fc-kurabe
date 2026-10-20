@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import BrandTable from '../../components/BrandTable';
+import BrandList from '../../components/BrandList';
 import Layout, { PageHead } from '../../components/Layout';
 import { BRANDS, META, toRow } from '../../lib/data';
 import type { Row } from '../../lib/data';
@@ -26,7 +26,7 @@ export default function TagPage({ tag, name, rows, others }: { tag: string; name
       description={`${heading(tag, name)}${rows.length}件を、開業資金・加盟金・ロイヤリティで比べられます。`}
       crumbs={[{ href: '/tag/', label: '条件から探す' }, { href: `/tag/${tag}/`, label: name }]}
     >
-      <PageHead title={heading(tag, name)} lead={`「${name}」に当てはまる本部${rows.length}件を、開業資金・加盟金・ロイヤリティで比べられます。`} />
+      <PageHead photo="/img/hero.jpg" title={heading(tag, name)} lead={`「${name}」に当てはまる本部${rows.length}件を、開業資金・加盟金・ロイヤリティで比べられます。`} />
       <nav className={s.subNav} aria-label="ほかの条件">
         <p className={s.subNavLabel}>ほかの条件</p>
         <ul className={s.chips}>
@@ -39,7 +39,7 @@ export default function TagPage({ tag, name, rows, others }: { tag: string; name
           ))}
         </ul>
       </nav>
-      <BrandTable rows={rows} />
+      <BrandList rows={rows} />
     </Layout>
   );
 }

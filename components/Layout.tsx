@@ -48,10 +48,8 @@ export default function Layout({ title, description, children, crumbs }: Props) 
       <header className={s.header}>
         <div className={s.headInner}>
           <Link href="/" className={s.logo} aria-label={`${SITE_NAME} トップへ`}>
-            <span className={s.mark} aria-hidden="true">
-              <i /><i /><i />
-            </span>
             {SITE_NAME}
+            <span className={s.tagline}>フランチャイズ・独立開業の比較サイト</span>
           </Link>
           <nav className={s.nav} aria-label="サイト内メニュー">
             {NAV.map((n) => (
@@ -97,8 +95,22 @@ export default function Layout({ title, description, children, crumbs }: Props) 
   );
 }
 
-// 各ページの見出し部分（PR表記・H1・説明文）
-export function PageHead({ title, lead, children }: { title: string; lead?: ReactNode; children?: ReactNode }) {
+// 各ページの見出し部分（PR表記・H1・説明文）。photo を渡すと写真の帯の上に見出しを置く
+export function PageHead({ title, lead, children, photo }: { title: string; lead?: ReactNode; children?: ReactNode; photo?: string }) {
+  if (photo) {
+    return (
+      <div className={s.photoHead}>
+        <img src={photo} alt="" width={1536} height={1024} />
+        <div className={s.photoShade} />
+        <div className={s.photoText}>
+          <p className={s.prLight}>PR</p>
+          <h1 className={s.h1}>{title}</h1>
+          {lead && <p className={s.lead}>{lead}</p>}
+        </div>
+        {children && <div className={s.photoExtra}>{children}</div>}
+      </div>
+    );
+  }
   return (
     <div className={s.pageHead}>
       <p className={s.pr}>PR</p>

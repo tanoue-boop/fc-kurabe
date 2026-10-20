@@ -10,7 +10,7 @@ export default function TagIndex({ tags }: { tags: { slug: string; name: string;
       description="副業から、未経験から、1人で、無店舗・自宅で、など、働き方や始め方の条件でフランチャイズ本部を探せます。"
       crumbs={[{ href: '/tag/', label: '条件から探す' }]}
     >
-      <PageHead title="こだわり条件からフランチャイズを探す" lead="働き方や始め方の条件ごとに、当てはまる本部をまとめています。" />
+      <PageHead photo="/img/hero.jpg" title="こだわり条件からフランチャイズを探す" lead="働き方や始め方の条件ごとに、当てはまる本部をまとめています。" />
       <ul className={s.tagList}>
         {tags.map((t) => (
           <li key={t.slug}>

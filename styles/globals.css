@@ -1,20 +1,29 @@
 :root {
-  --ink: #1d2b2a;
-  --sub: #5b6b67;
-  --line: #d5dfdb;
+  /* 配色（姉妹サイト「カラダコンパス」と同系統） */
+  --ink: #2b2b2b;
+  --sub: #6b645c;
+  --line: #e3ddd3;
   --paper: #ffffff;
-  --surface: #eef3f1;
-  --accent: #1e6b5c;
-  --accent-ink: #154d42;
-  --accent-soft: #dcebe6;
-  /* 資金メーターの5段階（資金が大きいほど濃い） */
-  --m1: #b9dbd1;
-  --m2: #8cc3b4;
-  --m3: #5ea795;
-  --m4: #398876;
-  --m5: #1e6b5c;
-  --radius: 6px;
-  --wrap: 1120px;
+  --base: #faf9f6;      /* ページの背景 */
+  --beige: #f0ece4;     /* セクションの切り替え */
+  --bronze: #a1774e;    /* 罫線・リンク・小見出し */
+  --bronze-ink: #7d5a37;
+  --cta: #9b5039;       /* 行動ボタン（資料請求・詳しく見る）だけに使う */
+  --cta-ink: #7e3f2c;
+  --hi: #e8dccb;        /* 重要な数字・選択中の背景 */
+  --gold: #e2ae45;      /* 見出しのマーカー・数字の強調 */
+  --gold-soft: #f7e6bf;
+  --radius: 4px;
+  --wrap: 1160px;
+  /* 旧変数名の受け皿 */
+  --accent: var(--bronze);
+  --accent-ink: var(--bronze-ink);
+  --accent-soft: var(--hi);
+  --surface: var(--beige);
+  --bg-soft: var(--base);
+  --warm: var(--cta);
+  --warm-soft: var(--hi);
+  --warm-ink: var(--cta-ink);
 }
 
 * { box-sizing: border-box; }
@@ -23,16 +32,21 @@ html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
-  background: var(--paper);
+  background: var(--base);
   color: var(--ink);
-  font-family: 'BIZ UDPGothic', 'Hiragino Sans', 'Noto Sans JP', system-ui, sans-serif;
+  font-family: 'Noto Sans JP', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', Meiryo, system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.8;
   font-feature-settings: "palt" 1;
+  font-size: 15px;
+  line-height: 1.85;
   overflow-x: clip;
 }
 
-h1, h2, h3 { line-height: 1.45; font-weight: 700; }
+h1, h2, h3 {
+  font-family: 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  line-height: 1.45; font-weight: 600; letter-spacing: 0.02em;
+}
 
 /* 日本語を文節で折り返す（対応ブラウザのみ） */
 h1, h2, h3, p, li, dt, dd, th, td, legend, label { word-break: auto-phrase; }
@@ -42,7 +56,7 @@ a:hover { color: var(--accent-ink); }
 
 button, input, select { font: inherit; color: inherit; }
 
-:focus-visible { outline: 3px solid #e3a33b; outline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--cta); outline-offset: 2px; }
 
 .num { font-variant-numeric: tabular-nums; font-feature-settings: 'tnum' 1; }
 

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Layout, { PageHead } from '../../components/Layout';
-import MajorIcon from '../../components/MajorIcon';
 import { BRANDS, MINOR_MIN, majorsWithCount, minorsOf } from '../../lib/data';
+import { majorPhoto } from '../../lib/format';
 import s from '../../styles/List.module.css';
 
 type M = { slug: string; name: string; count: number; minors: { slug: string; name: string; count: number }[] };
@@ -18,7 +18,7 @@ export default function GyoshuIndex({ majors, total }: { majors: M[]; total: num
         {majors.map((m) => (
           <li key={m.slug} className={s.major}>
             <Link href={`/gyoshu/${m.slug}/`} className={s.majorHead}>
-              <span className={s.majorIcon}><MajorIcon major={m.slug} /></span>
+              <img src={majorPhoto(m.slug)} alt="" loading="lazy" width={480} height={320} />
               <span className={s.majorName}>{m.name}</span>
               <span className={s.majorCount}><span className="num">{m.count}</span>本部</span>
             </Link>

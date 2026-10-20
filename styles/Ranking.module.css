@@ -1,7 +1,7 @@
-.jump { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.jump { display: flex; flex-wrap: wrap; gap: 8px; }
 .jump a {
-  font-size: 14px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--line);
-  color: var(--ink); text-decoration: none;
+  font-size: 14px; padding: 6px 14px; border-radius: 999px; background: rgba(255, 255, 255, 0.94);
+  color: var(--ink); text-decoration: none; font-weight: 700;
 }
 .jump a:hover { border-color: var(--accent); color: var(--accent); }
 
@@ -9,7 +9,8 @@
 .h2 { font-size: 22px; margin: 0; }
 .lead { font-size: 14px; color: var(--sub); margin: 6px 0 16px; }
 
-.list { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+.list { list-style: none; margin: 0; padding: 4px 20px; background: var(--paper); border-radius: 14px; box-shadow: 0 0 0 1px rgba(29, 43, 42, 0.06); }
+.item:last-child { border-bottom: 0; }
 .item { display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
 .plain .item { grid-template-columns: minmax(0, 1fr) auto; }
 .rank { font-size: 22px; font-weight: 700; color: var(--sub); text-align: center; }
