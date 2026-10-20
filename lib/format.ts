@@ -56,9 +56,7 @@ export const MAJOR_PHOTO: Record<string, string> = {
   business: 'other',
 };
 // 本部が多い業種は写真を複数用意し、本部ごとに振り分ける（同じ写真が続かないように）
-export const PHOTO_VARIANTS: Record<string, number> = {
-  pilates: 3, other: 3, restaurant: 3, juku: 2, 'house-cleaning': 2, benriya: 2, kaitori: 2,
-};
+export const PHOTO_VARIANTS: Record<string, number> = { pilates: 3, other: 3, restaurant: 3, juku: 2, 'house-cleaning': 2, benriya: 2, kaitori: 2 };
 function hash(s: string) {
   let h = 0;
   for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;

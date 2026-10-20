@@ -148,7 +148,7 @@ export default function Home({ rows, majors, fundCounts, tags, featured, sample,
         <h2 id="worry-h" className={s.worryH}>本部選びで、こんな迷いはありませんか？</h2>
         <ul className={s.worryList}>
           <li>
-            <img src={minorPhoto('other-3')} alt="" loading="lazy" width={240} height={240} />
+            <img src="/img/gyoshu/other-3.jpg" alt="" loading="lazy" width={240} height={240} />
             <p>資料を取り寄せても、<b>本部ごとに金額の書き方がバラバラ</b>で比べにくい</p>
           </li>
           <li>
@@ -338,7 +338,7 @@ export default function Home({ rows, majors, fundCounts, tags, featured, sample,
         </div>
         <ul className={s.rankLinks}>
           <li><Link href="/ranking/#ini"><img src={minorPhoto('takeout')} alt="" loading="lazy" width={480} height={320} /><strong>開業資金が低い順</strong><span>少ない資金で始められる本部</span></Link></li>
-          <li><Link href="/ranking/#roy"><img src={minorPhoto('juku-2')} alt="" loading="lazy" width={480} height={320} /><strong>ロイヤリティ率が低い順</strong><span>売上から払う割合が小さい本部</span></Link></li>
+          <li><Link href="/ranking/#roy"><img src="/img/gyoshu/juku-2.jpg" alt="" loading="lazy" width={480} height={320} /><strong>ロイヤリティ率が低い順</strong><span>売上から払う割合が小さい本部</span></Link></li>
           <li><Link href="/ranking/#roy0"><img src={minorPhoto('benriya')} alt="" loading="lazy" width={480} height={320} /><strong>ロイヤリティなしの本部</strong><span>毎月のロイヤリティがかからない本部</span></Link></li>
         </ul>
       </section>
