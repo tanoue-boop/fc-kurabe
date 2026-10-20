@@ -29,7 +29,8 @@
 .body table { width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.7; }
 .body th, .body td { border: 1px solid var(--line); padding: 10px 14px; text-align: left; vertical-align: top; }
 .body th { background: var(--beige); font-weight: 700; white-space: nowrap; }
-.body small, .body :global(.source) { font-size: 13px; color: var(--sub); }
+.body small, .body :global(.source) { font-size: 12.5px; line-height: 1.8; color: var(--sub); margin-top: -0.6em; }
+.body :global(.source) a { color: var(--sub); }
 
 .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 8px 0 36px; }
 .rows { display: grid; gap: 14px; margin: 8px 0 36px; }
@@ -61,3 +62,4 @@
   .tiles, .cards { grid-template-columns: 1fr; }
 }
 .table { margin: 8px 0 36px; }
+.single { max-width: 860px; margin: 0 auto; }

@@ -16,7 +16,7 @@ export default function GuidePage({ meta, blocks, toc, others }: Props) {
       crumbs={[{ href: '/guide/', label: '開業ガイド' }, { href: `/guide/${meta.slug}/`, label: meta.title }]}
     >
       <PageHead photo={meta.photo} title={meta.title} lead={meta.lead} />
-      <div className={s.wrap}>
+      <div className={others.length ? s.wrap : s.single}>
         <article className={s.article}>
           <p className={s.updated}>最終更新 {meta.updated.replace(/-/g, '.')}</p>
           {toc.length > 2 && (

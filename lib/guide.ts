@@ -99,6 +99,10 @@ export function loadGuide(slug: string) {
     const rows = token.rows.map((r) => `<tr>${r.map((c) => `<td>${marked.Parser.parseInline(c.tokens)}</td>`).join('')}</tr>`).join('');
     return `<div class="tableWrap"><table><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div>`;
   };
+  renderer.paragraph = ({ tokens }) => {
+    const html = marked.Parser.parseInline(tokens);
+    return html.startsWith('出典：') ? `<p class="source">${html}</p>\n` : `<p>${html}</p>\n`;
+  };
   const blocks: Block[] = [];
   const parts = body.split(/^\[\[(brands?|table)\s+([^\]]*)\]\]\s*$/m);
   // split の結果は [md, kind, arg, md, kind, arg, md ...]

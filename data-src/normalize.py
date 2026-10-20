@@ -131,8 +131,10 @@ def parse_royalty(text):
     if not text or not isinstance(text, str):
         return {'type': None, 'rate': None, 'fixed_yen': None}
     t = z2h(text)
-    if re.search(r'(ロイヤリティ.?無し|ロイヤリティー無し|^0円$|^0$|^なし|^無し|ありません|一切なし|0円)', t) and '%' not in t:
+    if re.search(r'(ロイヤリティ.?無し|ロイヤリティー無し|^0円$|^0$|^なし|^無し|ありません|一切なし|(?<![0-9,])0円)', t) and '%' not in t:
         return {'type': 'none', 'rate': None, 'fixed_yen': 0}
+    if re.search(r'(×|あたり|坪)', t):  # 席数・坪数などで変わるものは数字1つにまとめない
+        return {'type': 'other', 'rate': None, 'fixed_yen': None}
     rate = re.search(r'([0-9]+(?:\.[0-9]+)?)\s*[%％]', t)
     fixed = parse_yen(t) if re.search(r'(円|万)', t) else None
     if rate and fixed:
