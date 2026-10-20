@@ -3,21 +3,17 @@
   max-width: var(--wrap); margin: 0 auto; padding: 0 16px; min-height: 64px;
   display: flex; align-items: center; justify-content: space-between; gap: 24px;
 }
-.logo { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 20px; color: var(--ink); text-decoration: none; letter-spacing: 0.02em; }
+.logo { display: inline-flex; align-items: baseline; gap: 14px; font-family: 'Noto Serif JP', serif; font-weight: 700; font-size: 21px; color: var(--ink); text-decoration: none; letter-spacing: 0.04em; }
 .logo:hover { color: var(--ink); }
-/* ロゴの印：資金メーターと同じ3段の棒 */
-.mark { display: inline-flex; align-items: flex-end; gap: 2px; height: 20px; }
-.mark i { display: block; width: 6px; border-radius: 1px; }
-.mark i:nth-child(1) { height: 8px; background: var(--m2); }
-.mark i:nth-child(2) { height: 14px; background: var(--m3); }
-.mark i:nth-child(3) { height: 20px; background: var(--m5); }
+.tagline { font-family: 'Noto Sans JP', sans-serif; font-weight: 400; font-size: 11px; color: var(--sub); letter-spacing: 0.02em; }
 
 .nav { display: flex; align-items: center; gap: 4px; font-size: 14px; }
 .nav a { color: var(--ink); text-decoration: none; padding: 8px 10px; border-radius: var(--radius); white-space: nowrap; }
 .nav a:hover { background: var(--surface); color: var(--ink); }
-.nav a[aria-current='page'] { color: var(--accent); font-weight: 700; }
-.compareLink { border: 1px solid var(--line); margin-left: 6px; display: inline-flex; align-items: center; gap: 6px; }
-.badge { background: var(--accent); color: #fff; font-size: 12px; min-width: 20px; height: 20px; border-radius: 10px; display: inline-grid; place-items: center; padding: 0 6px; }
+.nav a[aria-current='page'] { color: var(--bronze); }
+.nav a.compareLink { background: var(--ink); color: #fff; margin-left: 10px; display: inline-flex; align-items: center; gap: 6px; padding: 9px 18px; border-radius: var(--radius); font-weight: 500; }
+.nav a.compareLink:hover { background: #000; color: #fff; }
+.badge { background: var(--cta); color: #fff; font-size: 12px; min-width: 20px; height: 20px; border-radius: 10px; display: inline-grid; place-items: center; padding: 0 6px; }
 
 .main { max-width: var(--wrap); margin: 0 auto; padding: 20px 16px 80px; }
 
@@ -33,13 +29,13 @@
 .h1 { font-size: 30px; margin: 0; max-width: 32em; }
 .lead { margin: 12px 0 0; color: var(--sub); max-width: 46em; }
 
-.footer { background: var(--ink); color: #c9d6d2; font-size: 13px; }
+.footer { background: var(--ink); color: #cfc8bd; font-size: 13px; }
 .footInner {
   max-width: var(--wrap); margin: 0 auto; padding: 40px 16px 32px;
   display: grid; grid-template-columns: 1fr 1fr; gap: 20px 48px;
 }
 .footBrand p { margin: 0; }
-.footLogo { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 6px !important; }
+.footLogo { font-family: 'Noto Serif JP', serif; font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 6px !important; }
 .footNav { display: flex; flex-wrap: wrap; gap: 6px 20px; align-content: flex-start; }
 .footNav a { color: #fff; }
 .footNote { grid-column: 1 / -1; margin: 8px 0 0; padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, 0.15); max-width: 60em; }
@@ -69,3 +65,4 @@
   .photoText { padding: 60px 18px 20px; }
   .photoExtra { padding: 0 18px 18px; }
 }
+@media (max-width: 720px) { .tagline { display: none; } }

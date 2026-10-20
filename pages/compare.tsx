@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useMemo, useState } from 'react';
-import FundMeter from '../components/FundMeter';
 import Layout, { PageHead } from '../components/Layout';
 import { COMPARE_MAX, useCompare } from '../lib/compare';
 import { BRANDS, toRow } from '../lib/data';
@@ -37,7 +36,7 @@ export default function Compare({ rows }: { rows: Row[] }) {
     ['開業資金', (r) => (
       <>
         <strong className="num">{yen(r.ini) ?? '—'}</strong>
-        <span className={s.meter}><FundMeter band={r.fund} /></span>
+        
       </>
     )],
     ['加盟金', (r) => <strong className="num">{yen(r.fee) ?? '—'}</strong>],

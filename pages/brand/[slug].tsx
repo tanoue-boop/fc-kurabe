@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { useState } from 'react';
 import BrandTable from '../../components/BrandTable';
 import ExitButton from '../../components/ExitButton';
-import FundMeter from '../../components/FundMeter';
 import Layout from '../../components/Layout';
 import { useCompare } from '../../lib/compare';
 import { BRANDS, META, MINOR_MIN, minorsOf, toRow } from '../../lib/data';
@@ -123,7 +122,6 @@ export default function BrandPage({ b, majorName, minorPage, peers, tagNames }: 
               <dd>
                 <strong className="num">{yen(b.initial_investment_yen) ?? '—'}</strong>
                 <span className={s.band}>
-                  <FundMeter band={b.fund_band} size="md" />
                   {fi >= 0 ? FUNDS[fi].name : '資金帯は未確認'}
                 </span>
               </dd>

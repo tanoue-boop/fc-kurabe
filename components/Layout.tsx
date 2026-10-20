@@ -48,10 +48,8 @@ export default function Layout({ title, description, children, crumbs }: Props) 
       <header className={s.header}>
         <div className={s.headInner}>
           <Link href="/" className={s.logo} aria-label={`${SITE_NAME} トップへ`}>
-            <span className={s.mark} aria-hidden="true">
-              <i /><i /><i />
-            </span>
             {SITE_NAME}
+            <span className={s.tagline}>フランチャイズ・独立開業の比較サイト</span>
           </Link>
           <nav className={s.nav} aria-label="サイト内メニュー">
             {NAV.map((n) => (

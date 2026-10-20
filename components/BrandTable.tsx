@@ -4,7 +4,6 @@ import { useCompare } from '../lib/compare';
 import type { Row } from '../lib/data';
 import { yen } from '../lib/format';
 import s from '../styles/Table.module.css';
-import FundMeter from './FundMeter';
 
 type SortKey = 'default' | 'ini' | 'fee' | 'roy';
 
@@ -82,7 +81,6 @@ export default function BrandTable({ rows, initialSort = 'default', current, hid
                 </td>
                 <td className={s.money} data-label="開業資金">
                   <span className="num">{yen(r.ini) ?? '—'}</span>
-                  <FundMeter band={r.fund} />
                 </td>
                 <td className={s.cell} data-label="加盟金"><span className="num">{yen(r.fee) ?? '—'}</span></td>
                 <td className={s.cell} data-label="ロイヤリティ">{r.roy ?? '—'}</td>

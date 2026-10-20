@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import FundMeter from '../../components/FundMeter';
 import Layout, { PageHead } from '../../components/Layout';
 import { BRANDS, royaltyShort, toRow } from '../../lib/data';
 import type { Row } from '../../lib/data';
@@ -21,7 +20,6 @@ function RankList({ rows, value, numbered = true }: { rows: Row[]; value: (r: Ro
           </span>
           <span className={s.value}>
             <strong className="num">{value(r)}</strong>
-            <FundMeter band={r.fund} />
           </span>
         </li>
       ))}
