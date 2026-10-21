@@ -482,7 +482,7 @@
    },
    "fund_band": "500-1000",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/hajimetenotakkyu.jpg"
   },
   {
    "slug": "totalrepair",
@@ -634,7 +634,7 @@
    },
    "fund_band": "100-300",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/migiudesystem.jpg"
   },
   {
    "slug": "24sweetsshop",
@@ -955,7 +955,7 @@
    },
    "fund_band": "100-300",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/rikyuu.jpg"
   },
   {
    "slug": "tryplus",
@@ -1410,7 +1410,7 @@
    },
    "fund_band": "300-500",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/eyebrowsalon.jpg"
   },
   {
    "slug": "kaitorisenka",
@@ -1815,7 +1815,7 @@
    },
    "fund_band": null,
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/familymart2.jpg"
   },
   {
    "slug": "selmo",
@@ -1910,7 +1910,7 @@
    },
    "fund_band": "500-1000",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/bupura.jpg"
   },
   {
    "slug": "pdcadoctor",
@@ -5015,7 +5015,7 @@
    },
    "fund_band": null,
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/codecamp.jpg"
   },
   {
    "slug": "logipic",
@@ -5225,7 +5225,7 @@
    },
    "fund_band": "100-300",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/haku.jpg"
   },
   {
    "slug": "keikamotsu",
