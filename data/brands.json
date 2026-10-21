@@ -5172,7 +5172,7 @@
    },
    "fund_band": "500-1000",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/spicekenkyusho.jpg"
   },
   {
    "slug": "haku",
@@ -5645,7 +5645,7 @@
    },
    "fund_band": null,
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/imasugumohuku.jpg"
   },
   {
    "slug": "sumitas",
@@ -6417,7 +6417,7 @@
    },
    "fund_band": "300-500",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/jack.jpg"
   },
   {
    "slug": "marabiyori",
@@ -7379,7 +7379,7 @@
    },
    "fund_band": "over-1000",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/PRT.jpg"
   },
   {
    "slug": "runsystem",
@@ -7630,7 +7630,7 @@
    },
    "fund_band": null,
    "monetized": false,
-   "photo": null
+   "photo": "/img/brand/short-douga-ya.jpg"
   },
   {
    "slug": "aron-furogama",
