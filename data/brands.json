@@ -1162,7 +1162,7 @@
    },
    "fund_band": "100-300",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/buyup.jpg"
   },
   {
    "slug": "axis",
@@ -4373,7 +4373,7 @@
    },
    "fund_band": "under-100",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/artkyoshitsu.jpg"
   },
   {
    "slug": "WORLDREPAIR",
@@ -4669,7 +4669,7 @@
    },
    "fund_band": "100-300",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/oriongyoza.jpg"
   },
   {
    "slug": "ordersuitnoah",
@@ -4720,7 +4720,7 @@
    },
    "fund_band": "under-100",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/ordersuitnoah.jpg"
   },
   {
    "slug": "kisshouan",
@@ -4813,7 +4813,7 @@
    },
    "fund_band": "100-300",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/bullpulu.jpg"
   },
   {
    "slug": "yakitoridaikichi",
@@ -7328,7 +7328,7 @@
    },
    "fund_band": "500-1000",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/DiP.jpg"
   },
   {
    "slug": "PRT",
@@ -7431,7 +7431,7 @@
    },
    "fund_band": "over-1000",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/runsystem.jpg"
   },
   {
    "slug": "golfp",
@@ -7480,7 +7480,7 @@
    },
    "fund_band": null,
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/golfp.jpg"
   },
   {
    "slug": "t-elan",
