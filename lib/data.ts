@@ -29,6 +29,7 @@ export type Brand = {
   initial_investment_yen: number | null;
   royalty: { type: 'rate' | 'fixed' | 'mixed' | 'none' | 'other' | null; rate: number | null; fixed_yen: number | null };
   fund_band: string | null;
+  photo: string | null;
   exits: Exit[];
   monetized: boolean;
 };
@@ -102,6 +103,7 @@ export function toRow(b: Brand) {
     term: b.contract_term_text,
     fund: b.fund_band,
     own: !!b.is_own,
+    photo: b.photo ?? null,
     // 資料請求・問い合わせの窓口がある（公式サイトへのリンクだけではない）
     req: b.exits.some((e) => e.type !== 'official'),
   };
