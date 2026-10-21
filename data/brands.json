@@ -3982,7 +3982,7 @@
    },
    "fund_band": "100-300",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/caurus.jpg"
   },
   {
    "slug": "restaurant",
@@ -4026,7 +4026,7 @@
    },
    "fund_band": "over-1000",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/restaurant.jpg"
   },
   {
    "slug": "yamashitahonki",
@@ -4175,7 +4175,7 @@
    },
    "fund_band": "over-1000",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/zealboxingfitness.jpg"
   },
   {
    "slug": "nel",
@@ -4221,7 +4221,7 @@
    },
    "fund_band": "300-500",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/nel.jpg"
   },
   {
    "slug": "misssherlock",
@@ -4321,7 +4321,7 @@
    },
    "fund_band": "over-1000",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/osakashonin.jpg"
   },
   {
    "slug": "artkyoshitsu",
@@ -4525,7 +4525,7 @@
    },
    "fund_band": "over-1000",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/osakaohsho.jpg"
   },
   {
    "slug": "takagicoffee",
@@ -6882,7 +6882,7 @@
    },
    "fund_band": "100-300",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/assistone.jpg"
   },
   {
    "slug": "tomatomen",
@@ -7124,7 +7124,7 @@
    },
    "fund_band": "300-500",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/isdog.jpg"
   },
   {
    "slug": "hajimaru",
@@ -7179,7 +7179,7 @@
    },
    "fund_band": "under-100",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/hajimaru.jpg"
   },
   {
    "slug": "tradingcardshoplamb",
@@ -7228,7 +7228,7 @@
    },
    "fund_band": "300-500",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/tradingcardshoplamb.jpg"
   },
   {
    "slug": "ichiryu2",
