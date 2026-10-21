@@ -87,7 +87,13 @@
     "reward": "説明会参加20,000円",
     "status": "未提携"
    }
-  ]
+  ],
+  "brand": "アールクリーニング（FireWorks）",
+  "company": "株式会社Fire Works",
+  "official_fc_url": "https://r-cleaning.com/vacancies/",
+  "source_type": "公式（金額の記載なし）",
+  "checked_date": "2026-10-21",
+  "notes": null
  },
  {
   "slug": "ibj",
@@ -161,7 +167,7 @@
   "tags": [],
   "initial_investment_text": "20万円（A8案件名「20万でスタートできる」より）",
   "source_type": "A8案件情報のみ（数値未確認）",
-  "checked_date": "2026-10-20",
+  "checked_date": "2026-10-21",
   "notes": "数値は公式で要確認",
   "exits": [
    {
@@ -177,6 +183,7 @@
     "reward": "新規加盟契約10,000円",
     "status": "未提携"
    }
-  ]
+  ],
+  "official_fc_url": "https://kireiyu.com/corporate/recruit.php"
  }
 ]

@@ -221,8 +221,8 @@
   },
   {
    "slug": "fireworks",
-   "brand": "FireWorks",
-   "company": "株式会社FireWorks",
+   "brand": "アールクリーニング（FireWorks）",
+   "company": "株式会社Fire Works",
    "major": "life-service",
    "minor": "house-cleaning",
    "minor_name": "ハウスクリーニング",
@@ -238,9 +238,9 @@
    "store_count_text": null,
    "recruit_area": null,
    "target": null,
-   "official_fc_url": null,
-   "source_type": "媒体",
-   "checked_date": "2026-10-20",
+   "official_fc_url": "https://r-cleaning.com/vacancies/",
+   "source_type": "公式（金額の記載なし）",
+   "checked_date": "2026-10-21",
    "notes": "本部の公式FC募集ページは見つからなかった。見出しは「初期費用0円」だが、開業資金の目安は約18〜36万円と記載されている",
    "media_values": {
     "出典URL": "https://strate.biz/fire-works/",
@@ -250,7 +250,13 @@
     "initial_investment": "未経験者 約36万円（研修費7日間込み）／経験者（6ヶ月以上）約18万円（研修費3日間込み）。車両は自己負担",
     "training_days": "未経験7日間／経験者3日間"
    },
-   "exits": [],
+   "exits": [
+    {
+     "type": "official",
+     "label": "公式サイト",
+     "url": "https://r-cleaning.com/vacancies/"
+    }
+   ],
    "asp_programs": [
     {
      "asp": "A8",
@@ -7481,13 +7487,18 @@
    ],
    "initial_investment_text": "20万円（A8案件名「20万でスタートできる」より）",
    "source_type": "A8案件情報のみ（数値未確認）",
-   "checked_date": "2026-10-20",
+   "checked_date": "2026-10-21",
    "notes": "数値は公式で要確認",
    "exits": [
     {
      "type": "a8",
      "label": "代理店の案内を見る",
      "url": "https://px.a8.net/svt/ejp?a8mat=4BEL1N+OEU4I+4F7Y+ZQFQA"
+    },
+    {
+     "type": "official",
+     "label": "公式サイト",
+     "url": "https://kireiyu.com/corporate/recruit.php"
     }
    ],
    "asp_programs": [
@@ -7498,6 +7509,7 @@
      "status": "未提携"
     }
    ],
+   "official_fc_url": "https://kireiyu.com/corporate/recruit.php",
    "franchise_fee_text": null,
    "royalty_text": null,
    "contract_term_text": null,
@@ -7507,7 +7519,6 @@
    "store_count_text": null,
    "recruit_area": null,
    "target": null,
-   "official_fc_url": null,
    "media_values": null,
    "is_own": null,
    "franchise_fee_yen": null,
