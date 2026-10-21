@@ -1,0 +1,23 @@
+# 開業ガイドの執筆キュー
+
+上から順に1本ずつ書く。書き終えたら行頭を「- [x]」にし、公開日とURLを書き足す。
+狙いのKWは Googleキーワードプランナー（2026-10-20）の月間検索数レンジ。
+
+- [x] ハウスクリーニング 開業（100〜1,000）… /guide/house-cleaning/（2026-10-20）
+- [x] 結婚相談所 開業（100〜1,000）… /guide/marriage/（2026-10-20）
+- [ ] 学習塾 フランチャイズ／塾 開業（100〜1,000）… slug: juku ／ minor: juku
+- [ ] 買取 フランチャイズ／買取店 開業（100〜1,000）… slug: kaitori ／ minor: kaitori
+- [ ] 飲食店 フランチャイズ（100〜1,000）… slug: restaurant ／ minor: restaurant
+- [ ] カフェ 開業（1,000〜1万）… slug: cafe ／ minor: cafe
+- [ ] ラーメン フランチャイズ（100〜1,000）… slug: ramen ／ minor: ramen
+- [ ] テイクアウト・弁当・移動販売の開業（からあげ フランチャイズ 10〜100 など）… slug: takeout ／ minor: takeout
+- [ ] 美容室・エステサロンの開業（各100〜1,000）… slug: beauty ／ minor: beauty
+- [ ] 介護 フランチャイズ／デイサービス 開業（100〜1,000）… slug: care ／ minor: care
+- [ ] パーソナルジム フランチャイズ（100〜1,000）… slug: gym ／ minor: gym
+- [ ] リフォーム フランチャイズ（100〜1,000）… slug: reform ／ minor: reform
+- [ ] 整体院 開業（100〜1,000）… slug: seitai ／ minor: seitai
+- [ ] 不動産 フランチャイズ（100〜1,000）… slug: real-estate ／ minor: real-estate
+- [ ] 探偵 開業（100〜1,000）… slug: detective ／ minor: detective
+- [ ] スイーツ・パン屋の開業 … slug: sweets ／ minor: sweets
+- [ ] 自動車関連（車買取・コーティング等）の開業 … slug: car ／ minor: car
+- [ ] 子ども向けスクール・教室の開業（プログラミング教室 フランチャイズ 10〜100 など）… slug: school ／ minor: school,kids
