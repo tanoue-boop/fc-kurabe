@@ -226,11 +226,14 @@
    "major": "life-service",
    "minor": "house-cleaning",
    "minor_name": "ハウスクリーニング",
-   "contract_type": "フランチャイズ（媒体記載）",
-   "tags": [],
-   "franchise_fee_text": null,
+   "contract_type": "加盟店",
+   "tags": [
+    "mikeiken",
+    "fukugyo"
+   ],
+   "franchise_fee_text": "0円（A8の案件情報「加盟金&ロイヤリティ0円」より）",
    "initial_investment_text": null,
-   "royalty_text": null,
+   "royalty_text": "0円（A8の案件情報より）",
    "contract_term_text": null,
    "deposit_text": null,
    "training_fee_text": null,
@@ -239,7 +242,7 @@
    "recruit_area": null,
    "target": null,
    "official_fc_url": "https://r-cleaning.com/vacancies/",
-   "source_type": "公式（金額の記載なし）",
+   "source_type": "A8の案件情報",
    "checked_date": "2026-10-21",
    "notes": "本部の公式FC募集ページは見つからなかった。見出しは「初期費用0円」だが、開業資金の目安は約18〜36万円と記載されている",
    "media_values": {
@@ -266,12 +269,12 @@
     }
    ],
    "is_own": null,
-   "franchise_fee_yen": null,
+   "franchise_fee_yen": 0,
    "initial_investment_yen": null,
    "royalty": {
-    "type": null,
+    "type": "none",
     "rate": null,
-    "fixed_yen": null
+    "fixed_yen": 0
    },
    "fund_band": null,
    "monetized": false
@@ -7437,11 +7440,12 @@
    "minor_name": "IT・ネットビジネス",
    "contract_type": "フランチャイズ",
    "tags": [
-    "fukugyo"
+    "fukugyo",
+    "mikeiken"
    ],
-   "source_type": "A8案件情報のみ（数値未確認）",
+   "source_type": "A8の案件情報",
    "checked_date": "2026-10-20",
-   "notes": "数値は公式で要確認",
+   "notes": null,
    "exits": [],
    "asp_programs": [
     {
@@ -7486,9 +7490,9 @@
     "teishikin"
    ],
    "initial_investment_text": "20万円（A8案件名「20万でスタートできる」より）",
-   "source_type": "A8案件情報のみ（数値未確認）",
+   "source_type": "A8の案件情報",
    "checked_date": "2026-10-21",
-   "notes": "数値は公式で要確認",
+   "notes": null,
    "exits": [
     {
      "type": "a8",
