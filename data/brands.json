@@ -3369,7 +3369,7 @@
    },
    "fund_band": "100-300",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/renspe.jpg"
   },
   {
    "slug": "kotaroujyuku",
@@ -3477,7 +3477,7 @@
    },
    "fund_band": "100-300",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/jerryspopcorn.jpg"
   },
   {
    "slug": "sunmarriage",
@@ -3827,7 +3827,7 @@
    },
    "fund_band": "over-1000",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/herbs.jpg"
   },
   {
    "slug": "loannnotoride",
@@ -3878,7 +3878,7 @@
    },
    "fund_band": "100-300",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/loannnotoride.jpg"
   },
   {
    "slug": "ebeyakoubou",
@@ -3931,7 +3931,7 @@
    },
    "fund_band": "under-100",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/ebeyakoubou.jpg"
   },
   {
    "slug": "caurus",
@@ -6466,7 +6466,7 @@
    },
    "fund_band": "500-1000",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/marabiyori.jpg"
   },
   {
    "slug": "hokkaidobuttercrepe",
@@ -6518,7 +6518,7 @@
    },
    "fund_band": "under-100",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/hokkaidobuttercrepe.jpg"
   },
   {
    "slug": "frenchramen",
@@ -6620,7 +6620,7 @@
    },
    "fund_band": "300-500",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/genkeeclub.jpg"
   },
   {
    "slug": "tengokutobira",
@@ -6674,7 +6674,7 @@
    },
    "fund_band": "100-300",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/tengokutobira.jpg"
   },
   {
    "slug": "rakutenseimei",
