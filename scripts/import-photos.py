@@ -46,7 +46,11 @@ def main():
         im = Image.open(p).convert('RGB')
         im = to_3_2(im.crop(photo_box(im)))
         name = p.stem
-        if name == 'hero':
+        if name.startswith('b-'):  # 本部ごとの写真
+            (OUT / 'brand').mkdir(parents=True, exist_ok=True)
+            dest = OUT / 'brand' / f'{name[2:]}.jpg'
+            im.resize((960, 640), Image.LANCZOS).save(dest, quality=82, optimize=True, progressive=True)
+        elif name == 'hero':
             dest = OUT / 'hero.jpg'
             im.save(dest, quality=84, optimize=True, progressive=True)
         else:

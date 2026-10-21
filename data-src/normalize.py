@@ -115,16 +115,26 @@ def parse_yen(text):
         return None
     if re.search(r'^(0円|無料|なし|不要)', t):
         return 0
-    m = re.search(r'([0-9]+(?:\.[0-9]+)?)(億|千万|百万|万|千)?円?', t)
-    if not m:
-        return None
-    n = float(m.group(1))
-    unit = m.group(2)
-    mul = {'億': 1e8, '千万': 1e7, '百万': 1e6, '万': 1e4, '千': 1e3, None: 1}[unit]
-    v = n * mul
-    if unit is None and v < 1000:  # 単位なしの小さい数は信用しない
-        return None
-    return int(round(v))
+    # 「1店舗あたり300万円」のような前置きの数字は飛ばし、金額らしい最初の数字を取る
+    ms = list(re.finditer(r'([0-9]+(?:\.[0-9]+)?)(億|千万|百万|万|千)?(円)?', t))
+    for i, m in enumerate(ms):
+        n = float(m.group(1))
+        unit = m.group(2)
+        if n == 0 and m.group(3):  # 「0円」
+            return 0
+        if not unit and not m.group(3) and t[m.end():m.end() + 1] in tuple('坪席名店人台%％年ヶか回期号'):
+            continue  # 坪数・席数などは金額ではない
+        # 「132～418万円」の132は後ろの単位を使う
+        if unit is None and t[m.end():m.end() + 1] in ('～', '〜', '-', '~') and i + 1 < len(ms) and ms[i + 1].group(2):
+            unit = ms[i + 1].group(2)
+        if unit is None and '千円' in t:  # 「（千円、税抜）」のような表記
+            unit = '千'
+        mul = {'億': 1e8, '千万': 1e7, '百万': 1e6, '万': 1e4, '千': 1e3, None: 1}[unit]
+        v = n * mul
+        if unit is None and v < 1000:  # 単位なしの小さい数（「1店舗あたり」の1など）は金額とみなさない
+            continue
+        return int(round(v))
+    return None
 
 
 def parse_royalty(text):

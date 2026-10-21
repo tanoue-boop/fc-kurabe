@@ -1605,9 +1605,9 @@
    "franchise_fee_yen": 2000000,
    "initial_investment_yen": 20000000,
    "royalty": {
-    "type": "rate",
+    "type": "mixed",
     "rate": 15.0,
-    "fixed_yen": null
+    "fixed_yen": 160000
    },
    "fund_band": "over-1000",
    "monetized": true,
@@ -2365,9 +2365,9 @@
    "franchise_fee_yen": null,
    "initial_investment_yen": null,
    "royalty": {
-    "type": "rate",
+    "type": "mixed",
     "rate": 15.0,
-    "fixed_yen": null
+    "fixed_yen": 132000
    },
    "fund_band": null,
    "monetized": true,
@@ -2459,7 +2459,7 @@
    "media_values": null,
    "asp_programs": null,
    "is_own": null,
-   "franchise_fee_yen": null,
+   "franchise_fee_yen": 0,
    "initial_investment_yen": 600000,
    "royalty": {
     "type": "mixed",
@@ -3720,7 +3720,7 @@
    "media_values": null,
    "asp_programs": null,
    "is_own": null,
-   "franchise_fee_yen": null,
+   "franchise_fee_yen": 0,
    "initial_investment_yen": 1650000,
    "royalty": {
     "type": "fixed",
@@ -3872,9 +3872,9 @@
    "franchise_fee_yen": 1100000,
    "initial_investment_yen": 1250000,
    "royalty": {
-    "type": null,
+    "type": "fixed",
     "rate": null,
-    "fixed_yen": null
+    "fixed_yen": 55000
    },
    "fund_band": "100-300",
    "monetized": true,
@@ -5217,13 +5217,13 @@
    "asp_programs": null,
    "is_own": null,
    "franchise_fee_yen": null,
-   "initial_investment_yen": null,
+   "initial_investment_yen": 3000000,
    "royalty": {
     "type": "rate",
     "rate": 10.0,
     "fixed_yen": null
    },
-   "fund_band": null,
+   "fund_band": "100-300",
    "monetized": true,
    "photo": null
   },
@@ -5412,9 +5412,9 @@
    "franchise_fee_yen": null,
    "initial_investment_yen": null,
    "royalty": {
-    "type": null,
+    "type": "fixed",
     "rate": null,
-    "fixed_yen": null
+    "fixed_yen": 30000
    },
    "fund_band": null,
    "monetized": true,
@@ -5828,7 +5828,7 @@
    "media_values": null,
    "asp_programs": null,
    "is_own": null,
-   "franchise_fee_yen": null,
+   "franchise_fee_yen": 1320000,
    "initial_investment_yen": 3000000,
    "royalty": {
     "type": null,
@@ -6027,7 +6027,7 @@
    "media_values": null,
    "asp_programs": null,
    "is_own": null,
-   "franchise_fee_yen": null,
+   "franchise_fee_yen": 0,
    "initial_investment_yen": null,
    "royalty": {
     "type": "rate",
@@ -6330,7 +6330,8 @@
     "fukugyo",
     "hitori",
     "mikeiken",
-    "mutenpo"
+    "mutenpo",
+    "teishikin"
    ],
    "franchise_fee_text": "金額記載なし（比較表に「安い」）",
    "initial_investment_text": "金額記載なし（「小資金で開業可能」）。開業パック(1) 10,000円(税別)／(2) 50,000円(税別)／(3) 100,000円(税別)／(4) 500,000円(税別)",
@@ -6362,13 +6363,13 @@
    "asp_programs": null,
    "is_own": null,
    "franchise_fee_yen": null,
-   "initial_investment_yen": null,
+   "initial_investment_yen": 10000,
    "royalty": {
     "type": null,
     "rate": null,
     "fixed_yen": null
    },
-   "fund_band": null,
+   "fund_band": "under-100",
    "monetized": true,
    "photo": "/img/gyoshu/detective.jpg"
   },
@@ -6410,9 +6411,9 @@
    "franchise_fee_yen": null,
    "initial_investment_yen": 4500000,
    "royalty": {
-    "type": null,
+    "type": "fixed",
     "rate": null,
-    "fixed_yen": null
+    "fixed_yen": 75000
    },
    "fund_band": "300-500",
    "monetized": true,
@@ -6613,9 +6614,9 @@
    "franchise_fee_yen": 1500000,
    "initial_investment_yen": 3800000,
    "royalty": {
-    "type": "rate",
+    "type": "mixed",
     "rate": 10.0,
-    "fixed_yen": null
+    "fixed_yen": 100000
    },
    "fund_band": "300-500",
    "monetized": true,
@@ -6738,7 +6739,9 @@
    "minor": "delivery",
    "minor_name": "運送・配送",
    "contract_type": "フランチャイズ",
-   "tags": [],
+   "tags": [
+    "teishikin"
+   ],
    "franchise_fee_text": null,
    "initial_investment_text": "＼初期費用0円で起業／（税込/税別の記載なし）",
    "royalty_text": null,
@@ -6769,13 +6772,13 @@
    "asp_programs": null,
    "is_own": null,
    "franchise_fee_yen": null,
-   "initial_investment_yen": null,
+   "initial_investment_yen": 0,
    "royalty": {
     "type": null,
     "rate": null,
     "fixed_yen": null
    },
-   "fund_band": null,
+   "fund_band": "under-100",
    "monetized": true,
    "photo": "/img/gyoshu/delivery.jpg"
   },
@@ -7167,7 +7170,7 @@
    "media_values": null,
    "asp_programs": null,
    "is_own": null,
-   "franchise_fee_yen": null,
+   "franchise_fee_yen": 0,
    "initial_investment_yen": 150000,
    "royalty": {
     "type": "fixed",
@@ -7419,14 +7422,14 @@
    "media_values": null,
    "asp_programs": null,
    "is_own": null,
-   "franchise_fee_yen": 2000,
-   "initial_investment_yen": null,
+   "franchise_fee_yen": 2000000,
+   "initial_investment_yen": 46800000,
    "royalty": {
-    "type": "rate",
+    "type": "mixed",
     "rate": 3.0,
-    "fixed_yen": null
+    "fixed_yen": 195000
    },
-   "fund_band": null,
+   "fund_band": "over-1000",
    "monetized": true,
    "photo": null
   },
@@ -7520,9 +7523,9 @@
    "franchise_fee_yen": 1500000,
    "initial_investment_yen": 3400000,
    "royalty": {
-    "type": "rate",
+    "type": "mixed",
     "rate": 8.0,
-    "fixed_yen": null
+    "fixed_yen": 100000
    },
    "fund_band": "300-500",
    "monetized": true,
