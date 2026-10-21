@@ -91,9 +91,16 @@
   "brand": "アールクリーニング（FireWorks）",
   "company": "株式会社Fire Works",
   "official_fc_url": "https://r-cleaning.com/vacancies/",
-  "source_type": "公式（金額の記載なし）",
+  "source_type": "A8の案件情報",
   "checked_date": "2026-10-21",
-  "notes": null
+  "notes": null,
+  "franchise_fee_text": "0円（A8の案件情報「加盟金&ロイヤリティ0円」より）",
+  "royalty_text": "0円（A8の案件情報より）",
+  "tags": [
+   "mikeiken",
+   "fukugyo"
+  ],
+  "contract_type": "加盟店"
  },
  {
   "slug": "ibj",
@@ -141,11 +148,12 @@
   "minor_name": "IT・ネットビジネス",
   "contract_type": "フランチャイズ",
   "tags": [
-   "fukugyo"
+   "fukugyo",
+   "mikeiken"
   ],
-  "source_type": "A8案件情報のみ（数値未確認）",
+  "source_type": "A8の案件情報",
   "checked_date": "2026-10-20",
-  "notes": "数値は公式で要確認",
+  "notes": null,
   "exits": [],
   "asp_programs": [
    {
@@ -166,9 +174,9 @@
   "contract_type": "代理店",
   "tags": [],
   "initial_investment_text": "20万円（A8案件名「20万でスタートできる」より）",
-  "source_type": "A8案件情報のみ（数値未確認）",
+  "source_type": "A8の案件情報",
   "checked_date": "2026-10-21",
-  "notes": "数値は公式で要確認",
+  "notes": null,
   "exits": [
    {
     "type": "a8",
