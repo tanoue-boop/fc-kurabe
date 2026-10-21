@@ -5,7 +5,7 @@
 
 - [x] ハウスクリーニング 開業（100〜1,000）… /guide/house-cleaning/（2026-10-20）
 - [x] 結婚相談所 開業（100〜1,000）… /guide/marriage/（2026-10-20）
-- [ ] 学習塾 フランチャイズ／塾 開業（100〜1,000）… slug: juku ／ minor: juku
+- [x] 学習塾 フランチャイズ／塾 開業（100〜1,000）… /guide/juku/（2026-10-21）
 - [ ] 買取 フランチャイズ／買取店 開業（100〜1,000）… slug: kaitori ／ minor: kaitori
 - [ ] 飲食店 フランチャイズ（100〜1,000）… slug: restaurant ／ minor: restaurant
 - [ ] カフェ 開業（1,000〜1万）… slug: cafe ／ minor: cafe
