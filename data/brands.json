@@ -2371,7 +2371,7 @@
    },
    "fund_band": null,
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/belle.jpg"
   },
   {
    "slug": "lings",
@@ -2610,7 +2610,7 @@
    },
    "fund_band": "300-500",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/hinoya.jpg"
   },
   {
    "slug": "circocrespelle",
@@ -2654,7 +2654,7 @@
    },
    "fund_band": null,
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/circocrespelle.jpg"
   },
   {
    "slug": "amadoiya",
@@ -2807,7 +2807,7 @@
    },
    "fund_band": "under-100",
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/athumankagaku.jpg"
   },
   {
    "slug": "switch",
@@ -2904,7 +2904,7 @@
    },
    "fund_band": null,
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/humath.jpg"
   },
   {
    "slug": "makaseteya",
@@ -5320,7 +5320,7 @@
    },
    "fund_band": null,
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/guritoru.jpg"
   },
   {
    "slug": "slive",
@@ -5742,7 +5742,7 @@
    },
    "fund_band": null,
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/route18.jpg"
   },
   {
    "slug": "cocotaxi",
@@ -5791,7 +5791,7 @@
    },
    "fund_band": null,
    "monetized": true,
-   "photo": null
+   "photo": "/img/brand/cocotaxi.jpg"
   },
   {
    "slug": "sumaisupportpro",
