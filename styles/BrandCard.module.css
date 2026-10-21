@@ -61,3 +61,8 @@
   .row .more { flex: 1; }
 }
 @media (prefers-reduced-motion: reduce) { .photo img { transition: none; } }
+.noPhoto {
+  display: flex; align-items: center; justify-content: center; text-decoration: none;
+  background: linear-gradient(135deg, var(--beige), var(--hi));
+}
+.noPhoto span { font-family: 'Noto Serif JP', serif; font-weight: 600; font-size: 18px; color: var(--bronze); letter-spacing: 0.08em; padding: 0 16px; text-align: center; }

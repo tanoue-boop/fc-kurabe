@@ -345,6 +345,20 @@ def finalize(rows):
             if x['type'] == 'bm' and 'px.a8.net' not in x['url']:
                 x['url'] = a8_deep(A8_BM, x['url'])
         r['monetized'] = any(x['type'] in ('own', 'a8', 'bm') for x in r['exits'])
+    photo_map = json.load(open(os.path.join(BASE, 'photo_map.json'), encoding='utf-8'))
+    img = os.path.join(BASE, '..', 'public', 'img')
+    for r in rows:
+        # 本部ごとに作った写真があればそれを、なければ業種写真の割り当て（photo_map.json）を使う。どちらも無ければ写真なし
+        if os.path.exists(os.path.join(img, 'brand', f"{r['slug']}.jpg")):
+            r['photo'] = f"/img/brand/{r['slug']}.jpg"
+            continue
+        key = photo_map.get(r['slug'])
+        if not key:
+            r['photo'] = None
+            continue
+        variants = [key] + [f'{key}-{i}' for i in range(2, 4) if os.path.exists(os.path.join(img, 'gyoshu', f'{key}-{i}.jpg'))]
+        pick = variants[sum(map(ord, r['slug'])) % len(variants)]
+        r['photo'] = f'/img/gyoshu/{pick}.jpg'
     # 収益の出口がない本部は載せない
     return [r for r in rows if r['monetized'] or r['slug'] in A8_PENDING]
 

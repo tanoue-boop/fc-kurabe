@@ -9,7 +9,7 @@ import Layout from '../../components/Layout';
 import { useCompare } from '../../lib/compare';
 import { BRANDS, META, MINOR_MIN, minorsOf, toRow } from '../../lib/data';
 import type { Brand, Row } from '../../lib/data';
-import { FUNDS, fundIndex, minorPhoto, yen } from '../../lib/format';
+import { FUNDS, fundIndex, yen } from '../../lib/format';
 import s from '../../styles/Brand.module.css';
 
 type Props = { b: Brand; majorName: string; minorPage: boolean; peers: Row[]; tagNames: Record<string, string>; guides: GuideMeta[] };
@@ -98,7 +98,7 @@ export default function BrandPage({ b, majorName, minorPage, peers, tagNames, gu
       ]}
     >
       <div className={s.head}>
-        <img className={s.headImg} src={minorPhoto(b.minor, b.slug)} alt="" width={1536} height={1024} />
+        {b.photo && <img className={s.headImg} src={b.photo} alt="" width={1536} height={1024} />}
         <div className={s.headShade} />
         <div className={s.headText}>
         <p className={s.pr}>PR</p>
@@ -114,7 +114,7 @@ export default function BrandPage({ b, majorName, minorPage, peers, tagNames, gu
           </ul>
         )}
         </div>
-        <p className={s.photoNote}>写真は業種のイメージです</p>
+        {b.photo && <p className={s.photoNote}>写真はイメージです</p>}
       </div>
 
       <div className={s.layout}>

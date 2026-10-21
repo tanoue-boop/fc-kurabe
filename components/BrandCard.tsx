@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useCompare } from '../lib/compare';
 import type { Row } from '../lib/data';
-import { TAG_NAMES, minorPhoto, yen } from '../lib/format';
+import { TAG_NAMES, yen } from '../lib/format';
 import s from '../styles/BrandCard.module.css';
 
 // 一覧の1本部ぶん。「何の事業で、いくらで始められるか」を最初に伝える
@@ -12,8 +12,8 @@ export default function BrandCard({ r, layout = 'row' }: { r: Row; layout?: 'row
   const badges = [...(r.royRate === 0 ? ['ロイヤリティなし'] : []), ...r.tags.map((t) => TAG_NAMES[t] ?? t)].slice(0, 2);
   return (
     <article className={`${layout === 'tile' ? s.tile : s.row} ${on ? s.picked : ''}`}>
-      <Link href={href} className={s.photo} tabIndex={-1} aria-hidden="true">
-        <img src={minorPhoto(r.minor, r.slug)} alt="" loading="lazy" width={480} height={320} />
+      <Link href={href} className={r.photo ? s.photo : `${s.photo} ${s.noPhoto}`} tabIndex={-1} aria-hidden="true">
+        {r.photo ? <img src={r.photo} alt="" loading="lazy" width={480} height={320} /> : <span>{r.minor_name}</span>}
       </Link>
       <div className={s.body}>
         <p className={s.kind}>
