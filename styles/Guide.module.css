@@ -63,3 +63,6 @@
 }
 .table { margin: 8px 0 36px; }
 .single { max-width: 860px; margin: 0 auto; }
+.introBox { background: var(--paper, #fff); border-radius: 14px; padding: 24px 28px 8px; margin: 0 0 28px; box-shadow: 0 0 0 1px rgba(43, 43, 43, 0.06); }
+.afterList { margin-top: 48px; }
+@media (max-width: 720px) { .introBox { padding: 18px 18px 4px; } }

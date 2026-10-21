@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import BrandCard from '../../components/BrandCard';
-import BrandTable from '../../components/BrandTable';
+import GuideBlocks from '../../components/GuideBlocks';
 import Layout, { PageHead } from '../../components/Layout';
 import { allGuides, guideSlugs, loadGuide } from '../../lib/guide';
 import type { Block, GuideMeta, Toc } from '../../lib/guide';
@@ -27,17 +26,7 @@ export default function GuidePage({ meta, blocks, toc, others }: Props) {
               </ol>
             </nav>
           )}
-          {blocks.map((b, i) =>
-            b.kind === 'html' ? (
-              <div key={i} className={s.body} dangerouslySetInnerHTML={{ __html: b.html }} />
-            ) : b.kind === 'table' ? (
-              <div key={i} className={s.table}><BrandTable rows={b.rows} hideSort /></div>
-            ) : (
-              <div key={i} className={b.layout === 'tile' ? s.tiles : s.rows}>
-                {b.rows.map((r) => <BrandCard key={r.slug} r={r} layout={b.layout} />)}
-              </div>
-            ),
-          )}
+          <GuideBlocks blocks={blocks} />
         </article>
         {others.length > 0 && (
           <aside className={s.others}>

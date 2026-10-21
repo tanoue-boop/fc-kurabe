@@ -3,7 +3,11 @@ import BrandList from '../../components/BrandList';
 import Layout, { PageHead } from '../../components/Layout';
 import { BRANDS, META, toRow } from '../../lib/data';
 import type { Row } from '../../lib/data';
+import GuideBlocks from '../../components/GuideBlocks';
+import { loadSection } from '../../lib/guide';
+import type { Block } from '../../lib/guide';
 import s from '../../styles/List.module.css';
+import g from '../../styles/Guide.module.css';
 
 type T = { slug: string; name: string; count: number };
 
@@ -19,7 +23,7 @@ const HEADINGS: Record<string, string> = {
 };
 const heading = (slug: string, name: string) => HEADINGS[slug] ?? `${name}フランチャイズ`;
 
-export default function TagPage({ tag, name, rows, others }: { tag: string; name: string; rows: Row[]; others: T[] }) {
+export default function TagPage({ tag, name, rows, others, intro, article }: { tag: string; name: string; rows: Row[]; others: T[]; intro: Block[] | null; article: Block[] | null }) {
   return (
     <Layout
       title={`${heading(tag, name)}一覧（${rows.length}件）`}
@@ -39,7 +43,9 @@ export default function TagPage({ tag, name, rows, others }: { tag: string; name
           ))}
         </ul>
       </nav>
-      <BrandList rows={rows} />
+      {intro && <div className={g.introBox}><GuideBlocks blocks={intro} /></div>}
+      <BrandList rows={rows} initialSort={tag === 'teishikin' ? 'ini' : 'default'} />
+      {article && <article className={`${g.article} ${g.afterList}`}><GuideBlocks blocks={article} /></article>}
     </Layout>
   );
 }
@@ -62,6 +68,8 @@ export async function getStaticProps({ params }: { params: { tag: string } }) {
       name: META.tags[params.tag],
       rows: BRANDS.filter((b) => b.tags.includes(params.tag)).map(toRow),
       others,
+      intro: loadSection('tag', `${params.tag}.intro`)?.blocks ?? null,
+      article: loadSection('tag', params.tag)?.blocks ?? null,
     },
   };
 }

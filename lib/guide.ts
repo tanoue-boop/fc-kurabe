@@ -7,7 +7,8 @@ import { marked } from 'marked';
 import { BRANDS, toRow } from './data';
 import type { Row } from './data';
 
-const DIR = path.join(process.cwd(), 'content', 'guide');
+const ROOT = path.join(process.cwd(), 'content');
+const DIR = path.join(ROOT, 'guide');
 
 export type GuideMeta = {
   slug: string;
@@ -64,6 +65,8 @@ function pickRows(arg: string): Row[] {
   const kv = Object.fromEntries(arg.trim().split(/\s+/).map((p) => p.split('=') as [string, string]));
   let list = BRANDS;
   if (kv.minor) list = list.filter((b) => kv.minor.split(',').includes(b.minor));
+  if (kv.tag) list = list.filter((b) => b.tags.includes(kv.tag));
+  if (kv.fund) list = list.filter((b) => kv.fund.split(',').includes(b.fund_band ?? ''));
   if (kv.slugs || kv.slug) {
     const want = (kv.slugs || kv.slug).split(',');
     list = want.map((s) => BRANDS.find((b) => b.slug === s)).filter(Boolean) as typeof BRANDS;
@@ -75,8 +78,19 @@ function pickRows(arg: string): Row[] {
 
 const slugify = (t: string, i: number) => `h-${i + 1}`;
 
+// 条件ページなどに載せる解説（content/<dir>/<slug>.md）。なければ null
+export function loadSection(dir: string, slug: string) {
+  const f = path.join(ROOT, dir, `${slug}.md`);
+  if (!fs.existsSync(f)) return null;
+  return renderBody(fs.readFileSync(f, 'utf8'), slug);
+}
+
 export function loadGuide(slug: string) {
-  const { meta, body } = parseFront(fs.readFileSync(path.join(DIR, `${slug}.md`), 'utf8'));
+  return renderBody(fs.readFileSync(path.join(DIR, `${slug}.md`), 'utf8'), slug);
+}
+
+function renderBody(raw: string, slug: string) {
+  const { meta, body } = parseFront(raw);
   const toc: Toc = [];
   let h2 = 0;
   const renderer = new marked.Renderer();
