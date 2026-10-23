@@ -7,7 +7,7 @@
 - [x] 結婚相談所 開業（100〜1,000）… /guide/marriage/（2026-10-20）
 - [x] 学習塾 フランチャイズ／塾 開業（100〜1,000）… /guide/juku/（2026-10-21）
 - [x] 買取 フランチャイズ／買取店 開業（100〜1,000）… /guide/kaitori/（2026-10-22）
-- [ ] 飲食店 フランチャイズ（100〜1,000）… slug: restaurant ／ minor: restaurant
+- [x] 飲食店 フランチャイズ（100〜1,000）… /guide/restaurant/（2026-10-23）
 - [ ] カフェ 開業（1,000〜1万）… slug: cafe ／ minor: cafe
 - [ ] ラーメン フランチャイズ（100〜1,000）… slug: ramen ／ minor: ramen
 - [ ] テイクアウト・弁当・移動販売の開業（からあげ フランチャイズ 10〜100 など）… slug: takeout ／ minor: takeout
