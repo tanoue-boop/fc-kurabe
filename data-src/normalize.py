@@ -142,7 +142,7 @@ def parse_royalty(text):
         return {'type': None, 'rate': None, 'fixed_yen': None}
     t = z2h(text)
     t = re.sub(r'[（(][^）)]*一般的[^）)]*[）)]', '', t)  # 「一般的なFCは◯%」等の比較の括弧書きは本部の値ではない
-    if re.search(r'(ロイヤリティ.?無し|ロイヤリティー無し|^0円$|^0$|^なし|^無し|ありません|一切なし|(?<![0-9,])0円)', t) and '%' not in t:
+    if re.search(r'(ロイヤリティ.?無し|ロイヤリティー無し|ロイヤリティー?ゼロ|^0円$|^0$|^なし|^無し|ありません|一切なし|(?<![0-9,])0円)', t) and '%' not in t:
         return {'type': 'none', 'rate': None, 'fixed_yen': 0}
     if re.search(r'(×|あたり|坪)', t):  # 席数・坪数などで変わるものは数字1つにまとめない
         return {'type': 'other', 'rate': None, 'fixed_yen': None}

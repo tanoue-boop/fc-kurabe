@@ -1554,9 +1554,9 @@
    "franchise_fee_yen": 1650000,
    "initial_investment_yen": null,
    "royalty": {
-    "type": null,
+    "type": "none",
     "rate": null,
-    "fixed_yen": null
+    "fixed_yen": 0
    },
    "fund_band": null,
    "monetized": true,
@@ -7271,9 +7271,9 @@
    "franchise_fee_yen": 2200000,
    "initial_investment_yen": 18000000,
    "royalty": {
-    "type": null,
+    "type": "none",
     "rate": null,
-    "fixed_yen": null
+    "fixed_yen": 0
    },
    "fund_band": "over-1000",
    "monetized": true,
