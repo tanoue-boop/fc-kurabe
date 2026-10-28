@@ -15,16 +15,16 @@
   "store_count_text": "直営4店舗",
   "recruit_area": null,
   "target": null,
-  "official_fc_url": "https://t3salon.jp/",
+  "official_fc_url": "https://t3salon.jp/franchise/",
   "source_type": "自社資料（面談資料 v4_0・加盟店募集資料）",
-  "checked_date": "2026-10-20",
+  "checked_date": "2026-10-28",
   "notes": "運営会社が当サイトと同じ（株式会社mjo）",
   "is_own": true,
   "exits": [
    {
     "type": "own",
     "label": "加盟の問い合わせ",
-    "url": "https://mjo-style.com/contact/"
+    "url": "https://t3salon.jp/franchise/#contact"
    }
   ]
  },
