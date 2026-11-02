@@ -100,7 +100,14 @@
    "mikeiken",
    "fukugyo"
   ],
-  "contract_type": "加盟店"
+  "contract_type": "加盟店",
+  "exits": [
+   {
+    "type": "a8",
+    "label": "加盟の問い合わせ",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4BEL1N+KU8HU+4X26+15OK2A"
+   }
+  ]
  },
  {
   "slug": "ibj",

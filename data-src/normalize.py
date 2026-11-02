@@ -323,7 +323,7 @@ KEYS = ['company', 'franchise_fee_text', 'initial_investment_text', 'royalty_tex
 # A8経由のリンク。BMは本部ごとの個別ページへ直接飛ばす（A8の規約でbmfc.b-mall.ne.jp内は自由に指定できる）
 A8_BM = '4BEL1N+2BM+37I2+BW0YB'
 # 提携申請中で、まだリンクがないA8案件（承認されたらasp_extra.jsonにa8の出口を足す）
-A8_PENDING = {'fireworks', 'short-douga-ya'}
+A8_PENDING = {'short-douga-ya'}
 
 
 def a8_deep(mat, url):
