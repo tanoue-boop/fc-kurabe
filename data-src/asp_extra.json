@@ -161,7 +161,13 @@
   "source_type": "A8の案件情報",
   "checked_date": "2026-10-20",
   "notes": null,
-  "exits": [],
+  "exits": [
+   {
+    "type": "a8",
+    "label": "加盟の問い合わせ",
+    "url": "https://px.a8.net/svt/ejp?a8mat=4BEL1N+4RJ5U+5YZQ+5YRHE"
+   }
+  ],
   "asp_programs": [
    {
     "asp": "A8",
