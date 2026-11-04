@@ -15,7 +15,7 @@
 - [x] 介護 フランチャイズ／デイサービス 開業（100〜1,000）… /guide/care/（2026-10-30）
 - [x] パーソナルジム フランチャイズ（100〜1,000）… /guide/gym/（2026-11-02）
 - [x] リフォーム フランチャイズ（100〜1,000）… /guide/reform/（2026-11-03）
-- [ ] 整体院 開業（100〜1,000）… slug: seitai ／ minor: seitai
+- [x] 整体院 開業（100〜1,000）… /guide/seitai/（2026-11-04）
 - [ ] 不動産 フランチャイズ（100〜1,000）… slug: real-estate ／ minor: real-estate
 - [ ] 探偵 開業（100〜1,000）… slug: detective ／ minor: detective
 - [ ] スイーツ・パン屋の開業 … slug: sweets ／ minor: sweets
