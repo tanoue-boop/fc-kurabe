@@ -16,7 +16,7 @@
 - [x] パーソナルジム フランチャイズ（100〜1,000）… /guide/gym/（2026-11-02）
 - [x] リフォーム フランチャイズ（100〜1,000）… /guide/reform/（2026-11-03）
 - [x] 整体院 開業（100〜1,000）… /guide/seitai/（2026-11-04）
-- [ ] 不動産 フランチャイズ（100〜1,000）… slug: real-estate ／ minor: real-estate
+- [x] 不動産 フランチャイズ（100〜1,000）… /guide/real-estate/（2026-11-05）
 - [ ] 探偵 開業（100〜1,000）… slug: detective ／ minor: detective
 - [ ] スイーツ・パン屋の開業 … slug: sweets ／ minor: sweets
 - [ ] 自動車関連（車買取・コーティング等）の開業 … slug: car ／ minor: car
