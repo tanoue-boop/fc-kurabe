@@ -18,6 +18,6 @@
 - [x] 整体院 開業（100〜1,000）… /guide/seitai/（2026-11-04）
 - [x] 不動産 フランチャイズ（100〜1,000）… /guide/real-estate/（2026-11-05）
 - [x] 探偵 開業（100〜1,000）… /guide/detective/（2026-11-06）
-- [ ] スイーツ・パン屋の開業 … slug: sweets ／ minor: sweets
+- [x] スイーツ・パン屋の開業 … /guide/sweets/（2026-11-09）
 - [ ] 自動車関連（車買取・コーティング等）の開業 … slug: car ／ minor: car
 - [ ] 子ども向けスクール・教室の開業（プログラミング教室 フランチャイズ 10〜100 など）… slug: school ／ minor: school,kids
