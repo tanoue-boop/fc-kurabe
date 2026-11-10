@@ -19,5 +19,16 @@
 - [x] 不動産 フランチャイズ（100〜1,000）… /guide/real-estate/（2026-11-05）
 - [x] 探偵 開業（100〜1,000）… /guide/detective/（2026-11-06）
 - [x] スイーツ・パン屋の開業 … /guide/sweets/（2026-11-09）
+- [ ] 独立開業（1,000〜1万）… 独立開業の進め方の総合ガイド（個人開業とFC加盟の比較、届出、資金調達、業種の選び方）。slug: dokuritsu ／ minor なし・major なし ／ photo: /img/gyoshu/other.jpg ／ 業種別ガイドと条件ページ（/tag/teishikin/・/tag/fukugyo/・/tag/hitori/）へ内部リンク
+- [ ] コンビニ・小売店の開業（コンビニ フランチャイズ 1,000〜1万）… slug: convenience ／ minor: shop
+- [ ] ピラティススタジオの開業（ピラティス フランチャイズ／開業 各100〜1,000）… slug: pilates ／ minor: pilates ／ T-ÉLAN は運営会社が当サイトと同じ。薄い紹介は禁止、店舗は「〜店」表記（「スタジオ」と呼ばない）、レッスンは完全マンツーマン、「マットではなくマシン」等の断定は書かない
+- [ ] 便利屋の開業（便利屋 フランチャイズ／開業 各100〜1,000）… slug: benriya ／ minor: house-cleaning（お助け本舗・まかせて屋など便利屋型の本部を中心に） ／ photo: /img/gyoshu/benriya.jpg ／ /guide/house-cleaning/ と狙いを分ける
 - [ ] 自動車関連（車買取・コーティング等）の開業 … slug: car ／ minor: car
 - [ ] 子ども向けスクール・教室の開業（プログラミング教室 フランチャイズ 10〜100 など）… slug: school ／ minor: school,kids
+- [ ] ネットショップ・物販の開業（検索数未確認）… slug: netbusiness ／ minor: it ／ photo: /img/gyoshu/it.jpg ／ 特定商取引法の表示義務・古物商許可の要否を一次情報で
+- [ ] 軽貨物運送の開業（検索数未確認）… slug: keikamotsu ／ minor: delivery＋other のうち軽貨物の本部（軽急便・LINGs軽貨物パートナー・ロジピック）／ photo: /img/gyoshu/delivery.jpg ／ 貨物軽自動車運送事業の届出（運輸支局）を一次情報で
+- [ ] 住宅リペア・ハウスリペアの開業（検索数未確認）… slug: repair ／ minor: repair＋E部屋工房 ／ /guide/reform/ と狙いを分ける
+- [ ] ペット関連の開業（トリミング・ペットタクシー・訪問火葬）（検索数未確認）… slug: pet ／ minor: other のうちペット関連の本部 ／ photo: /img/gyoshu/other-2.jpg ／ 動物取扱業の登録を一次情報で
+- [ ] フランチャイズ契約で確認すべきこと（検索数未確認）… slug: contract ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 中小小売商業振興法の法定開示書面・独禁法のフランチャイズ・ガイドライン（公正取引委員会）を一次情報で。本部の比較は当サイトのデータ（ロイヤリティの形・契約期間の掲載値）で
+- [ ] フランチャイズの開業資金と融資（検索数未確認）… slug: funding ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 日本政策金融公庫の新規開業資金などを一次情報で。当サイト掲載本部の開業資金の分布（価格帯別の本部数）を入れる
+- [ ] ロイヤリティの仕組みと比べ方（検索数未確認）… slug: royalty ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 当サイト掲載本部のロイヤリティの形（売上割合・定額・なし）の内訳と業種別の傾向を当サイトのデータで
