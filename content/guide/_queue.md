@@ -23,7 +23,7 @@
 - [x] コンビニ・小売店の開業（コンビニ フランチャイズ 1,000〜1万）… /guide/convenience/（2026-11-10）
 - [x] ピラティススタジオの開業（ピラティス フランチャイズ／開業 各100〜1,000）… /guide/pilates/（2026-11-10）
 - [x] 便利屋の開業（便利屋 フランチャイズ／開業 各100〜1,000）… /guide/benriya/（2026-11-11）
-- [ ] 自動車関連（車買取・コーティング等）の開業 … slug: car ／ minor: car
+- [x] 自動車関連（カーリペア・中古車販売）の開業（検索数未確認）… /guide/car/（2026-11-11）
 - [ ] 子ども向けスクール・教室の開業（プログラミング教室 フランチャイズ 10〜100 など）… slug: school ／ minor: school,kids
 - [ ] ネットショップ・物販の開業（検索数未確認）… slug: netbusiness ／ minor: it ／ photo: /img/gyoshu/it.jpg ／ 特定商取引法の表示義務・古物商許可の要否を一次情報で
 - [ ] 軽貨物運送の開業（検索数未確認）… slug: keikamotsu ／ minor: delivery＋other のうち軽貨物の本部（軽急便・LINGs軽貨物パートナー・ロジピック）／ photo: /img/gyoshu/delivery.jpg ／ 貨物軽自動車運送事業の届出（運輸支局）を一次情報で
