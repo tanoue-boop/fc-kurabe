@@ -22,7 +22,7 @@
 - [x] 独立開業（1,000〜1万）… 独立開業の進め方の総合ガイド … /guide/dokuritsu/（2026-11-10）
 - [x] コンビニ・小売店の開業（コンビニ フランチャイズ 1,000〜1万）… /guide/convenience/（2026-11-10）
 - [x] ピラティススタジオの開業（ピラティス フランチャイズ／開業 各100〜1,000）… /guide/pilates/（2026-11-10）
-- [ ] 便利屋の開業（便利屋 フランチャイズ／開業 各100〜1,000）… slug: benriya ／ minor: house-cleaning（お助け本舗・まかせて屋など便利屋型の本部を中心に） ／ photo: /img/gyoshu/benriya.jpg ／ /guide/house-cleaning/ と狙いを分ける
+- [x] 便利屋の開業（便利屋 フランチャイズ／開業 各100〜1,000）… /guide/benriya/（2026-11-11）
 - [ ] 自動車関連（車買取・コーティング等）の開業 … slug: car ／ minor: car
 - [ ] 子ども向けスクール・教室の開業（プログラミング教室 フランチャイズ 10〜100 など）… slug: school ／ minor: school,kids
 - [ ] ネットショップ・物販の開業（検索数未確認）… slug: netbusiness ／ minor: it ／ photo: /img/gyoshu/it.jpg ／ 特定商取引法の表示義務・古物商許可の要否を一次情報で
