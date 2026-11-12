@@ -26,9 +26,19 @@
 - [x] 自動車関連（カーリペア・中古車販売）の開業（検索数未確認）… /guide/car/（2026-11-11）
 - [x] 子ども向けスクール・教室の開業（プログラミング教室 フランチャイズ 10〜100 など）… /guide/school/（2026-11-11）
 - [x] ネットショップ・物販の開業（検索数未確認）… /guide/netbusiness/（2026-11-12）
-- [ ] 軽貨物運送の開業（検索数未確認）… slug: keikamotsu ／ minor: delivery＋other のうち軽貨物の本部（軽急便・LINGs軽貨物パートナー・ロジピック）／ photo: /img/gyoshu/delivery.jpg ／ 貨物軽自動車運送事業の届出（運輸支局）を一次情報で
+- [x] 軽貨物運送の開業（検索数未確認）… /guide/keikamotsu/（2026-11-12）
 - [ ] 住宅リペア・ハウスリペアの開業（検索数未確認）… slug: repair ／ minor: repair＋E部屋工房 ／ /guide/reform/ と狙いを分ける
 - [ ] ペット関連の開業（トリミング・ペットタクシー・訪問火葬）（検索数未確認）… slug: pet ／ minor: other のうちペット関連の本部 ／ photo: /img/gyoshu/other-2.jpg ／ 動物取扱業の登録を一次情報で
 - [ ] フランチャイズ契約で確認すべきこと（検索数未確認）… slug: contract ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 中小小売商業振興法の法定開示書面・独禁法のフランチャイズ・ガイドライン（公正取引委員会）を一次情報で。本部の比較は当サイトのデータ（ロイヤリティの形・契約期間の掲載値）で
 - [ ] フランチャイズの開業資金と融資（検索数未確認）… slug: funding ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 日本政策金融公庫の新規開業資金などを一次情報で。当サイト掲載本部の開業資金の分布（価格帯別の本部数）を入れる
 - [ ] ロイヤリティの仕組みと比べ方（検索数未確認）… slug: royalty ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 当サイト掲載本部のロイヤリティの形（売上割合・定額・なし）の内訳と業種別の傾向を当サイトのデータで
+- [ ] 餃子・中華の開業（検索数未確認）… slug: gyoza ／ minor: restaurant のうち餃子・中華の本部（大阪王将2本・オリオン餃子）／ photo: /img/gyoshu/restaurant-2.jpg ／ /guide/restaurant/ と狙いを分ける。食品衛生責任者・営業許可を一次情報で
+- [ ] うどん・そば店の開業（検索数未確認）… slug: udon ／ minor: restaurant のうちうどん・そばの本部（山下本気うどん・宮武讃岐うどん・ソバキチ・吉祥庵）／ photo: /img/gyoshu/restaurant-3.jpg ／ /guide/restaurant/ と狙いを分ける
+- [ ] 焼き鳥店の開業（検索数未確認）… slug: yakitori ／ minor: restaurant のうち焼き鳥の本部（やきとり大吉・炭火焼鳥と釜飯ねごと）／ photo: /img/gyoshu/restaurant.jpg ／ 深夜酒類提供飲食店営業の届出（警察）を一次情報で
+- [ ] リラクゼーション・マッサージ店の開業（検索数未確認）… slug: relaxation ／ minor: other＋care のうちマッサージの本部（もみかる・ASIESTA・フレアス在宅マッサージ）／ photo: /img/gyoshu/seitai.jpg ／ /guide/seitai/ と狙いを分ける。あはき法（厚労省）で無資格でできる範囲を一次情報で
+- [ ] 経営コンサルタントの開業（検索数未確認）… slug: consultant ／ minor: other のうちコンサル・顧問の本部（キャピタルナビ・PDCAドクター・新規独立顧問）／ photo: /img/gyoshu/other.jpg ／ 中小企業診断士など資格の要否を一次情報で
+- [ ] レンタルスペース・空間ビジネスの開業（検索数未確認）… slug: rental-space ／ minor: other のうちレンスペ本舗・自遊空間 ／ photo: /img/gyoshu/other-3.jpg ／ 旅館業法・興行場法の扱いを一次情報で
+- [ ] 高齢者向け配食・移動スーパーの開業（検索数未確認）… slug: haishoku ／ minor: takeout のうちまごころ弁当・なないろ弁当・移動スーパーはじ丸 ／ photo: /img/gyoshu/takeout.jpg ／ /guide/takeout/ と狙いを分ける。移動販売の営業許可を一次情報で
+- [ ] フランチャイズの加盟金・保証金の相場（検索数未確認）… slug: kameikin ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 当サイトで加盟金がわかる本部の分布（価格帯別・業種別）を集計。/guide/funding/ と狙いを分ける
+- [ ] フランチャイズ本部の選び方（フランチャイズ 比較 100〜1,000）… slug: erabikata ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 中小小売商業振興法の開示項目を一次情報で。当サイトの比較表の見方へ内部リンク。/guide/contract/ と狙いを分ける
+- [ ] フランチャイズ説明会で聞くこと（検索数未確認）… slug: setsumeikai ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 公正取引委員会フランチャイズ・ガイドラインの本部の開示事項を一次情報で。当サイトの「記載なし」が多い項目（ロイヤリティ・契約期間）の集計を入れる
