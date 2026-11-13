@@ -30,7 +30,7 @@
 - [x] 住宅リペア・ハウスリペアの開業（検索数未確認）… /guide/repair/（2026-11-12）
 - [x] ペット関連の開業（トリミング・ペットタクシー・訪問火葬）（検索数未確認）… /guide/pet/（2026-11-13）
 - [x] フランチャイズ契約で確認すべきこと（検索数未確認）… /guide/contract/（2026-11-13）
-- [ ] フランチャイズの開業資金と融資（検索数未確認）… slug: funding ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 日本政策金融公庫の新規開業資金などを一次情報で。当サイト掲載本部の開業資金の分布（価格帯別の本部数）を入れる
+- [x] フランチャイズの開業資金と融資（検索数未確認）… /guide/funding/（2026-11-13）
 - [ ] ロイヤリティの仕組みと比べ方（検索数未確認）… slug: royalty ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 当サイト掲載本部のロイヤリティの形（売上割合・定額・なし）の内訳と業種別の傾向を当サイトのデータで
 - [ ] 餃子・中華の開業（検索数未確認）… slug: gyoza ／ minor: restaurant のうち餃子・中華の本部（大阪王将2本・オリオン餃子）／ photo: /img/gyoshu/restaurant-2.jpg ／ /guide/restaurant/ と狙いを分ける。食品衛生責任者・営業許可を一次情報で
 - [ ] うどん・そば店の開業（検索数未確認）… slug: udon ／ minor: restaurant のうちうどん・そばの本部（山下本気うどん・宮武讃岐うどん・ソバキチ・吉祥庵）／ photo: /img/gyoshu/restaurant-3.jpg ／ /guide/restaurant/ と狙いを分ける
