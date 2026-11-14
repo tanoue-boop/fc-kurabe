@@ -32,7 +32,7 @@
 - [x] フランチャイズ契約で確認すべきこと（検索数未確認）… /guide/contract/（2026-11-13）
 - [x] フランチャイズの開業資金と融資（検索数未確認）… /guide/funding/（2026-11-13）
 - [x] ロイヤリティの仕組みと比べ方（検索数未確認）… /guide/royalty/（2026-11-14）
-- [ ] 餃子・中華の開業（検索数未確認）… slug: gyoza ／ minor: restaurant のうち餃子・中華の本部（大阪王将2本・オリオン餃子）／ photo: /img/gyoshu/restaurant-2.jpg ／ /guide/restaurant/ と狙いを分ける。食品衛生責任者・営業許可を一次情報で
+- [x] 餃子・中華の開業（検索数未確認）… slug: gyoza ／ minor: restaurant のうち餃子・中華の本部（大阪王将2本・オリオン餃子）／ photo: /img/gyoshu/restaurant-2.jpg ／ /guide/restaurant/ と狙いを分ける。食品衛生責任者・営業許可を一次情報で …… /guide/gyoza/（2026-11-14）
 - [ ] うどん・そば店の開業（検索数未確認）… slug: udon ／ minor: restaurant のうちうどん・そばの本部（山下本気うどん・宮武讃岐うどん・ソバキチ・吉祥庵）／ photo: /img/gyoshu/restaurant-3.jpg ／ /guide/restaurant/ と狙いを分ける
 - [ ] 焼き鳥店の開業（検索数未確認）… slug: yakitori ／ minor: restaurant のうち焼き鳥の本部（やきとり大吉・炭火焼鳥と釜飯ねごと）／ photo: /img/gyoshu/restaurant.jpg ／ 深夜酒類提供飲食店営業の届出（警察）を一次情報で
 - [ ] リラクゼーション・マッサージ店の開業（検索数未確認）… slug: relaxation ／ minor: other＋care のうちマッサージの本部（もみかる・ASIESTA・フレアス在宅マッサージ）／ photo: /img/gyoshu/seitai.jpg ／ /guide/seitai/ と狙いを分ける。あはき法（厚労省）で無資格でできる範囲を一次情報で
