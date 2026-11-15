@@ -35,7 +35,7 @@
 - [x] 餃子・中華の開業（検索数未確認）… slug: gyoza ／ minor: restaurant のうち餃子・中華の本部（大阪王将2本・オリオン餃子）／ photo: /img/gyoshu/restaurant-2.jpg ／ /guide/restaurant/ と狙いを分ける。食品衛生責任者・営業許可を一次情報で …… /guide/gyoza/（2026-11-14）
 - [x] うどん・そば店の開業（検索数未確認）… slug: udon ／ minor: restaurant のうちうどん・そばの本部（山下本気うどん・宮武讃岐うどん・ソバキチ・吉祥庵）／ photo: /img/gyoshu/restaurant-3.jpg ／ /guide/restaurant/ と狙いを分ける …… /guide/udon/（2026-11-14）
 - [x] 焼き鳥店の開業（検索数未確認）… slug: yakitori ／ minor: restaurant のうち焼き鳥の本部（やきとり大吉・炭火焼鳥と釜飯ねごと）／ photo: /img/gyoshu/restaurant.jpg ／ 深夜酒類提供飲食店営業の届出（警察）を一次情報で …… /guide/yakitori/（2026-11-15）
-- [ ] リラクゼーション・マッサージ店の開業（検索数未確認）… slug: relaxation ／ minor: other＋care のうちマッサージの本部（もみかる・ASIESTA・フレアス在宅マッサージ）／ photo: /img/gyoshu/seitai.jpg ／ /guide/seitai/ と狙いを分ける。あはき法（厚労省）で無資格でできる範囲を一次情報で
+- [x] リラクゼーション・マッサージ店の開業（検索数未確認）… slug: relaxation ／ minor: other＋care のうちマッサージの本部（もみかる・ASIESTA・フレアス在宅マッサージ）／ photo: /img/gyoshu/seitai.jpg ／ /guide/seitai/ と狙いを分ける。あはき法（厚労省）で無資格でできる範囲を一次情報で … /guide/relaxation/（2026-11-15）
 - [ ] 経営コンサルタントの開業（検索数未確認）… slug: consultant ／ minor: other のうちコンサル・顧問の本部（キャピタルナビ・PDCAドクター・新規独立顧問）／ photo: /img/gyoshu/other.jpg ／ 中小企業診断士など資格の要否を一次情報で
 - [ ] レンタルスペース・空間ビジネスの開業（検索数未確認）… slug: rental-space ／ minor: other のうちレンスペ本舗・自遊空間 ／ photo: /img/gyoshu/other-3.jpg ／ 旅館業法・興行場法の扱いを一次情報で
 - [ ] 高齢者向け配食・移動スーパーの開業（検索数未確認）… slug: haishoku ／ minor: takeout のうちまごころ弁当・なないろ弁当・移動スーパーはじ丸 ／ photo: /img/gyoshu/takeout.jpg ／ /guide/takeout/ と狙いを分ける。移動販売の営業許可を一次情報で
