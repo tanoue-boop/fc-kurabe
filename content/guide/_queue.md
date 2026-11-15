@@ -36,9 +36,19 @@
 - [x] うどん・そば店の開業（検索数未確認）… slug: udon ／ minor: restaurant のうちうどん・そばの本部（山下本気うどん・宮武讃岐うどん・ソバキチ・吉祥庵）／ photo: /img/gyoshu/restaurant-3.jpg ／ /guide/restaurant/ と狙いを分ける …… /guide/udon/（2026-11-14）
 - [x] 焼き鳥店の開業（検索数未確認）… slug: yakitori ／ minor: restaurant のうち焼き鳥の本部（やきとり大吉・炭火焼鳥と釜飯ねごと）／ photo: /img/gyoshu/restaurant.jpg ／ 深夜酒類提供飲食店営業の届出（警察）を一次情報で …… /guide/yakitori/（2026-11-15）
 - [x] リラクゼーション・マッサージ店の開業（検索数未確認）… slug: relaxation ／ minor: other＋care のうちマッサージの本部（もみかる・ASIESTA・フレアス在宅マッサージ）／ photo: /img/gyoshu/seitai.jpg ／ /guide/seitai/ と狙いを分ける。あはき法（厚労省）で無資格でできる範囲を一次情報で … /guide/relaxation/（2026-11-15）
-- [ ] 経営コンサルタントの開業（検索数未確認）… slug: consultant ／ minor: other のうちコンサル・顧問の本部（キャピタルナビ・PDCAドクター・新規独立顧問）／ photo: /img/gyoshu/other.jpg ／ 中小企業診断士など資格の要否を一次情報で
+- [x] 経営コンサルタントの開業（検索数未確認）… /guide/consultant/（2026-11-15）
 - [ ] レンタルスペース・空間ビジネスの開業（検索数未確認）… slug: rental-space ／ minor: other のうちレンスペ本舗・自遊空間 ／ photo: /img/gyoshu/other-3.jpg ／ 旅館業法・興行場法の扱いを一次情報で
 - [ ] 高齢者向け配食・移動スーパーの開業（検索数未確認）… slug: haishoku ／ minor: takeout のうちまごころ弁当・なないろ弁当・移動スーパーはじ丸 ／ photo: /img/gyoshu/takeout.jpg ／ /guide/takeout/ と狙いを分ける。移動販売の営業許可を一次情報で
 - [ ] フランチャイズの加盟金・保証金の相場（検索数未確認）… slug: kameikin ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 当サイトで加盟金がわかる本部の分布（価格帯別・業種別）を集計。/guide/funding/ と狙いを分ける
 - [ ] フランチャイズ本部の選び方（フランチャイズ 比較 100〜1,000）… slug: erabikata ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 中小小売商業振興法の開示項目を一次情報で。当サイトの比較表の見方へ内部リンク。/guide/contract/ と狙いを分ける
 - [ ] フランチャイズ説明会で聞くこと（検索数未確認）… slug: setsumeikai ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 公正取引委員会フランチャイズ・ガイドラインの本部の開示事項を一次情報で。当サイトの「記載なし」が多い項目（ロイヤリティ・契約期間）の集計を入れる
+- [ ] イタリアン・バルの開業（検索数未確認）… slug: italian ／ minor: restaurant のうちイタリアン・パスタ・バルの本部（TO THE HERBS・La Figlia del Presidente・PRONTO・DiPUNTO。JACK & SAWYER は業態を確認してから）／ photo: /img/gyoshu/restaurant-2.jpg ／ /guide/restaurant/・/guide/cafe/ と狙いを分ける。酒類販売・深夜営業の扱いは /guide/yakitori/ と重ねず、テイクアウトの酒類（酒類販売業免許）を国税庁の一次情報で
+- [ ] カレー・エスニック料理店の開業（検索数未確認）… slug: curry ／ minor: restaurant のうち日乃屋カレー・スパイス研究所MAD CHEFs・芳香麻辣湯 ／ photo: /img/gyoshu/restaurant-3.jpg ／ /guide/restaurant/ と狙いを分ける。家計調査のカレー関連品目、アレルギー表示（スパイス・ナッツ）を一次情報で
+- [ ] 天ぷら・海鮮丼など和食の開業（検索数未確認）… slug: washoku ／ minor: restaurant＋takeout のうち天ぷら さいとう・丼丸 ／ photo: /img/gyoshu/takeout.jpg ／ /guide/takeout/ と狙いを分ける。生食用鮮魚介類・アニサキス・揚げ油の管理を厚労省の一次情報で
+- [ ] フランチャイズの研修（期間・費用・内容）（検索数未確認）… slug: kenshu ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 当サイトで研修費の記載がある34本部の金額・税区分・含まれ方を集計。/guide/funding/ と狙いを分ける
+- [ ] フランチャイズ本部の店舗数・実績の見方（検索数未確認）… slug: tenposu ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 当サイトで店舗数の記載がある118本部の分布・基準日の有無・直営と加盟の内訳を集計。中小小売商業振興法の開示項目（加盟者の店舗数の推移）を一次情報で。/guide/erabikata/ と狙いを分ける
+- [ ] フランチャイズ・代理店・パッケージライセンスの違い（検索数未確認）… slug: keiyaku-keitai ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 当サイトの契約形態の内訳（フランチャイズ119・代理店・パッケージライセンス・ボランタリーチェーンなど）を集計。公取委ガイドライン・中小小売商業振興法の対象の考え方を一次情報で。/guide/contract/ と狙いを分ける
+- [ ] 地方でフランチャイズ開業するときの確認点（検索数未確認）… slug: chiho ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 当サイトで募集エリアの記載がある46本部（うち「全国」27）の内訳を集計。テリトリーは /guide/contract/ と重ねない。自治体の創業支援（特定創業支援等事業）を一次情報で
+- [ ] フランチャイズの加盟金の税務・会計処理（検索数未確認）… slug: kameikin-zeimu ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 国税庁（繰延資産・少額の繰延資産・償却期間）を一次情報で。当サイトの加盟金の分布は /guide/kameikin/ と重ねず、20万円未満・以上の件数など税務の区切りで集計
+- [ ] フランチャイズの店舗物件の選び方（居抜き・スケルトン）（検索数未確認）… slug: bukken ／ minor なし ／ photo: /img/gyoshu/restaurant.jpg ／ 当サイトで開業資金に「物件」の記載がある12本部の含む・含まないを集計。造作譲渡・原状回復を一次情報（国交省ガイドラインなど）で。/guide/funding/ と狙いを分ける
+- [ ] フランチャイズ開業までの流れと期間（検索数未確認）… slug: nagare ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 法定開示書面の交付から契約・研修・開店までの順序を中小企業庁の一次情報で。当サイトの研修・契約期間の記載を使う。/guide/dokuritsu/ と狙いを分ける（手続きでなく加盟後の工程）
