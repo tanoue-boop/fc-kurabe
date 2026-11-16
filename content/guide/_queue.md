@@ -39,7 +39,7 @@
 - [x] 経営コンサルタントの開業（検索数未確認）… /guide/consultant/（2026-11-15）
 - [x] レンタルスペース・空間ビジネスの開業（検索数未確認）… slug: rental-space ／ minor: other のうちレンスペ本舗・自遊空間 ／ photo: /img/gyoshu/other-3.jpg ／ 旅館業法・興行場法の扱いを一次情報で …… /guide/rental-space/（2026-11-16）
 - [x] 高齢者向け配食・移動スーパーの開業（検索数未確認）… /guide/haishoku/（2026-11-16）
-- [ ] フランチャイズの加盟金・保証金の相場（検索数未確認）… slug: kameikin ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 当サイトで加盟金がわかる本部の分布（価格帯別・業種別）を集計。/guide/funding/ と狙いを分ける
+- [x] フランチャイズの加盟金・保証金の相場（検索数未確認）… slug: kameikin ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 当サイトで加盟金がわかる本部の分布（価格帯別・業種別）を集計。/guide/funding/ と狙いを分ける /guide/kameikin/（2026-11-16）
 - [ ] フランチャイズ本部の選び方（フランチャイズ 比較 100〜1,000）… slug: erabikata ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 中小小売商業振興法の開示項目を一次情報で。当サイトの比較表の見方へ内部リンク。/guide/contract/ と狙いを分ける
 - [ ] フランチャイズ説明会で聞くこと（検索数未確認）… slug: setsumeikai ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 公正取引委員会フランチャイズ・ガイドラインの本部の開示事項を一次情報で。当サイトの「記載なし」が多い項目（ロイヤリティ・契約期間）の集計を入れる
 - [ ] イタリアン・バルの開業（検索数未確認）… slug: italian ／ minor: restaurant のうちイタリアン・パスタ・バルの本部（TO THE HERBS・La Figlia del Presidente・PRONTO・DiPUNTO。JACK & SAWYER は業態を確認してから）／ photo: /img/gyoshu/restaurant-2.jpg ／ /guide/restaurant/・/guide/cafe/ と狙いを分ける。酒類販売・深夜営業の扱いは /guide/yakitori/ と重ねず、テイクアウトの酒類（酒類販売業免許）を国税庁の一次情報で
