@@ -7411,7 +7411,7 @@
    "official_fc_url": "https://www.runsystem.co.jp/fc_invest.html",
    "source_type": "公式・一部BM掲載値",
    "checked_date": "2026-10-20",
-   "notes": "加盟金200万円・初期投資4680万円（都心型46,800千円）・ロイヤリティ3%はBMと整合。契約期間・自己資金・店舗数は公式投資回収ページに記載なし。",
+   "notes": "加盟金200万円・初期投資4680万円（都心型46,800千円）・ロイヤリティ3%はBMと整合。契約期間・自己資金・店舗数は公式投資回収ページに記載なし。 ロイヤリティの月間195千円は都心型の想定売上6,500千円×3.0%の額（公式で確認 2026-11-16）のため、売上割合3.0%として扱う。",
    "exits": [
     {
      "type": "bm",
@@ -7430,9 +7430,9 @@
    "franchise_fee_yen": 2000000,
    "initial_investment_yen": 46800000,
    "royalty": {
-    "type": "mixed",
+    "type": "rate",
     "rate": 3.0,
-    "fixed_yen": 195000
+    "fixed_yen": null
    },
    "fund_band": "over-1000",
    "monetized": true,
