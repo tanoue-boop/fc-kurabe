@@ -7,6 +7,7 @@ import { BRANDS, META, majorsWithCount, toRow } from '../lib/data';
 import type { Row } from '../lib/data';
 import { FUNDS, SITE_NAME, majorPhoto, minorPhoto, yen } from '../lib/format';
 import { useCompare } from '../lib/compare';
+import { allGuides } from '../lib/guide';
 import s from '../styles/Home.module.css';
 
 type Major = { slug: string; name: string; count: number };
@@ -21,6 +22,7 @@ type Props = {
   minIni: number;
   roy0: number;
   mikeiken: number;
+  guides: { slug: string; title: string; photo: string }[];
 };
 
 const FUND_CARDS = [
@@ -31,7 +33,7 @@ const FUND_CARDS = [
   { slug: 'over-1000', top: '1,000', unit: '万円超', note: '1,000万円を超える' },
 ];
 
-export default function Home({ rows, majors, fundCounts, tags, featured, sample, total, minIni, roy0, mikeiken }: Props) {
+export default function Home({ rows, majors, fundCounts, tags, featured, sample, total, minIni, roy0, mikeiken, guides }: Props) {
   const [major, setMajor] = useState('');
   const [fund, setFund] = useState('');
   const [tag, setTag] = useState('');
@@ -329,6 +331,28 @@ export default function Home({ rows, majors, fundCounts, tags, featured, sample,
         </ul>
       </section>
 
+      {/* 開業ガイド */}
+      {guides.length > 0 && (
+        <section className={s.section} aria-labelledby="guide-h">
+          <div className={s.secHeadCenter}>
+            <p className={s.secLabel}>始める前に読む</p>
+            <h2 id="guide-h" className={s.h2}>開業ガイド</h2>
+            <p className={s.secLead}>資格・届出・開業資金・本部の違いを、公的機関の情報と各本部の公表値で業種ごとにまとめています。</p>
+          </div>
+          <ul className={s.guideGrid}>
+            {guides.map((g) => (
+              <li key={g.slug}>
+                <Link href={`/guide/${g.slug}/`}>
+                  <img src={g.photo} alt="" loading="lazy" width={480} height={320} />
+                  <span>{g.title.split('｜')[0]}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className={s.guideMore}><Link href="/guide/">開業ガイドをすべて見る</Link></p>
+        </section>
+      )}
+
       {/* ランキング */}
       <section className={s.section} aria-labelledby="rank-h">
         <div className={s.secHeadCenter}>
@@ -380,6 +404,7 @@ export async function getStaticProps() {
       rows, majors, fundCounts, tags, featured, sample, total: BRANDS.length, minIni,
       roy0: rows.filter((r) => r.royRate === 0).length,
       mikeiken: rows.filter((r) => r.tags.includes('mikeiken')).length,
+      guides: allGuides().sort((a, b) => b.updated.localeCompare(a.updated)).slice(0, 12).map((g) => ({ slug: g.slug, title: g.title, photo: g.photo })),
     },
   };
 }
