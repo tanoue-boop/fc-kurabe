@@ -42,7 +42,7 @@
 - [x] フランチャイズの加盟金・保証金の相場（検索数未確認）… slug: kameikin ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 当サイトで加盟金がわかる本部の分布（価格帯別・業種別）を集計。/guide/funding/ と狙いを分ける /guide/kameikin/（2026-11-16）
 - [x ] フランチャイズ本部の選び方（フランチャイズ 比較 100〜1,000）… slug: erabikata ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 中小小売商業振興法の開示項目を一次情報で。当サイトの比較表の見方へ内部リンク。/guide/contract/ と狙いを分ける …… /guide/erabikata/（2026-11-17）
 - [x] フランチャイズ説明会で聞くこと（検索数未確認）… slug: setsumeikai ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 公正取引委員会フランチャイズ・ガイドラインの本部の開示事項を一次情報で。当サイトの「記載なし」が多い項目（ロイヤリティ・契約期間）の集計を入れる …… /guide/setsumeikai/（2026-11-19）
-- [ ] イタリアン・バルの開業（検索数未確認）… slug: italian ／ minor: restaurant のうちイタリアン・パスタ・バルの本部（TO THE HERBS・La Figlia del Presidente・PRONTO・DiPUNTO。JACK & SAWYER は業態を確認してから）／ photo: /img/gyoshu/restaurant-2.jpg ／ /guide/restaurant/・/guide/cafe/ と狙いを分ける。酒類販売・深夜営業の扱いは /guide/yakitori/ と重ねず、テイクアウトの酒類（酒類販売業免許）を国税庁の一次情報で
+- [x] イタリアン・バルの開業（検索数未確認）… slug: italian ／ minor: restaurant のうちイタリアン・パスタ・バルの本部（TO THE HERBS・La Figlia del Presidente・PRONTO・DiPUNTO。JACK & SAWYER は業態を確認してから）／ photo: /img/gyoshu/restaurant-2.jpg ／ /guide/restaurant/・/guide/cafe/ と狙いを分ける。酒類販売・深夜営業の扱いは /guide/yakitori/ と重ねず、テイクアウトの酒類（酒類販売業免許）を国税庁の一次情報で …… /guide/italian/（2026-11-20）
 - [ ] カレー・エスニック料理店の開業（検索数未確認）… slug: curry ／ minor: restaurant のうち日乃屋カレー・スパイス研究所MAD CHEFs・芳香麻辣湯 ／ photo: /img/gyoshu/restaurant-3.jpg ／ /guide/restaurant/ と狙いを分ける。家計調査のカレー関連品目、アレルギー表示（スパイス・ナッツ）を一次情報で
 - [ ] 天ぷら・海鮮丼など和食の開業（検索数未確認）… slug: washoku ／ minor: restaurant＋takeout のうち天ぷら さいとう・丼丸 ／ photo: /img/gyoshu/takeout.jpg ／ /guide/takeout/ と狙いを分ける。生食用鮮魚介類・アニサキス・揚げ油の管理を厚労省の一次情報で
 - [ ] フランチャイズの研修（期間・費用・内容）（検索数未確認）… slug: kenshu ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 当サイトで研修費の記載がある34本部の金額・税区分・含まれ方を集計。/guide/funding/ と狙いを分ける
