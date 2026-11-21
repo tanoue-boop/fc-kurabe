@@ -46,9 +46,19 @@
 - [x] カレー・エスニック料理店の開業（検索数未確認）… slug: curry ／ minor: restaurant のうち日乃屋カレー・スパイス研究所MAD CHEFs・芳香麻辣湯 ／ photo: /img/gyoshu/restaurant-3.jpg ／ /guide/restaurant/ と狙いを分ける。家計調査のカレー関連品目、アレルギー表示（スパイス・ナッツ）を一次情報で …… /guide/curry/（2026-11-20）
 - [x] 天ぷら・海鮮丼など和食の開業（検索数未確認）… slug: washoku ／ minor: restaurant＋takeout のうち天ぷら さいとう・丼丸 ／ photo: /img/gyoshu/takeout.jpg ／ /guide/takeout/ と狙いを分ける。生食用鮮魚介類・アニサキス・揚げ油の管理を厚労省の一次情報で …… /guide/washoku/（2026-11-20）
 - [x] フランチャイズの研修（期間・費用・内容）（検索数未確認）… slug: kenshu ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 当サイトで研修費の記載がある34本部の金額・税区分・含まれ方を集計。/guide/funding/ と狙いを分ける …… /guide/kenshu/（2026-11-21）
-- [ ] フランチャイズ本部の店舗数・実績の見方（検索数未確認）… slug: tenposu ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 当サイトで店舗数の記載がある118本部の分布・基準日の有無・直営と加盟の内訳を集計。中小小売商業振興法の開示項目（加盟者の店舗数の推移）を一次情報で。/guide/erabikata/ と狙いを分ける
+- [x] フランチャイズ本部の店舗数・実績の見方（検索数未確認）… slug: tenposu ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 当サイトで店舗数の記載がある118本部の分布・基準日の有無・直営と加盟の内訳を集計。中小小売商業振興法の開示項目（加盟者の店舗数の推移）を一次情報で。/guide/erabikata/ と狙いを分ける …… /guide/tenposu/（2026-11-21）
 - [ ] フランチャイズ・代理店・パッケージライセンスの違い（検索数未確認）… slug: keiyaku-keitai ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 当サイトの契約形態の内訳（フランチャイズ119・代理店・パッケージライセンス・ボランタリーチェーンなど）を集計。公取委ガイドライン・中小小売商業振興法の対象の考え方を一次情報で。/guide/contract/ と狙いを分ける
 - [ ] 地方でフランチャイズ開業するときの確認点（検索数未確認）… slug: chiho ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 当サイトで募集エリアの記載がある46本部（うち「全国」27）の内訳を集計。テリトリーは /guide/contract/ と重ねない。自治体の創業支援（特定創業支援等事業）を一次情報で
 - [ ] フランチャイズの加盟金の税務・会計処理（検索数未確認）… slug: kameikin-zeimu ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 国税庁（繰延資産・少額の繰延資産・償却期間）を一次情報で。当サイトの加盟金の分布は /guide/kameikin/ と重ねず、20万円未満・以上の件数など税務の区切りで集計
 - [ ] フランチャイズの店舗物件の選び方（居抜き・スケルトン）（検索数未確認）… slug: bukken ／ minor なし ／ photo: /img/gyoshu/restaurant.jpg ／ 当サイトで開業資金に「物件」の記載がある12本部の含む・含まないを集計。造作譲渡・原状回復を一次情報（国交省ガイドラインなど）で。/guide/funding/ と狙いを分ける
 - [ ] フランチャイズ開業までの流れと期間（検索数未確認）… slug: nagare ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 法定開示書面の交付から契約・研修・開店までの順序を中小企業庁の一次情報で。当サイトの研修・契約期間の記載を使う。/guide/dokuritsu/ と狙いを分ける（手続きでなく加盟後の工程）
+- [ ] フランチャイズ契約の更新と更新料（検索数未確認）… slug: koushin ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 当サイトで契約期間の記載がある114本部の期間の分布、「自動更新」20本部・「更新料」6本部の書き方を集計。施行規則第十一条（契約更新の条件及び手続き）を一次情報で。/guide/contract/ と狙いを分ける（解約・競業禁止は扱わない）
+- [ ] 加盟金・ロイヤリティの消費税とインボイス（検索数未確認）… slug: invoice ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 国税庁（インボイス制度・適格請求書）を一次情報で。当サイトの税込・税抜・記載なしの内訳（開業資金・加盟金・ロイヤリティ）を集計。/guide/kameikin/（繰延資産）・/guide/kameikin-zeimu/ と重ねない
+- [ ] 法人の新規事業としてのフランチャイズ加盟（検索数未確認）… slug: houjin ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 当サイトの募集対象（target）142本部の「個人・法人」「法人のみ」「個人のみ」の内訳と、法人向けタグ23本部の業種を集計。/tag/houjin/ の一覧と狙いを分ける（加盟の名義・兼業の確認点）
+- [ ] 未経験からのフランチャイズ開業（検索数未確認）… slug: mikeiken ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 「未経験可」の記載がある74本部の業種内訳と、業種ごとの資格の要否（既存の業種別ガイドの一次情報）を一覧に。/tag/mikeiken/ の一覧、研修は /guide/kenshu/ と重ねない
+- [ ] 夫婦・家族でフランチャイズ開業（検索数未確認）… slug: fuufu ／ minor なし ／ photo: /img/gyoshu/takeout.jpg ／ 国税庁（青色事業専従者給与・事業専従者控除）を一次情報で。当サイトの「夫婦で開業」4本部と、研修費が1名あたりの本部を集計。/tag/fuufu/ と狙いを分ける
+- [ ] 40代・定年後のフランチャイズ開業（検索数未確認）… slug: senior ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 日本政策金融公庫（女性、若者／シニア起業家支援資金）を一次情報で。当サイトの自己資金の記載95本部の分布を使う。/tag/senior/・/guide/funding/ と狙いを分ける
+- [ ] フランチャイズ開業で使える補助金・助成金（検索数未確認）… slug: hojokin ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 小規模事業者持続化補助金（創業型）・自治体の創業助成を一次情報で（公募要領の対象経費に加盟金が入るかを確認）。当サイトの開業資金の帯と組み合わせる。融資は /guide/funding/、自治体の特定創業支援は /guide/chiho/ と重ねない
+- [ ] フランチャイズのトラブルと相談先（検索数未確認）… slug: soudan ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 中小企業庁・公正取引委員会・JFA の相談窓口と、公取委ガイドラインの問題となる行為を一次情報で。当サイトで中途解約の記載がある本部数（契約期間114本部中1）を使う。/guide/contract/ と狙いを分ける
+- [ ] 女性のフランチャイズ開業（検索数未確認）… slug: josei ／ minor なし ／ photo: /img/gyoshu/beauty.jpg ／ 日本政策金融公庫の女性向け融資・自治体の女性創業支援を一次情報で。当サイトの「女性が活躍」3本部と、無店舗・1人で開業の重なりを集計。/tag/josei/ と狙いを分ける。/guide/senior/ と出典を重ねすぎない
+- [ ] 店舗型と無店舗型のフランチャイズの比較（検索数未確認）… slug: mutenpo ／ minor なし ／ photo: /img/gyoshu/house-cleaning.jpg ／ 当サイトの「無店舗・自宅で開業」14本部とそれ以外の開業資金の中央値・ロイヤリティの形を比較。自宅開業の用途地域・賃貸契約の確認を一次情報で。/tag/mutenpo/ の一覧と狙いを分ける
