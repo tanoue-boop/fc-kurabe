@@ -48,7 +48,7 @@
 - [x] フランチャイズの研修（期間・費用・内容）（検索数未確認）… slug: kenshu ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 当サイトで研修費の記載がある34本部の金額・税区分・含まれ方を集計。/guide/funding/ と狙いを分ける …… /guide/kenshu/（2026-11-21）
 - [x] フランチャイズ本部の店舗数・実績の見方（検索数未確認）… slug: tenposu ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 当サイトで店舗数の記載がある118本部の分布・基準日の有無・直営と加盟の内訳を集計。中小小売商業振興法の開示項目（加盟者の店舗数の推移）を一次情報で。/guide/erabikata/ と狙いを分ける …… /guide/tenposu/（2026-11-21）
 - [x] フランチャイズ・代理店・パッケージライセンスの違い（検索数未確認）… slug: keiyaku-keitai ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 当サイトの契約形態の内訳（フランチャイズ119・代理店・パッケージライセンス・ボランタリーチェーンなど）を集計。公取委ガイドライン・中小小売商業振興法の対象の考え方を一次情報で。/guide/contract/ と狙いを分ける …… /guide/keiyaku-keitai/（2026-11-21）
-- [ ] 地方でフランチャイズ開業するときの確認点（検索数未確認）… slug: chiho ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 当サイトで募集エリアの記載がある46本部（うち「全国」27）の内訳を集計。テリトリーは /guide/contract/ と重ねない。自治体の創業支援（特定創業支援等事業）を一次情報で
+- [x] 地方でフランチャイズ開業するときの確認点（検索数未確認）… slug: chiho ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 当サイトで募集エリアの記載がある46本部（うち「全国」27）の内訳を集計。テリトリーは /guide/contract/ と重ねない。自治体の創業支援（特定創業支援等事業）を一次情報で …… /guide/chiho/（2026-11-22）
 - [ ] フランチャイズの加盟金の税務・会計処理（検索数未確認）… slug: kameikin-zeimu ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 国税庁（繰延資産・少額の繰延資産・償却期間）を一次情報で。当サイトの加盟金の分布は /guide/kameikin/ と重ねず、20万円未満・以上の件数など税務の区切りで集計
 - [ ] フランチャイズの店舗物件の選び方（居抜き・スケルトン）（検索数未確認）… slug: bukken ／ minor なし ／ photo: /img/gyoshu/restaurant.jpg ／ 当サイトで開業資金に「物件」の記載がある12本部の含む・含まないを集計。造作譲渡・原状回復を一次情報（国交省ガイドラインなど）で。/guide/funding/ と狙いを分ける
 - [ ] フランチャイズ開業までの流れと期間（検索数未確認）… slug: nagare ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 法定開示書面の交付から契約・研修・開店までの順序を中小企業庁の一次情報で。当サイトの研修・契約期間の記載を使う。/guide/dokuritsu/ と狙いを分ける（手続きでなく加盟後の工程）
