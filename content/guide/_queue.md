@@ -51,7 +51,7 @@
 - [x] 地方でフランチャイズ開業するときの確認点（検索数未確認）… slug: chiho ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 当サイトで募集エリアの記載がある46本部（うち「全国」27）の内訳を集計。テリトリーは /guide/contract/ と重ねない。自治体の創業支援（特定創業支援等事業）を一次情報で …… /guide/chiho/（2026-11-22）
 - [x] フランチャイズの加盟金の税務・会計処理（検索数未確認）… slug: kameikin-zeimu ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 国税庁（繰延資産・少額の繰延資産・償却期間）を一次情報で。当サイトの加盟金の分布は /guide/kameikin/ と重ねず、20万円未満・以上の件数など税務の区切りで集計 …… /guide/kameikin-zeimu/（2026-11-22）
 - [x] フランチャイズの店舗物件の選び方（居抜き・スケルトン）（検索数未確認）… slug: bukken ／ minor なし ／ photo: /img/gyoshu/restaurant.jpg ／ 当サイトで開業資金に「物件」の記載がある12本部の含む・含まないを集計。造作譲渡・原状回復を一次情報（国交省ガイドラインなど）で。/guide/funding/ と狙いを分ける …… /guide/bukken/（2026-11-22）
-- [ ] フランチャイズ開業までの流れと期間（検索数未確認）… slug: nagare ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 法定開示書面の交付から契約・研修・開店までの順序を中小企業庁の一次情報で。当サイトの研修・契約期間の記載を使う。/guide/dokuritsu/ と狙いを分ける（手続きでなく加盟後の工程）
+- [x] フランチャイズ開業までの流れと期間（検索数未確認）… slug: nagare ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 法定開示書面の交付から契約・研修・開店までの順序を中小企業庁の一次情報で。当サイトの研修・契約期間の記載を使う。/guide/dokuritsu/ と狙いを分ける（手続きでなく加盟後の工程） …… /guide/nagare/（2026-11-23）
 - [ ] フランチャイズ契約の更新と更新料（検索数未確認）… slug: koushin ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 当サイトで契約期間の記載がある114本部の期間の分布、「自動更新」20本部・「更新料」6本部の書き方を集計。施行規則第十一条（契約更新の条件及び手続き）を一次情報で。/guide/contract/ と狙いを分ける（解約・競業禁止は扱わない）
 - [ ] 加盟金・ロイヤリティの消費税とインボイス（検索数未確認）… slug: invoice ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 国税庁（インボイス制度・適格請求書）を一次情報で。当サイトの税込・税抜・記載なしの内訳（開業資金・加盟金・ロイヤリティ）を集計。/guide/kameikin/（繰延資産）・/guide/kameikin-zeimu/ と重ねない
 - [ ] 法人の新規事業としてのフランチャイズ加盟（検索数未確認）… slug: houjin ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 当サイトの募集対象（target）142本部の「個人・法人」「法人のみ」「個人のみ」の内訳と、法人向けタグ23本部の業種を集計。/tag/houjin/ の一覧と狙いを分ける（加盟の名義・兼業の確認点）
