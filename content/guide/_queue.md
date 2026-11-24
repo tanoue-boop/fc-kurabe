@@ -54,7 +54,7 @@
 - [x] フランチャイズ開業までの流れと期間（検索数未確認）… slug: nagare ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 法定開示書面の交付から契約・研修・開店までの順序を中小企業庁の一次情報で。当サイトの研修・契約期間の記載を使う。/guide/dokuritsu/ と狙いを分ける（手続きでなく加盟後の工程） …… /guide/nagare/（2026-11-23）
 - [x] フランチャイズ契約の更新と更新料（検索数未確認）… slug: koushin ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 当サイトで契約期間の記載がある114本部の期間の分布、「自動更新」20本部・「更新料」6本部の書き方を集計。施行規則第十一条（契約更新の条件及び手続き）を一次情報で。/guide/contract/ と狙いを分ける（解約・競業禁止は扱わない） …… /guide/koushin/（2026-11-23）
 - [x] 加盟金・ロイヤリティの消費税とインボイス（検索数未確認）… slug: invoice ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 国税庁（インボイス制度・適格請求書）を一次情報で。当サイトの税込・税抜・記載なしの内訳（開業資金・加盟金・ロイヤリティ）を集計。/guide/kameikin/（繰延資産）・/guide/kameikin-zeimu/ と重ねない …… /guide/invoice/（2026-11-24）
-- [ ] 法人の新規事業としてのフランチャイズ加盟（検索数未確認）… slug: houjin ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 当サイトの募集対象（target）142本部の「個人・法人」「法人のみ」「個人のみ」の内訳と、法人向けタグ23本部の業種を集計。/tag/houjin/ の一覧と狙いを分ける（加盟の名義・兼業の確認点）
+- [x] 法人の新規事業としてのフランチャイズ加盟（検索数未確認）… slug: houjin ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 当サイトの募集対象（target）142本部の「個人・法人」「法人のみ」「個人のみ」の内訳と、法人向けタグ23本部の業種を集計。/tag/houjin/ の一覧と狙いを分ける（加盟の名義・兼業の確認点） …… /guide/houjin/（2026-11-24）
 - [ ] 未経験からのフランチャイズ開業（検索数未確認）… slug: mikeiken ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 「未経験可」の記載がある74本部の業種内訳と、業種ごとの資格の要否（既存の業種別ガイドの一次情報）を一覧に。/tag/mikeiken/ の一覧、研修は /guide/kenshu/ と重ねない
 - [ ] 夫婦・家族でフランチャイズ開業（検索数未確認）… slug: fuufu ／ minor なし ／ photo: /img/gyoshu/takeout.jpg ／ 国税庁（青色事業専従者給与・事業専従者控除）を一次情報で。当サイトの「夫婦で開業」4本部と、研修費が1名あたりの本部を集計。/tag/fuufu/ と狙いを分ける
 - [ ] 40代・定年後のフランチャイズ開業（検索数未確認）… slug: senior ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 日本政策金融公庫（女性、若者／シニア起業家支援資金）を一次情報で。当サイトの自己資金の記載95本部の分布を使う。/tag/senior/・/guide/funding/ と狙いを分ける
