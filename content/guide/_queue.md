@@ -57,7 +57,7 @@
 - [x] 法人の新規事業としてのフランチャイズ加盟（検索数未確認）… slug: houjin ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 当サイトの募集対象（target）142本部の「個人・法人」「法人のみ」「個人のみ」の内訳と、法人向けタグ23本部の業種を集計。/tag/houjin/ の一覧と狙いを分ける（加盟の名義・兼業の確認点） …… /guide/houjin/（2026-11-24）
 - [x] 未経験からのフランチャイズ開業（検索数未確認）… slug: mikeiken ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 「未経験可」の記載がある74本部の業種内訳と、業種ごとの資格の要否（既存の業種別ガイドの一次情報）を一覧に。/tag/mikeiken/ の一覧、研修は /guide/kenshu/ と重ねない …… /guide/mikeiken/（2026-11-24）
 - [x] 夫婦・家族でフランチャイズ開業（検索数未確認）… slug: fuufu ／ minor なし ／ photo: /img/gyoshu/takeout.jpg ／ 国税庁（青色事業専従者給与・事業専従者控除）を一次情報で。当サイトの「夫婦で開業」4本部と、研修費が1名あたりの本部を集計。/tag/fuufu/ と狙いを分ける …… /guide/fuufu/（2026-11-25）
-- [ ] 40代・定年後のフランチャイズ開業（検索数未確認）… slug: senior ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 日本政策金融公庫（女性、若者／シニア起業家支援資金）を一次情報で。当サイトの自己資金の記載95本部の分布を使う。/tag/senior/・/guide/funding/ と狙いを分ける
+- [x] 40代・定年後のフランチャイズ開業（検索数未確認）… slug: senior ／ minor なし ／ photo: /img/gyoshu/other.jpg ／ 日本政策金融公庫（女性、若者／シニア起業家支援資金）を一次情報で。当サイトの自己資金の記載95本部の分布を使う。/tag/senior/・/guide/funding/ と狙いを分ける …… /guide/senior/（2026-11-25）
 - [ ] フランチャイズ開業で使える補助金・助成金（検索数未確認）… slug: hojokin ／ minor なし ／ photo: /img/gyoshu/other-3.jpg ／ 小規模事業者持続化補助金（創業型）・自治体の創業助成を一次情報で（公募要領の対象経費に加盟金が入るかを確認）。当サイトの開業資金の帯と組み合わせる。融資は /guide/funding/、自治体の特定創業支援は /guide/chiho/ と重ねない
 - [ ] フランチャイズのトラブルと相談先（検索数未確認）… slug: soudan ／ minor なし ／ photo: /img/gyoshu/other-2.jpg ／ 中小企業庁・公正取引委員会・JFA の相談窓口と、公取委ガイドラインの問題となる行為を一次情報で。当サイトで中途解約の記載がある本部数（契約期間114本部中1）を使う。/guide/contract/ と狙いを分ける
 - [ ] 女性のフランチャイズ開業（検索数未確認）… slug: josei ／ minor なし ／ photo: /img/gyoshu/beauty.jpg ／ 日本政策金融公庫の女性向け融資・自治体の女性創業支援を一次情報で。当サイトの「女性が活躍」3本部と、無店舗・1人で開業の重なりを集計。/tag/josei/ と狙いを分ける。/guide/senior/ と出典を重ねすぎない
